@@ -956,3 +956,129 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.30-03.33.15:268][468]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.30-03.33.15:268][468]LogContentValidation: Display: Validating World /Game/Top.Top
 [2021.10.30-03.33.15:268][468]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.10.30-03.35.54:237][174]MapCheck: New page: Map Check
+[2021.10.30-03.35.54:253][174]Cmd: MAP REBUILD ALLVISIBLE
+[2021.10.30-03.35.54:253][174]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.10.30-03.35.54:266][174]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=false
+[2021.10.30-03.35.54:289][174]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.10.30-03.35.54:289][174]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.10.30-03.35.54:289][174]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.10.30-03.35.54:302][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.10.30-03.35.54:310][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.30-03.35.54:316][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.30-03.35.54:318][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.30-03.35.54:319][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.30-03.35.54:321][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.30-03.35.54:322][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.30-03.35.55:739][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.30-03.35.55:739][174]TextureStreamingBuild: Display: Compiling optional shaders took 1.435 seconds.
+[2021.10.30-03.35.55:786][174]LogLevel: Display: Export Material TexCoord Scales took 0.047 seconds.
+[2021.10.30-03.35.55:793][174]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2021.10.30-03.35.55:803][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.10.30-03.35.55:805][174]LightingResults: New page: Lighting Build - Oct 29, 2021, 1:35:55 PM
+[2021.10.30-03.35.55:907][174]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.10.30-03.35.56:012][174]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.10.30-03.35.56:023][174]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.10.30-03.35.56:538][174]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.10.30-03.35.56:538][174]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7332
+[2021.10.30-03.36.03:210][174]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.10.30-03.36.03:210][174]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.10.30-03.36.03:210][174]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.10.30-03.36.03:210][174]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.10.30-03.36.03:210][174]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.10.30-03.36.03:210][174]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.10.30-03.36.03:348][174]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.10.30-03.36.03:348][174]MapCheck: New page: Top - Oct 29, 2021, 1:36:03 PM
+[2021.10.30-03.36.03:349][174]MapCheck: Warning: SM_Wall_B_123 SM_Wall_B_123 is in the same location as SM_Wall_B_235 
+[2021.10.30-03.36.03:349][174]MapCheck: Warning: SM_Wall_B_78 SM_Wall_B_78 is in the same location as SM_Wall_B_236 
+[2021.10.30-03.36.03:349][174]MapCheck: Warning: SM_Wall_B_80 SM_Wall_B_80 is in the same location as SM_Wall_B_237 
+[2021.10.30-03.36.03:349][174]MapCheck: Warning: SM_FloorPanel_A85 SM_FloorPanel_A85 is in the same location as SM_FloorPanel_A86 
+[2021.10.30-03.36.03:349][174]MapCheck: Warning: SM_FloorPanel_A86 SM_FloorPanel_A86 is in the same location as SM_FloorPanel_A85 
+[2021.10.30-03.36.03:350][174]MapCheck: Warning: SM_Wall_B_134 SM_Wall_B_134 is in the same location as SM_Wall_B_195 
+[2021.10.30-03.36.03:350][174]MapCheck: Warning: SM_Wall_B_195 SM_Wall_B_195 is in the same location as SM_Wall_B_134 
+[2021.10.30-03.36.03:350][174]MapCheck: Warning: SM_Wall_B_235 SM_Wall_B_235 is in the same location as SM_Wall_B_123 
+[2021.10.30-03.36.03:350][174]MapCheck: Warning: SM_Wall_B_236 SM_Wall_B_236 is in the same location as SM_Wall_B_78 
+[2021.10.30-03.36.03:350][174]MapCheck: Warning: SM_Wall_B_237 SM_Wall_B_237 is in the same location as SM_Wall_B_80 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_77 SM_Wall_B_77 is in the same location as SM_Wall_B_475 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_128 SM_Wall_B_128 is in the same location as SM_Wall_B_233 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_183 SM_Wall_B_183 is in the same location as SM_Wall_B_196 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_196 SM_Wall_B_196 is in the same location as SM_Wall_B_183 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_229 SM_Wall_B_229 is in the same location as SM_Wall_B_234 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_475 SM_Wall_B_475 is in the same location as SM_Wall_B_77 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_233 SM_Wall_B_233 is in the same location as SM_Wall_B_128 
+[2021.10.30-03.36.03:351][174]MapCheck: Warning: SM_Wall_B_234 SM_Wall_B_234 is in the same location as SM_Wall_B_229 
+[2021.10.30-03.36.03:351][174]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 3.276ms to complete.
+[2021.10.30-03.36.03:353][174]LogEditorBuildUtils: Build time 0:09
+[2021.10.30-03.36.03:518][174]LogSlate: Took 0.009256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.30-03.36.04:034][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.10.30-03.36.10:221][195]Job is a success!
+[2021.10.30-03.36.10:765][196]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.080s
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:      Bricks at depth
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:          1: 29.7% covering 19.1% of volume
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:          2: 67.9% covering 0.7% of volume
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:      Bricks in each level
+[2021.10.30-03.36.10:766][196]LogVolumetricLightmapImport:          Top 			 330 bricks 	 100.0% (Persistent Level)
+[2021.10.30-03.36.11:280][196]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.10.30-03.36.11:280][196]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.10.30-03.36.11:280][196]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2021.10.30-03.36.11:280][196]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2021.10.30-03.36.11:281][196]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2021.10.30-03.36.11:281][196]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2021.10.30-03.36.11:409][196]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2021.10.30-03.36.11:409][196]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 128X128)
+[2021.10.30-03.36.11:409][196]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2021.10.30-03.36.11:409][196]LogStaticLightingSystem: Top_BuiltData storing lightmap data for 480 meshes in 4 LightmapResourceClusters (120.0 Meshes per cluster).
+[2021.10.30-03.36.11:411][196]Lightmass on LAPTOP-5UK4AM9E: 6.79 sec total, 154 ms importing, 104 ms setup, 1.91 sec photons, 4.56 sec processing, 0 ms extra exporting [480/480 mappings]. Threads: 31.9 sec total, 10.8 sec processing.
+[2021.10.30-03.36.11:429][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.10.30-03.36.11:438][196]LogStaticLightingSystem: Illumination: 15.2 sec (401 ms encoding lightmaps, 99 ms encoding shadowmaps)
+[2021.10.30-03.36.11:438][196]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2021.10.30-03.36.11:438][196]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2021.10.30-03.36.12:209][196]DumpUnbuiltLightIteractions
+[2021.10.30-03.36.12:209][196]Lights with unbuilt interactions: 0
+[2021.10.30-03.36.12:209][196]
+[2021.10.30-03.36.12:209][196]Primitives with unbuilt interactions: 0
+[2021.10.30-03.36.12:291][197]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.10.30-03.36.12:292][197]MapCheck: New page: Top - Oct 29, 2021, 1:36:12 PM
+[2021.10.30-03.36.12:293][197]MapCheck: Warning: SM_Wall_B_123 SM_Wall_B_123 is in the same location as SM_Wall_B_235 
+[2021.10.30-03.36.12:293][197]MapCheck: Warning: SM_Wall_B_78 SM_Wall_B_78 is in the same location as SM_Wall_B_236 
+[2021.10.30-03.36.12:293][197]MapCheck: Warning: SM_Wall_B_80 SM_Wall_B_80 is in the same location as SM_Wall_B_237 
+[2021.10.30-03.36.12:294][197]MapCheck: Warning: SM_FloorPanel_A85 SM_FloorPanel_A85 is in the same location as SM_FloorPanel_A86 
+[2021.10.30-03.36.12:294][197]MapCheck: Warning: SM_FloorPanel_A86 SM_FloorPanel_A86 is in the same location as SM_FloorPanel_A85 
+[2021.10.30-03.36.12:295][197]MapCheck: Warning: SM_Wall_B_134 SM_Wall_B_134 is in the same location as SM_Wall_B_195 
+[2021.10.30-03.36.12:296][197]MapCheck: Warning: SM_Wall_B_195 SM_Wall_B_195 is in the same location as SM_Wall_B_134 
+[2021.10.30-03.36.12:296][197]MapCheck: Warning: SM_Wall_B_235 SM_Wall_B_235 is in the same location as SM_Wall_B_123 
+[2021.10.30-03.36.12:296][197]MapCheck: Warning: SM_Wall_B_236 SM_Wall_B_236 is in the same location as SM_Wall_B_78 
+[2021.10.30-03.36.12:296][197]MapCheck: Warning: SM_Wall_B_237 SM_Wall_B_237 is in the same location as SM_Wall_B_80 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_77 SM_Wall_B_77 is in the same location as SM_Wall_B_475 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_128 SM_Wall_B_128 is in the same location as SM_Wall_B_233 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_183 SM_Wall_B_183 is in the same location as SM_Wall_B_196 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_196 SM_Wall_B_196 is in the same location as SM_Wall_B_183 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_229 SM_Wall_B_229 is in the same location as SM_Wall_B_234 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_475 SM_Wall_B_475 is in the same location as SM_Wall_B_77 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_233 SM_Wall_B_233 is in the same location as SM_Wall_B_128 
+[2021.10.30-03.36.12:297][197]MapCheck: Warning: SM_Wall_B_234 SM_Wall_B_234 is in the same location as SM_Wall_B_229 
+[2021.10.30-03.36.12:297][197]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 5.938ms to complete.
+[2021.10.30-03.36.21:701][378]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-03.36.21:705][378]LogSlate: Window 'Message Log' being destroyed
+[2021.10.30-03.36.23:045][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.30-03.36.23:054][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.10.30-03.36.23:201][454]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top149C695F462536147E04A8B09676EDA1.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
+[2021.10.30-03.36.23:216][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.10.30-03.36.23:295][454]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltData50401B3C434BA8DCF9056288223001C3.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.10.30-03.36.23:307][454]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.30-03.36.23:307][454]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.10.30-03.36.23:307][454]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
