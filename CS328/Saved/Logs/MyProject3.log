@@ -1985,3 +1985,159 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.02-20.55.30:146][608]LogContentValidation: Display: Validating World /Game/bottomfloor.bottomfloor
 [2021.11.02-20.55.30:146][608]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/bottomfloor_BuiltData.bottomfloor_BuiltData
 [2021.11.02-20.55.30:146][608]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.02-20.58.49:202][572]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.02-20.58.49:208][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.02-20.58.49:208][572]PIE: New page: PIE session: bottomfloor (Nov 2, 2021, 6:58:49 AM)
+[2021.11.02-20.58.49:208][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_bottomfloor
+[2021.11.02-20.58.49:215][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006479s)
+[2021.11.02-20.58.49:216][572]LogAIModule: Creating AISystem for world bottomfloor
+[2021.11.02-20.58.49:216][572]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E1EB032200), frame # 211572
+[2021.11.02-20.58.49:216][572]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1B44EBEC0), frame # 211572
+[2021.11.02-20.58.49:216][572]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2021.11.02-20.58.49:216][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/bottomfloor.bottomfloor to /Game/UEDPIE_0_bottomfloor.bottomfloor (0.007502s)
+[2021.11.02-20.58.49:234][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.02-20.58.49:236][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.02-20.58.49:236][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.02-20.58.49:237][572]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.02-20.58.49:237][572]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.02-20.58.49:238][572]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.02-20.58.49:238][572]LogAudioMixer: Display: 1: FrontRight
+[2021.11.02-20.58.49:327][572]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.02-20.58.49:327][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.02-20.58.49:327][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.02-20.58.49:327][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.02-20.58.49:327][572]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.02-20.58.49:341][572]LogInit: FAudioDevice initialized.
+[2021.11.02-20.58.49:353][572]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.02-20.58.49:356][572]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.58.49:356][572]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.58.49:356][572]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.58.49:356][572]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.58.49:356][572]LogWorld: Bringing World /Game/UEDPIE_0_bottomfloor.bottomfloor up for play (max tick rate 0) at 2021.11.02-13.58.49
+[2021.11.02-20.58.49:357][572]LogWorld: Bringing up level for play took: 0.002804
+[2021.11.02-20.58.49:357][572]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.11.02-20.58.49:359][572]PIE: Server logged in
+[2021.11.02-20.58.49:360][572]PIE: Play in editor total start time 0.152 seconds.
+[2021.11.02-20.59.12:091][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.02-20.59.12:091][261]LogWorld: BeginTearingDown for /Game/UEDPIE_0_bottomfloor
+[2021.11.02-20.59.12:092][261]LogWorld: UWorld::CleanupWorld for bottomfloor, bSessionEnded=true, bCleanupResources=true
+[2021.11.02-20.59.12:092][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.02-20.59.12:111][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.02-20.59.12:114][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.02-20.59.12:144][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.02-20.59.12:145][261]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E1B44EBEC0), frame # 214261
+[2021.11.02-20.59.12:145][261]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E1EB032200), frame # 214261
+[2021.11.02-20.59.12:146][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.11.02-20.59.12:208][263]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.11.02-20.59.25:138][967]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.02-20.59.25:144][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.02-20.59.25:144][967]PIE: New page: PIE session: bottomfloor (Nov 2, 2021, 6:59:25 AM)
+[2021.11.02-20.59.25:145][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_bottomfloor
+[2021.11.02-20.59.25:151][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006027s)
+[2021.11.02-20.59.25:151][967]LogAIModule: Creating AISystem for world bottomfloor
+[2021.11.02-20.59.25:151][967]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E176337A00), frame # 214967
+[2021.11.02-20.59.25:151][967]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1B519EAC0), frame # 214967
+[2021.11.02-20.59.25:152][967]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2021.11.02-20.59.25:152][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/bottomfloor.bottomfloor to /Game/UEDPIE_0_bottomfloor.bottomfloor (0.007113s)
+[2021.11.02-20.59.25:168][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.02-20.59.25:170][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.02-20.59.25:170][967]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.02-20.59.25:170][967]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.02-20.59.25:172][967]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.02-20.59.25:172][967]LogAudioMixer: Display: 1: FrontRight
+[2021.11.02-20.59.25:325][967]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.02-20.59.25:325][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.02-20.59.25:325][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.02-20.59.25:325][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.02-20.59.25:325][967]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.02-20.59.25:334][967]LogInit: FAudioDevice initialized.
+[2021.11.02-20.59.25:341][967]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.02-20.59.25:343][967]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.59.25:343][967]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.59.25:343][967]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.59.25:343][967]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-20.59.25:344][967]LogWorld: Bringing World /Game/UEDPIE_0_bottomfloor.bottomfloor up for play (max tick rate 0) at 2021.11.02-13.59.25
+[2021.11.02-20.59.25:344][967]LogWorld: Bringing up level for play took: 0.002103
+[2021.11.02-20.59.25:344][967]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.11.02-20.59.25:346][967]PIE: Server logged in
+[2021.11.02-20.59.25:347][967]PIE: Play in editor total start time 0.203 seconds.
+[2021.11.02-20.59.39:912][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.02-20.59.39:912][513]LogWorld: BeginTearingDown for /Game/UEDPIE_0_bottomfloor
+[2021.11.02-20.59.39:912][513]LogWorld: UWorld::CleanupWorld for bottomfloor, bSessionEnded=true, bCleanupResources=true
+[2021.11.02-20.59.39:912][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.02-20.59.39:933][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.02-20.59.39:936][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.02-20.59.39:964][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.02-20.59.39:965][513]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E1B519EAC0), frame # 216513
+[2021.11.02-20.59.39:965][513]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E176337A00), frame # 216513
+[2021.11.02-20.59.39:967][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.11.02-20.59.40:051][515]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.11.02-21.00.19:898][771]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.02-21.00.19:938][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.11.02-21.00.21:743][939]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.02-21.00.21:749][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.02-21.00.21:749][939]PIE: New page: PIE session: bottomfloor (Nov 2, 2021, 7:00:21 AM)
+[2021.11.02-21.00.21:749][939]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_bottomfloor
+[2021.11.02-21.00.21:755][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006058s)
+[2021.11.02-21.00.21:756][939]LogAIModule: Creating AISystem for world bottomfloor
+[2021.11.02-21.00.21:756][939]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E1A9FEA600), frame # 219939
+[2021.11.02-21.00.21:756][939]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1EFBB5BC0), frame # 219939
+[2021.11.02-21.00.21:756][939]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2021.11.02-21.00.21:756][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/bottomfloor.bottomfloor to /Game/UEDPIE_0_bottomfloor.bottomfloor (0.007020s)
+[2021.11.02-21.00.21:774][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.02-21.00.21:775][939]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.02-21.00.21:775][939]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.02-21.00.21:775][939]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.02-21.00.21:777][939]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.02-21.00.21:777][939]LogAudioMixer: Display: 1: FrontRight
+[2021.11.02-21.00.21:859][939]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.02-21.00.21:859][939]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.02-21.00.21:859][939]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.02-21.00.21:859][939]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.02-21.00.21:859][939]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.02-21.00.21:868][939]LogInit: FAudioDevice initialized.
+[2021.11.02-21.00.21:878][939]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.02-21.00.21:880][939]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-21.00.21:880][939]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-21.00.21:880][939]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-21.00.21:880][939]LogPhysics: Warning: Scale for /Game/UEDPIE_0_bottomfloor.bottomfloor:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.02-21.00.21:880][939]LogWorld: Bringing World /Game/UEDPIE_0_bottomfloor.bottomfloor up for play (max tick rate 0) at 2021.11.02-14.00.21
+[2021.11.02-21.00.21:881][939]LogWorld: Bringing up level for play took: 0.002144
+[2021.11.02-21.00.21:881][939]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.11.02-21.00.21:883][939]PIE: Server logged in
+[2021.11.02-21.00.21:884][939]PIE: Play in editor total start time 0.136 seconds.
+[2021.11.02-21.00.29:905][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.02-21.00.29:905][873]LogWorld: BeginTearingDown for /Game/UEDPIE_0_bottomfloor
+[2021.11.02-21.00.29:905][873]LogWorld: UWorld::CleanupWorld for bottomfloor, bSessionEnded=true, bCleanupResources=true
+[2021.11.02-21.00.29:906][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.02-21.00.29:919][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.02-21.00.29:924][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.02-21.00.29:959][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.02-21.00.29:960][873]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E1EFBB5BC0), frame # 220873
+[2021.11.02-21.00.29:960][873]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E1A9FEA600), frame # 220873
+[2021.11.02-21.00.29:961][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.11.02-21.00.30:033][875]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.11.02-21.00.35:937][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.11.02-21.00.35:994][291]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/FirstPersonCharacter3E16D3634387B36AD0B5829093774E62.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.02-21.00.36:003][291]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.02-21.00.36:003][291]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
