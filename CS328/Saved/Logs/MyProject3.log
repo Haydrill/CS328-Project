@@ -2258,3 +2258,568 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.04-00.35.23:960][ 47]LogContentValidation: Display: Validating World /Game/bottomfloor.bottomfloor
 [2021.11.04-00.35.23:960][ 47]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/bottomfloor_BuiltData.bottomfloor_BuiltData
 [2021.11.04-00.35.23:960][ 47]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Hinge_Door.Hinge_Door
+[2021.11.04-00.37.03:532][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.37.26:435][905]Cmd: TRANSACTION UNDO
+[2021.11.04-00.37.26:435][905]LogEditorTransaction: Undo Set Location
+[2021.11.04-00.37.28:259][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.37.32:484][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.37.42:725][463]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.37.45:112][721]LogLinker: Warning: While loading '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap' failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:112][721]LogLinker: Warning: While loading '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap' failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:113][721]LogLinker: Warning: While loading '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap' failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:113][721]LogLinker: Warning: While loading '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap' failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:114][721]LogLinker: Warning: Failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:114][721]LogLinker: Warning: Failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:114][721]LogLinker: Warning: Failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:114][721]LogLinker: Warning: Failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:123][721]LogLinker: Warning: While loading '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap' failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:123][721]LoadErrors: Failed to load /Game/Top_BuiltData.Top_BuiltData Referenced by PersistentLevel
+[2021.11.04-00.37.45:123][721]LogLinker: Warning: While loading '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap' failed to load '/Game/Top_BuiltData': Can't find file.
+[2021.11.04-00.37.45:147][721]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Top.Top
+[2021.11.04-00.37.45:166][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.11.04-00.37.52:744][721]LogSlate: Window 'Save Content' being destroyed
+[2021.11.04-00.37.52:750][721]Cmd: MAP LOAD FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.04-00.37.52:751][721]LightingResults: New page: Lighting Build
+[2021.11.04-00.37.52:751][721]LoadErrors: New page: Loading map: Top.umap
+[2021.11.04-00.37.52:754][721]LogWorld: UWorld::CleanupWorld for bottomfloor, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-00.37.52:754][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.37.52:754][721]MapCheck: New page: Map Check
+[2021.11.04-00.37.52:754][721]LightingResults: New page: Lighting Build
+[2021.11.04-00.37.52:771][721]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002775DF80CC0), frame # 383721
+[2021.11.04-00.37.52:771][721]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027728F99400), frame # 383721
+[2021.11.04-00.37.52:774][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.11.04-00.37.52:793][721]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.04-00.37.52:793][721]LogAIModule: Creating AISystem for world Top
+[2021.11.04-00.37.52:793][721]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002775E218800), frame # 383721
+[2021.11.04-00.37.52:793][721]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277FC9B4F40), frame # 383721
+[2021.11.04-00.37.52:812][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.11.04-00.37.52:823][721]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.04-00.37.52:823][721]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.146ms to complete.
+[2021.11.04-00.37.52:823][721]LogFileHelpers: Loading map 'Top' took 0.075
+[2021.11.04-00.38.01:934][506]MapCheck: New page: Map Check
+[2021.11.04-00.38.01:949][506]LightingResults: New page: Lighting Build - Nov 3, 2021, 10:38:01 AM
+[2021.11.04-00.38.01:965][506]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.11.04-00.38.01:969][506]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.11.04-00.38.01:969][506]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.11.04-00.38.01:971][506]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.11.04-00.38.01:971][506]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9332
+[2021.11.04-00.38.11:099][506]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.11.04-00.38.11:099][506]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.11.04-00.38.11:099][506]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.11.04-00.38.11:100][506]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.11.04-00.38.11:100][506]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.11.04-00.38.11:100][506]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.11.04-00.38.11:196][506]LogEditorBuildUtils: Build time 0:09
+[2021.11.04-00.38.11:844][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.11.04-00.38.16:262][523]Job is a success!
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.066s
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:      Bricks at depth
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:          1: 29.7% covering 19.1% of volume
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:          2: 67.9% covering 0.7% of volume
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:      Bricks in each level
+[2021.11.04-00.38.16:823][524]LogVolumetricLightmapImport:          Top 			 330 bricks 	 100.0% (Persistent Level)
+[2021.11.04-00.38.17:171][524]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.11.04-00.38.17:171][524]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.11.04-00.38.17:171][524]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2021.11.04-00.38.17:171][524]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2021.11.04-00.38.17:171][524]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2021.11.04-00.38.17:171][524]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2021.11.04-00.38.17:299][524]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2021.11.04-00.38.17:299][524]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 128X128)
+[2021.11.04-00.38.17:299][524]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2021.11.04-00.38.17:299][524]Lightmass on WPEB-101-B1: 4.92 sec total, 193 ms importing, 72 ms setup, 1.39 sec photons, 3.22 sec processing, 0 ms extra exporting [480/480 mappings]. Threads: 22.5 sec total, 6.96 sec processing.
+[2021.11.04-00.38.17:305][524]LogStaticLightingSystem: Top_BuiltData storing lightmap data for 480 meshes in 4 LightmapResourceClusters (120.0 Meshes per cluster).
+[2021.11.04-00.38.17:327][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.11.04-00.38.17:337][524]LogStaticLightingSystem: Illumination: 15.0 sec (277 ms encoding lightmaps, 81 ms encoding shadowmaps)
+[2021.11.04-00.38.17:337][524]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2021.11.04-00.38.17:337][524]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2021.11.04-00.38.18:103][524]DumpUnbuiltLightIteractions
+[2021.11.04-00.38.18:103][524]Lights with unbuilt interactions: 0
+[2021.11.04-00.38.18:103][524]
+[2021.11.04-00.38.18:103][524]Primitives with unbuilt interactions: 0
+[2021.11.04-00.38.18:184][525]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.11.04-00.38.18:184][525]MapCheck: New page: Top - Nov 3, 2021, 10:38:18 AM
+[2021.11.04-00.38.18:185][525]MapCheck: Warning: SM_Wall_B_123 SM_Wall_B_123 is in the same location as SM_Wall_B_235 
+[2021.11.04-00.38.18:185][525]MapCheck: Warning: SM_Wall_B_78 SM_Wall_B_78 is in the same location as SM_Wall_B_236 
+[2021.11.04-00.38.18:185][525]MapCheck: Warning: SM_Wall_B_80 SM_Wall_B_80 is in the same location as SM_Wall_B_237 
+[2021.11.04-00.38.18:185][525]MapCheck: Warning: SM_FloorPanel_A85 SM_FloorPanel_A85 is in the same location as SM_FloorPanel_A86 
+[2021.11.04-00.38.18:185][525]MapCheck: Warning: SM_FloorPanel_A86 SM_FloorPanel_A86 is in the same location as SM_FloorPanel_A85 
+[2021.11.04-00.38.18:185][525]MapCheck: Warning: SM_Wall_B_134 SM_Wall_B_134 is in the same location as SM_Wall_B_195 
+[2021.11.04-00.38.18:186][525]MapCheck: Warning: SM_Wall_B_195 SM_Wall_B_195 is in the same location as SM_Wall_B_134 
+[2021.11.04-00.38.18:186][525]MapCheck: Warning: SM_Wall_B_235 SM_Wall_B_235 is in the same location as SM_Wall_B_123 
+[2021.11.04-00.38.18:186][525]MapCheck: Warning: SM_Wall_B_236 SM_Wall_B_236 is in the same location as SM_Wall_B_78 
+[2021.11.04-00.38.18:186][525]MapCheck: Warning: SM_Wall_B_237 SM_Wall_B_237 is in the same location as SM_Wall_B_80 
+[2021.11.04-00.38.18:186][525]MapCheck: Warning: SM_Wall_B_77 SM_Wall_B_77 is in the same location as SM_Wall_B_475 
+[2021.11.04-00.38.18:186][525]MapCheck: Warning: SM_Wall_B_128 SM_Wall_B_128 is in the same location as SM_Wall_B_233 
+[2021.11.04-00.38.18:187][525]MapCheck: Warning: SM_Wall_B_183 SM_Wall_B_183 is in the same location as SM_Wall_B_196 
+[2021.11.04-00.38.18:187][525]MapCheck: Warning: SM_Wall_B_196 SM_Wall_B_196 is in the same location as SM_Wall_B_183 
+[2021.11.04-00.38.18:187][525]MapCheck: Warning: SM_Wall_B_229 SM_Wall_B_229 is in the same location as SM_Wall_B_234 
+[2021.11.04-00.38.18:187][525]MapCheck: Warning: SM_Wall_B_475 SM_Wall_B_475 is in the same location as SM_Wall_B_77 
+[2021.11.04-00.38.18:187][525]MapCheck: Warning: SM_Wall_B_233 SM_Wall_B_233 is in the same location as SM_Wall_B_128 
+[2021.11.04-00.38.18:187][525]MapCheck: Warning: SM_Wall_B_234 SM_Wall_B_234 is in the same location as SM_Wall_B_229 
+[2021.11.04-00.38.18:187][525]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 3.133ms to complete.
+[2021.11.04-00.38.30:909][650]LogSlate: Window 'Message Log' being destroyed
+[2021.11.04-00.38.30:924][650]LogSlate: Window 'Message Log' being destroyed
+[2021.11.04-00.38.55:022][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.39.01:115][124]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.39.30:122][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.39.31:685][907]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.39.40:101][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.39.44:510][937]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.39.46:692][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.39.51:258][388]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.39.57:675][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.40.01:433][220]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.40.09:228][919]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.40.09:765][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_105)
+[2021.11.04-00.40.10:677][ 48]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.40.16:940][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C3)
+[2021.11.04-00.40.20:339][916]Cmd: DELETE
+[2021.11.04-00.40.20:339][916]Cmd: ACTOR DELETE
+[2021.11.04-00.40.20:346][916]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.40.20:363][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.11.04-00.40.20:372][916]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2021.11.04-00.40.21:275][  2]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.40.26:367][467]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-00.40.31:851][948]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.40.38:889][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.11.04-00.40.38:907][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.04-00.40.38:923][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.11.04-00.40.39:042][560]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/Top42E71BCC4D4239EF023AFAA8989D7656.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap'
+[2021.11.04-00.40.39:053][560]LogFileHelpers: Saving map 'Top' took 0.147
+[2021.11.04-00.40.39:053][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.04-00.40.39:093][560]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/Top_BuiltData69CE62264AD9C79191D59080E86D3A28.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.04-00.40.39:107][560]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.04-00.40.39:107][560]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.04-00.40.39:107][560]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.11.04-00.40.39:872][607]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-00.40.39:879][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-00.40.39:879][607]PIE: New page: PIE session: Top (Nov 3, 2021, 10:40:39 AM)
+[2021.11.04-00.40.39:879][607]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.04-00.40.39:902][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022652s)
+[2021.11.04-00.40.39:902][607]LogAIModule: Creating AISystem for world Top
+[2021.11.04-00.40.39:902][607]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002784E907400), frame # 395607
+[2021.11.04-00.40.39:902][607]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027820D8CF40), frame # 395607
+[2021.11.04-00.40.39:903][607]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2021.11.04-00.40.39:903][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.023781s)
+[2021.11.04-00.40.39:917][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-00.40.39:918][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-00.40.39:918][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-00.40.39:919][607]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-00.40.39:919][607]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-00.40.39:920][607]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-00.40.39:920][607]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-00.40.40:009][607]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.04-00.40.40:009][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-00.40.40:009][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-00.40.40:009][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-00.40.40:009][607]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-00.40.40:025][607]LogInit: FAudioDevice initialized.
+[2021.11.04-00.40.40:031][607]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.04-00.40.40:043][607]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.03-17.40.40
+[2021.11.04-00.40.40:044][607]LogWorld: Bringing up level for play took: 0.011161
+[2021.11.04-00.40.40:044][607]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.11.04-00.40.40:046][607]PIE: Server logged in
+[2021.11.04-00.40.40:047][607]PIE: Play in editor total start time 0.169 seconds.
+[2021.11.04-00.41.24:861][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.41.24:861][348]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.04-00.41.24:861][348]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-00.41.24:862][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.41.24:878][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-00.41.24:881][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.41.24:895][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.41.24:910][348]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027820D8CF40), frame # 400348
+[2021.11.04-00.41.24:910][348]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002784E907400), frame # 400348
+[2021.11.04-00.41.24:912][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.11.04-00.41.24:995][350]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.11.04-00.41.27:100][540]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.41.31:341][887]Cmd: EDIT COPY
+[2021.11.04-00.41.31:579][908]Cmd: EDIT PASTE
+[2021.11.04-00.41.33:841][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.41.36:711][354]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.41.38:740][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.41.40:070][652]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.41.41:773][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.41.58:590][305]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.42.00:835][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.42.03:792][702]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.42.06:976][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C5)
+[2021.11.04-00.42.08:540][109]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.42.14:491][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.42.15:966][745]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.42.21:729][246]Cmd: TRANSACTION UNDO
+[2021.11.04-00.42.21:729][246]LogEditorTransaction: Undo Set Location
+[2021.11.04-00.42.22:475][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C4)
+[2021.11.04-00.42.23:219][343]Cmd: DELETE
+[2021.11.04-00.42.23:219][343]Cmd: ACTOR DELETE
+[2021.11.04-00.42.23:226][343]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.42.23:241][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.11.04-00.42.23:248][343]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2021.11.04-00.42.24:115][420]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.04-00.42.28:825][822]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door)
+[2021.11.04-00.42.29:852][912]Cmd: EDIT COPY
+[2021.11.04-00.42.30:101][934]Cmd: EDIT PASTE
+[2021.11.04-00.42.33:462][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C5)
+[2021.11.04-00.42.36:372][477]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door3)
+[2021.11.04-00.42.39:936][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C5)
+[2021.11.04-00.42.41:380][909]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door3)
+[2021.11.04-00.42.48:606][551]Cmd: TRANSACTION UNDO
+[2021.11.04-00.42.48:606][551]LogEditorTransaction: Undo Set Location
+[2021.11.04-00.42.49:176][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C5)
+[2021.11.04-00.42.49:853][632]Cmd: DELETE
+[2021.11.04-00.42.49:853][632]Cmd: ACTOR DELETE
+[2021.11.04-00.42.49:859][632]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.42.49:873][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.11.04-00.42.49:878][632]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2021.11.04-00.42.51:151][750]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door3)
+[2021.11.04-00.42.58:036][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-00.43.00:451][578]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-00.43.01:228][652]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-00.43.32:554][419]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-00.43.32:561][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-00.43.32:561][419]PIE: New page: PIE session: Top (Nov 3, 2021, 10:43:32 AM)
+[2021.11.04-00.43.32:561][419]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.04-00.43.32:585][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023245s)
+[2021.11.04-00.43.32:586][419]LogAIModule: Creating AISystem for world Top
+[2021.11.04-00.43.32:586][419]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002783981F800), frame # 411419
+[2021.11.04-00.43.32:586][419]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277FCE17B00), frame # 411419
+[2021.11.04-00.43.32:586][419]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2021.11.04-00.43.32:586][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.024345s)
+[2021.11.04-00.43.32:601][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-00.43.32:607][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-00.43.32:607][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-00.43.32:608][419]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-00.43.32:608][419]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-00.43.32:609][419]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-00.43.32:609][419]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-00.43.32:690][419]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.04-00.43.32:690][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-00.43.32:690][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-00.43.32:690][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-00.43.32:691][419]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-00.43.32:691][419]LogInit: FAudioDevice initialized.
+[2021.11.04-00.43.32:703][419]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.04-00.43.32:712][419]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.03-17.43.32
+[2021.11.04-00.43.32:713][419]LogWorld: Bringing up level for play took: 0.009040
+[2021.11.04-00.43.32:713][419]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.11.04-00.43.32:715][419]PIE: Server logged in
+[2021.11.04-00.43.32:716][419]PIE: Play in editor total start time 0.156 seconds.
+[2021.11.04-00.44.33:443][829]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-306.83 Y=-189.40 Z=0.00 Location: X=2362.41 Y=1339.29 Z=128.66 Normal: X=-0.34 Y=0.94 Z=0.00 PenetrationDepth:11.599 Actor:Hinge_Door3 Component:Cube BoneName:None (0 other events since notify)
+[2021.11.04-00.44.35:382][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.44.35:382][ 35]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.04-00.44.35:383][ 35]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-00.44.35:383][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.44.35:400][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-00.44.35:403][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.44.35:431][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.44.35:432][ 35]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277FCE17B00), frame # 418035
+[2021.11.04-00.44.35:432][ 35]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002783981F800), frame # 418035
+[2021.11.04-00.44.35:434][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.11.04-00.44.35:501][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.11.04-00.45.35:964][798]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-00.45.35:971][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-00.45.35:971][798]PIE: New page: PIE session: Top (Nov 3, 2021, 10:45:35 AM)
+[2021.11.04-00.45.35:971][798]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.04-00.45.35:994][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023051s)
+[2021.11.04-00.45.35:995][798]LogAIModule: Creating AISystem for world Top
+[2021.11.04-00.45.35:995][798]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002785035FE00), frame # 418798
+[2021.11.04-00.45.35:995][798]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277D8C61800), frame # 418798
+[2021.11.04-00.45.35:995][798]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2021.11.04-00.45.35:995][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.024083s)
+[2021.11.04-00.45.36:009][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-00.45.36:011][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-00.45.36:011][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-00.45.36:012][798]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-00.45.36:012][798]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-00.45.36:013][798]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-00.45.36:013][798]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-00.45.36:118][798]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.04-00.45.36:118][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-00.45.36:118][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-00.45.36:118][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-00.45.36:119][798]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-00.45.36:133][798]LogInit: FAudioDevice initialized.
+[2021.11.04-00.45.36:139][798]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.04-00.45.36:150][798]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.03-17.45.36
+[2021.11.04-00.45.36:150][798]LogWorld: Bringing up level for play took: 0.009859
+[2021.11.04-00.45.36:150][798]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.11.04-00.45.36:153][798]PIE: Server logged in
+[2021.11.04-00.45.36:154][798]PIE: Play in editor total start time 0.183 seconds.
+[2021.11.04-00.45.47:801][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.45.47:801][  7]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.04-00.45.47:801][  7]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-00.45.47:803][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.45.47:821][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-00.45.47:824][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.45.47:838][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.45.47:853][  7]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277D8C61800), frame # 420007
+[2021.11.04-00.45.47:853][  7]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002785035FE00), frame # 420007
+[2021.11.04-00.45.47:856][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.11.04-00.45.47:912][  9]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.11.04-00.45.50:124][221]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door3)
+[2021.11.04-00.46.00:802][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C6)
+[2021.11.04-00.46.02:704][263]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.46.08:732][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C6)
+[2021.11.04-00.46.13:521][176]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.46.18:864][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C6)
+[2021.11.04-00.46.20:485][764]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.46.27:739][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C6)
+[2021.11.04-00.46.30:165][593]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.46.37:212][208]Cmd: TRANSACTION UNDO
+[2021.11.04-00.46.37:212][208]LogEditorTransaction: Undo Set Rotation
+[2021.11.04-00.46.38:051][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C6)
+[2021.11.04-00.46.38:754][309]Cmd: DELETE
+[2021.11.04-00.46.38:754][309]Cmd: ACTOR DELETE
+[2021.11.04-00.46.38:760][309]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.46.38:776][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.11.04-00.46.38:784][309]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2021.11.04-00.46.39:383][362]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.46.42:942][666]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-00.46.42:949][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-00.46.42:949][666]PIE: New page: PIE session: Top (Nov 3, 2021, 10:46:42 AM)
+[2021.11.04-00.46.42:949][666]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.04-00.46.42:972][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023364s)
+[2021.11.04-00.46.42:973][666]LogAIModule: Creating AISystem for world Top
+[2021.11.04-00.46.42:973][666]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002785035E200), frame # 424666
+[2021.11.04-00.46.42:973][666]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277F6DEBD80), frame # 424666
+[2021.11.04-00.46.42:973][666]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2021.11.04-00.46.42:973][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.024493s)
+[2021.11.04-00.46.42:988][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-00.46.42:990][666]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-00.46.42:990][666]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-00.46.42:990][666]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-00.46.42:992][666]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-00.46.42:992][666]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-00.46.43:083][666]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.04-00.46.43:083][666]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-00.46.43:083][666]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-00.46.43:083][666]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-00.46.43:083][666]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-00.46.43:093][666]LogInit: FAudioDevice initialized.
+[2021.11.04-00.46.43:097][666]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.04-00.46.43:107][666]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.03-17.46.43
+[2021.11.04-00.46.43:107][666]LogWorld: Bringing up level for play took: 0.009090
+[2021.11.04-00.46.43:107][666]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.11.04-00.46.43:110][666]PIE: Server logged in
+[2021.11.04-00.46.43:110][666]PIE: Play in editor total start time 0.162 seconds.
+[2021.11.04-00.46.51:041][481]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-18.92 Y=-412.64 Z=0.00 Location: X=3095.90 Y=1329.15 Z=128.66 Normal: X=-0.52 Y=0.85 Z=0.00 PenetrationDepth:7.476 Actor:Hinge_Door4_7 Component:Cube BoneName:None (0 other events since notify)
+[2021.11.04-00.46.55:271][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.46.55:271][934]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.04-00.46.55:271][934]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-00.46.55:273][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.46.55:291][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-00.46.55:294][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.46.55:322][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.46.55:323][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277F6DEBD80), frame # 425934
+[2021.11.04-00.46.55:324][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002785035E200), frame # 425934
+[2021.11.04-00.46.55:326][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.11.04-00.46.55:375][936]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.11.04-00.47.02:682][614]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.47.05:039][793]MapCheck: New page: Map Check
+[2021.11.04-00.47.05:047][793]LightingResults: New page: Lighting Build - Nov 3, 2021, 10:47:05 AM
+[2021.11.04-00.47.05:056][793]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.11.04-00.47.05:058][793]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.11.04-00.47.05:058][793]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.11.04-00.47.05:059][793]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.11.04-00.47.05:059][793]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9332
+[2021.11.04-00.47.09:654][793]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.11.04-00.47.09:654][793]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.11.04-00.47.09:654][793]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.11.04-00.47.09:654][793]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.11.04-00.47.09:654][793]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.11.04-00.47.09:654][793]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.11.04-00.47.09:737][793]LogEditorBuildUtils: Build time 0:04
+[2021.11.04-00.47.09:829][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.11.04-00.47.14:513][169]Job is a success!
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.064s
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:      Bricks at depth
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:          1: 29.7% covering 19.1% of volume
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:          2: 67.9% covering 0.7% of volume
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:      Bricks in each level
+[2021.11.04-00.47.14:753][170]LogVolumetricLightmapImport:          Top 			 330 bricks 	 100.0% (Persistent Level)
+[2021.11.04-00.47.15:091][170]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.11.04-00.47.15:091][170]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.11.04-00.47.15:091][170]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2021.11.04-00.47.15:091][170]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2021.11.04-00.47.15:091][170]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.11.04-00.47.15:091][170]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.11.04-00.47.15:227][170]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2021.11.04-00.47.15:227][170]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2021.11.04-00.47.15:227][170]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2021.11.04-00.47.15:227][170]Lightmass on WPEB-101-B1: 4.93 sec total, 141 ms importing, 67 ms setup, 1.43 sec photons, 3.24 sec processing, 0 ms extra exporting [476/476 mappings]. Threads: 22.6 sec total, 7.65 sec processing.
+[2021.11.04-00.47.15:232][170]LogStaticLightingSystem: Top_BuiltData storing lightmap data for 476 meshes in 4 LightmapResourceClusters (119.0 Meshes per cluster).
+[2021.11.04-00.47.15:259][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.11.04-00.47.15:274][170]LogStaticLightingSystem: Illumination: 10.2 sec (274 ms encoding lightmaps, 80 ms encoding shadowmaps)
+[2021.11.04-00.47.15:274][170]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2021.11.04-00.47.15:274][170]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2021.11.04-00.47.15:658][170]DumpUnbuiltLightIteractions
+[2021.11.04-00.47.15:658][170]Lights with unbuilt interactions: 0
+[2021.11.04-00.47.15:658][170]
+[2021.11.04-00.47.15:658][170]Primitives with unbuilt interactions: 0
+[2021.11.04-00.47.15:834][171]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.11.04-00.47.15:834][171]MapCheck: New page: Top - Nov 3, 2021, 10:47:15 AM
+[2021.11.04-00.47.15:835][171]MapCheck: Warning: SM_Wall_B_123 SM_Wall_B_123 is in the same location as SM_Wall_B_235 
+[2021.11.04-00.47.15:835][171]MapCheck: Warning: SM_Wall_B_78 SM_Wall_B_78 is in the same location as SM_Wall_B_236 
+[2021.11.04-00.47.15:835][171]MapCheck: Warning: SM_Wall_B_80 SM_Wall_B_80 is in the same location as SM_Wall_B_237 
+[2021.11.04-00.47.15:836][171]MapCheck: Warning: SM_FloorPanel_A85 SM_FloorPanel_A85 is in the same location as SM_FloorPanel_A86 
+[2021.11.04-00.47.15:836][171]MapCheck: Warning: SM_FloorPanel_A86 SM_FloorPanel_A86 is in the same location as SM_FloorPanel_A85 
+[2021.11.04-00.47.15:836][171]MapCheck: Warning: SM_Wall_B_134 SM_Wall_B_134 is in the same location as SM_Wall_B_195 
+[2021.11.04-00.47.15:836][171]MapCheck: Warning: SM_Wall_B_195 SM_Wall_B_195 is in the same location as SM_Wall_B_134 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_235 SM_Wall_B_235 is in the same location as SM_Wall_B_123 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_236 SM_Wall_B_236 is in the same location as SM_Wall_B_78 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_237 SM_Wall_B_237 is in the same location as SM_Wall_B_80 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_77 SM_Wall_B_77 is in the same location as SM_Wall_B_475 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_128 SM_Wall_B_128 is in the same location as SM_Wall_B_233 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_183 SM_Wall_B_183 is in the same location as SM_Wall_B_196 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_196 SM_Wall_B_196 is in the same location as SM_Wall_B_183 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_229 SM_Wall_B_229 is in the same location as SM_Wall_B_234 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_475 SM_Wall_B_475 is in the same location as SM_Wall_B_77 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_233 SM_Wall_B_233 is in the same location as SM_Wall_B_128 
+[2021.11.04-00.47.15:837][171]MapCheck: Warning: SM_Wall_B_234 SM_Wall_B_234 is in the same location as SM_Wall_B_229 
+[2021.11.04-00.47.15:837][171]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 3.193ms to complete.
+[2021.11.04-00.47.18:891][358]LogSlate: Window 'Message Log' being destroyed
+[2021.11.04-00.47.18:906][358]LogSlate: Window 'Message Log' being destroyed
+[2021.11.04-00.47.20:918][520]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door3)
+[2021.11.04-00.48.27:389][303]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.48.29:067][447]Cmd: EDIT COPY
+[2021.11.04-00.48.29:280][465]Cmd: EDIT PASTE
+[2021.11.04-00.48.33:737][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A143)
+[2021.11.04-00.48.34:926][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C7)
+[2021.11.04-00.48.36:645][ 84]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door5)
+[2021.11.04-00.48.43:410][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A135)
+[2021.11.04-00.48.45:846][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C7)
+[2021.11.04-00.48.47:990][ 33]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.48.50:042][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C7)
+[2021.11.04-00.48.51:968][366]Cmd: DELETE
+[2021.11.04-00.48.51:969][366]Cmd: ACTOR DELETE
+[2021.11.04-00.48.51:983][366]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.48.52:005][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.11.04-00.48.52:011][366]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.11.04-00.48.52:491][409]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.48.54:770][597]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.48.55:467][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_153)
+[2021.11.04-00.48.56:373][728]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.49.14:911][359]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.14:911][359]LogEditorTransaction: Undo Set Location
+[2021.11.04-00.49.15:285][367]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.15:285][367]LogEditorTransaction: Undo Set Location
+[2021.11.04-00.49.15:857][411]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.15:857][411]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-00.49.16:320][450]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.16:320][450]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-00.49.16:819][495]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.16:819][495]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-00.49.17:386][547]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.17:386][547]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-00.49.17:885][593]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.17:885][593]LogEditorTransaction: Undo Delete Actors
+[2021.11.04-00.49.20:400][809]Cmd: DELETE
+[2021.11.04-00.49.20:400][809]Cmd: ACTOR DELETE
+[2021.11.04-00.49.20:406][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.49.20:421][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.11.04-00.49.20:427][809]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2021.11.04-00.49.21:349][891]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door4)
+[2021.11.04-00.49.36:214][170]Cmd: EDIT COPY
+[2021.11.04-00.49.36:447][192]Cmd: EDIT PASTE
+[2021.11.04-00.49.38:493][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C8)
+[2021.11.04-00.49.39:988][505]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door6)
+[2021.11.04-00.49.47:636][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A132)
+[2021.11.04-00.49.48:034][215]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.48:034][215]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-00.49.48:739][247]Cmd: TRANSACTION UNDO
+[2021.11.04-00.49.48:739][247]LogEditorTransaction: Undo Set Location
+[2021.11.04-00.49.49:592][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C8)
+[2021.11.04-00.49.50:219][372]Cmd: DELETE
+[2021.11.04-00.49.50:219][372]Cmd: ACTOR DELETE
+[2021.11.04-00.49.50:225][372]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-00.49.50:239][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.11.04-00.49.50:245][372]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2021.11.04-00.49.50:928][434]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door6)
+[2021.11.04-00.49.58:086][ 76]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-00.49.59:044][154]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-00.49.59:050][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-00.49.59:050][154]PIE: New page: PIE session: Top (Nov 3, 2021, 10:49:59 AM)
+[2021.11.04-00.49.59:050][154]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.04-00.49.59:074][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023502s)
+[2021.11.04-00.49.59:075][154]LogAIModule: Creating AISystem for world Top
+[2021.11.04-00.49.59:075][154]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002785E22E600), frame # 436154
+[2021.11.04-00.49.59:075][154]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277F7D00E00), frame # 436154
+[2021.11.04-00.49.59:075][154]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2021.11.04-00.49.59:075][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.024638s)
+[2021.11.04-00.49.59:090][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-00.49.59:093][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-00.49.59:093][154]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-00.49.59:093][154]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-00.49.59:095][154]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-00.49.59:095][154]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-00.49.59:189][154]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.04-00.49.59:189][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-00.49.59:189][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-00.49.59:189][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-00.49.59:190][154]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-00.49.59:191][154]LogInit: FAudioDevice initialized.
+[2021.11.04-00.49.59:214][154]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.04-00.49.59:226][154]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.03-17.49.59
+[2021.11.04-00.49.59:226][154]LogWorld: Bringing up level for play took: 0.010849
+[2021.11.04-00.49.59:226][154]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.11.04-00.49.59:229][154]PIE: Server logged in
+[2021.11.04-00.49.59:230][154]PIE: Play in editor total start time 0.181 seconds.
+[2021.11.04-00.50.27:171][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.50.27:171][124]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.04-00.50.27:172][124]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-00.50.27:173][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.50.27:195][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-00.50.27:197][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-00.50.27:226][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-00.50.27:227][124]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277F7D00E00), frame # 439124
+[2021.11.04-00.50.27:227][124]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002785E22E600), frame # 439124
+[2021.11.04-00.50.27:229][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.11.04-00.50.27:280][126]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.11.04-00.50.53:175][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.11.04-00.50.53:187][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.04-00.50.53:202][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.11.04-00.50.53:324][755]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/TopCB2EBA2A4FF7F05C760E3A96E878410B.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap'
+[2021.11.04-00.50.53:336][755]LogFileHelpers: Saving map 'Top' took 0.148
+[2021.11.04-00.50.53:336][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.04-00.50.53:380][755]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/Top_BuiltDataBB1BE63641292D9A430705A15866981C.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.04-00.50.53:394][755]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.04-00.50.53:394][755]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.04-00.50.53:394][755]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
