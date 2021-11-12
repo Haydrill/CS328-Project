@@ -734,3 +734,168 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.12-18.28.40:668][844]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
 [2021.11.12-18.28.50:028][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
 [2021.11.12-18.28.56:117][135]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.12-18.30.17:716][805]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Hinge_Door.Hinge_Door
+[2021.11.12-18.30.17:915][805]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.11.12-18.30.18:677][805]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.12-18.30.18:761][806]LogSlate: Took 0.005105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.12-18.30.20:993][933]LogSlate: Window 'Hinge_Door' being destroyed
+[2021.11.12-18.30.20:996][933]LogSlate: Window 'Hinge_Door' being destroyed
+[2021.11.12-18.30.21:000][933]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.11.12-18.30.21:000][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.12-18.30.27:877][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.11.12-18.30.30:351][492]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Armory_Door.Armory_Door
+[2021.11.12-18.32.14:297][353]BlueprintLog: New page: Compile Armory_Door
+[2021.11.12-18.32.14:332][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.11.12-18.32.14:396][353]LogSlate: Took 0.008547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.11.12-18.32.22:159][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Armory_Door" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Blueprints/Armory_Door.uasset" SILENT=true
+[2021.11.12-18.32.22:181][979]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/Armory_Door968AE0794AB8500A8BD091A6ED9F37F1.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Blueprints/Armory_Door.uasset'
+[2021.11.12-18.32.22:195][979]AssetCheck: New page: Asset Save: Armory_Door
+[2021.11.12-18.32.22:195][979]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Armory_Door.Armory_Door
+[2021.11.12-18.32.33:347][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.32.35:714][ 19]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.32.39:953][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.32.41:663][510]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.32.42:941][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.32.44:136][730]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.32.51:497][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.32.54:669][683]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.33.05:114][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.33.06:885][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_86)
+[2021.11.12-18.33.08:300][913]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.33.15:017][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.33.17:754][764]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.33.27:218][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.33.28:546][740]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.33.33:865][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_S_C2)
+[2021.11.12-18.33.34:530][275]Cmd: DELETE
+[2021.11.12-18.33.34:530][275]Cmd: ACTOR DELETE
+[2021.11.12-18.33.34:563][275]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.12-18.33.34:583][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.11.12-18.33.34:583][275]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2021.11.12-18.33.35:230][336]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.33.43:965][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.12-18.33.43:982][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.12-18.33.43:983][ 78]PIE: New page: PIE session: Top (Nov 12, 2021, 2:33:43 AM)
+[2021.11.12-18.33.43:986][ 78]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.11.12-18.33.43:989][ 78]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.11.12-18.33.43:991][ 78]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.12-18.33.44:043][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052064s)
+[2021.11.12-18.33.44:045][ 78]LogAIModule: Creating AISystem for world Top
+[2021.11.12-18.33.44:045][ 78]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E92257E00), frame # 22078
+[2021.11.12-18.33.44:045][ 78]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E9B2B56C0), frame # 22078
+[2021.11.12-18.33.44:045][ 78]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2021.11.12-18.33.44:045][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.054181s)
+[2021.11.12-18.33.44:062][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.12-18.33.44:066][ 78]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.12-18.33.44:066][ 78]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.12-18.33.44:066][ 78]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.12-18.33.44:068][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.12-18.33.44:068][ 78]LogAudioMixer: Display: 1: FrontRight
+[2021.11.12-18.33.44:154][ 78]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.12-18.33.44:154][ 78]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.12-18.33.44:154][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.12-18.33.44:154][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.12-18.33.44:154][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.12-18.33.44:164][ 78]LogInit: FAudioDevice initialized.
+[2021.11.12-18.33.44:338][ 78]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.12-18.33.44:353][ 78]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.33.44:354][ 78]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.33.44:354][ 78]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.33.44:354][ 78]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.33.44:364][ 78]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.12-10.33.44
+[2021.11.12-18.33.44:365][ 78]LogWorld: Bringing up level for play took: 0.020297
+[2021.11.12-18.33.44:366][ 78]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.11.12-18.33.44:384][ 78]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.11.12-18.33.44:399][ 78]PIE: Server logged in
+[2021.11.12-18.33.44:400][ 78]PIE: Play in editor total start time 0.429 seconds.
+[2021.11.12-18.33.55:064][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.12-18.33.55:064][116]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.12-18.33.55:065][116]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.12-18.33.55:068][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.12-18.33.55:086][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.12-18.33.55:090][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.12-18.33.55:129][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.12-18.33.55:149][116]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E92257E00), frame # 23116
+[2021.11.12-18.33.55:149][116]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E9B2B56C0), frame # 23116
+[2021.11.12-18.33.55:153][116]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.11.12-18.33.55:178][117]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.11.12-18.33.55:999][195]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.12-18.34.04:053][766]BlueprintLog: New page: Compile Armory_Door
+[2021.11.12-18.34.04:100][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.11.12-18.34.05:704][903]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.12-18.34.05:711][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.12-18.34.05:711][903]PIE: New page: PIE session: Top (Nov 12, 2021, 2:34:05 AM)
+[2021.11.12-18.34.05:711][903]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.12-18.34.05:762][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050667s)
+[2021.11.12-18.34.05:762][903]LogAIModule: Creating AISystem for world Top
+[2021.11.12-18.34.05:762][903]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E92B0E200), frame # 23903
+[2021.11.12-18.34.05:762][903]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EAF070540), frame # 23903
+[2021.11.12-18.34.05:763][903]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2021.11.12-18.34.05:763][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.051882s)
+[2021.11.12-18.34.05:783][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.11.12-18.34.05:785][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.12-18.34.05:785][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.12-18.34.05:786][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.12-18.34.05:786][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.12-18.34.05:786][903]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.12-18.34.05:786][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.12-18.34.05:786][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.12-18.34.05:786][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.12-18.34.05:786][903]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.12-18.34.05:786][903]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.12-18.34.05:787][903]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.12-18.34.05:787][903]LogAudioMixer: Display: 1: FrontRight
+[2021.11.12-18.34.05:911][903]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.12-18.34.05:911][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.12-18.34.05:911][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.12-18.34.05:911][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.12-18.34.05:912][903]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.12-18.34.05:950][903]LogInit: FAudioDevice initialized.
+[2021.11.12-18.34.05:973][903]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.12-18.34.05:987][903]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.34.05:987][903]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.34.05:987][903]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.34.05:987][903]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.12-18.34.05:999][903]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.12-10.34.05
+[2021.11.12-18.34.05:999][903]LogWorld: Bringing up level for play took: 0.023645
+[2021.11.12-18.34.05:999][903]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.11.12-18.34.06:003][903]PIE: Server logged in
+[2021.11.12-18.34.06:003][903]PIE: Play in editor total start time 0.293 seconds.
+[2021.11.12-18.34.17:535][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.12-18.34.17:535][ 22]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.12-18.34.17:535][ 22]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.12-18.34.17:537][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.12-18.34.17:558][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.12-18.34.17:562][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.12-18.34.17:596][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.12-18.34.17:598][ 22]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EAF070540), frame # 25022
+[2021.11.12-18.34.17:598][ 22]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E92B0E200), frame # 25022
+[2021.11.12-18.34.17:601][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.11.12-18.34.17:654][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.11.12-18.34.23:227][373]BlueprintLog: New page: Compile Armory_Door
+[2021.11.12-18.34.23:264][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.11.12-18.34.24:770][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Armory_Door" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Blueprints/Armory_Door.uasset" SILENT=true
+[2021.11.12-18.34.24:792][491]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/Armory_DoorAED8BCBD4A1B7E88EC02D98A6D63B769.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Blueprints/Armory_Door.uasset'
+[2021.11.12-18.34.24:802][491]AssetCheck: New page: Asset Save: Armory_Door
+[2021.11.12-18.34.24:802][491]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Armory_Door.Armory_Door
+[2021.11.12-18.34.29:290][771]LogSlate: Window 'Armory_Door' being destroyed
+[2021.11.12-18.34.29:307][771]LogSlate: Window 'Armory_Door' being destroyed
+[2021.11.12-18.34.29:312][771]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.11.12-18.34.29:312][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.12-18.34.34:639][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.11.12-18.34.34:653][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.12-18.34.34:686][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.11.12-18.34.34:947][202]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/TopE489C4B44A082C823D8ACDBC5F47EFD2.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top.umap'
+[2021.11.12-18.34.34:959][202]LogFileHelpers: Saving map 'Top' took 0.307
+[2021.11.12-18.34.34:960][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.12-18.34.35:040][202]LogSavePackage: Moving '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Saved/Top_BuiltData78E36F68473B1BE44DDAD9A93D2380EA.tmp' to '../../../../../Users/carverg/Desktop/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.12-18.34.35:053][202]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.12-18.34.35:053][202]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.12-18.34.35:053][202]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
