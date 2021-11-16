@@ -1340,3 +1340,287 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.16-05.12.31:776][166]LogContentValidation: Display: Validating World /Game/Top.Top
 [2021.11.16-05.12.31:776][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
 [2021.11.16-05.12.31:776][166]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Armory_Door.Armory_Door
+[2021.11.16-05.12.55:220][482]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.16-05.12.55:959][550]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.12.55:968][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.12.55:968][550]PIE: New page: PIE session: Top (Nov 15, 2021, 1:12:55 PM)
+[2021.11.16-05.12.55:968][550]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.16-05.12.56:021][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052821s)
+[2021.11.16-05.12.56:022][550]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.12.56:022][550]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000265BAE2F200), frame # 31550
+[2021.11.16-05.12.56:022][550]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265CBC1B380), frame # 31550
+[2021.11.16-05.12.56:022][550]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2021.11.16-05.12.56:022][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.053961s)
+[2021.11.16-05.12.56:038][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.12.56:040][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.12.56:040][550]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.12.56:040][550]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.12.56:042][550]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.12.56:042][550]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.12.56:123][550]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.12.56:123][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.12.56:123][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.12.56:123][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.12.56:123][550]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.12.56:133][550]LogInit: FAudioDevice initialized.
+[2021.11.16-05.12.56:137][550]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.12.56:147][550]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.12.56:147][550]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.12.56:147][550]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.12.56:147][550]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.12.56:158][550]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.12.56
+[2021.11.16-05.12.56:159][550]LogWorld: Bringing up level for play took: 0.020574
+[2021.11.16-05.12.56:159][550]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.11.16-05.12.56:163][550]PIE: Server logged in
+[2021.11.16-05.12.56:164][550]PIE: Play in editor total start time 0.196 seconds.
+[2021.11.16-05.13.00:794][ 35]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=278.94 Y=-143.82 Z=0.00 Location: X=975.97 Y=1024.53 Z=128.66 Normal: X=-0.71 Y=-0.71 Z=-0.00 PenetrationDepth:0.000 Actor:Hinge_Door_2 Component:Cube BoneName:None (0 other events since notify)
+[2021.11.16-05.13.02:862][251]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=113.86 Y=-589.10 Z=0.00 Location: X=1505.07 Y=1322.16 Z=128.66 Normal: X=-0.29 Y=0.96 Z=-0.00 PenetrationDepth:14.033 Actor:Hinge_Door2 Component:Cube BoneName:None (0 other events since notify)
+[2021.11.16-05.13.15:588][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.13.15:588][604]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.13.15:589][604]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.13.15:592][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.13.15:610][604]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.13.15:614][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.13.15:630][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.13.15:645][604]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265CBC1B380), frame # 33604
+[2021.11.16-05.13.15:645][604]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000265BAE2F200), frame # 33604
+[2021.11.16-05.13.15:648][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.11.16-05.13.15:719][606]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.11.16-05.14.22:387][579]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door2)
+[2021.11.16-05.15.54:164][789]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.16-05.16.05:507][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.11.16-05.16.05:513][406]LogMetaData: Removing '/Game/Blueprints/DataPickup.DataPickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Data.PackageMetaData'
+[2021.11.16-05.16.05:513][406]LogMetaData: Removing '/Game/Blueprints/DataPickup.SKEL_DataPickup_C' ref from Metadata '/Game/Blueprints/Data.PackageMetaData'
+[2021.11.16-05.16.05:513][406]LogMetaData: Removing '/Game/Blueprints/DataPickup.DataPickup_C' ref from Metadata '/Game/Blueprints/Data.PackageMetaData'
+[2021.11.16-05.16.05:513][406]LogMetaData: Removing '/Game/Blueprints/DataPickup.DataPickup:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Data.PackageMetaData'
+[2021.11.16-05.16.05:513][406]LogMetaData: Removing '/Game/Blueprints/DataPickup.DataPickup:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Data.PackageMetaData'
+[2021.11.16-05.16.05:513][406]LogMetaData: Removing '/Game/Blueprints/DataPickup.DataPickup:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Data.PackageMetaData'
+[2021.11.16-05.16.05:539][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DataPickup" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/DataPickup.uasset" SILENT=true
+[2021.11.16-05.16.05:543][406]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/DataPickup224CC1DF4A170DC8FC51BEB1D6927EEF.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/DataPickup.uasset'
+[2021.11.16-05.16.05:704][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.11.16-05.16.05:725][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.11.16-05.16.05:739][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.11.16-05.16.05:801][406]AssetCheck: New page: Asset Save: DataPickup
+[2021.11.16-05.16.05:801][406]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/DataPickup.DataPickup
+[2021.11.16-05.16.11:840][842]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/DataPickup.DataPickup
+[2021.11.16-05.16.12:183][842]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2021.11.16-05.18.30:446][ 97]LogTexture: Display: Building textures: T_Lapt_Scre_M (AutoDXT, 4096X4096)
+[2021.11.16-05.18.30:447][ 97]LogTexture: Display: Building textures: T_Lapt_Keyb_N_normals (BC5, 4096X4096)
+[2021.11.16-05.18.30:447][ 97]LogTexture: Display: Building textures: T_Lapt_Scre_N_normals (BC5, 4096X4096)
+[2021.11.16-05.18.30:447][ 97]LogTexture: Display: Building textures: T_Keyboard_UI_EM (AutoDXT, 4096X4096)
+[2021.11.16-05.18.30:447][ 97]LogTexture: Display: Building textures: T_LoginScreen_EM (AutoDXT, 4096X4096)
+[2021.11.16-05.18.30:447][ 97]LogTexture: Display: Building textures: T_Lapt_Keyb_Diff (AutoDXT, 4096X4096)
+[2021.11.16-05.18.32:392][ 97]LogTexture: Display: Building textures: T_Lapt_Scre_Diff (AutoDXT, 4096X4096)
+[2021.11.16-05.18.32:392][ 97]LogTexture: Display: Building textures: T_Lapt_Keyb_M (AutoDXT, 4096X4096)
+[2021.11.16-05.18.32:392][ 97]LogMaterial: Display: Missing cached shader map for material M_Screen_Parent, compiling. 
+[2021.11.16-05.18.32:664][ 97]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.11.16-05.18.32:664][ 97]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.11.16-05.18.32:664][ 97]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.11.16-05.18.32:664][ 97]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.11.16-05.18.32:664][ 97]LogStaticMesh: Building static mesh SM_Laptop...
+[2021.11.16-05.18.32:851][ 97]LogStaticMesh: Built static mesh [0.19s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Laptop.SM_Laptop
+[2021.11.16-05.18.32:919][ 97]LogActorFactory: Actor Factory created SM_Laptop
+[2021.11.16-05.18.52:336][198]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.18.52:363][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.11.16-05.18.54:742][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DataPickup" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/DataPickup.uasset" SILENT=true
+[2021.11.16-05.18.54:764][313]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/DataPickup5BDEDFCB4856E0908F67348B2035B325.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/DataPickup.uasset'
+[2021.11.16-05.18.54:774][313]AssetCheck: New page: Asset Save: DataPickup
+[2021.11.16-05.18.54:774][313]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/DataPickup.DataPickup
+[2021.11.16-05.19.04:320][962]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.19.04:329][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.19.04:329][962]PIE: New page: PIE session: Top (Nov 15, 2021, 1:19:04 PM)
+[2021.11.16-05.19.04:330][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.16-05.19.04:382][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051897s)
+[2021.11.16-05.19.04:382][962]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.19.04:382][962]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026585203800), frame # 41962
+[2021.11.16-05.19.04:382][962]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265CA6360C0), frame # 41962
+[2021.11.16-05.19.04:383][962]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2021.11.16-05.19.04:383][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.052974s)
+[2021.11.16-05.19.04:400][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.19.04:402][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.19.04:402][962]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.19.04:402][962]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.19.04:404][962]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.19.04:404][962]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.19.04:521][962]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.19.04:522][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.19.04:522][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.19.04:522][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.19.04:523][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.19.04:555][962]LogInit: FAudioDevice initialized.
+[2021.11.16-05.19.04:568][962]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.19.04:582][962]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.04:582][962]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.04:582][962]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.04:582][962]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.04:594][962]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.19.04
+[2021.11.16-05.19.04:594][962]LogWorld: Bringing up level for play took: 0.023634
+[2021.11.16-05.19.04:594][962]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.11.16-05.19.04:599][962]PIE: Server logged in
+[2021.11.16-05.19.04:599][962]PIE: Play in editor total start time 0.272 seconds.
+[2021.11.16-05.19.18:768][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.19.18:768][444]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.19.18:769][444]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.19.18:772][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.19.18:794][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.19.18:797][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.19.18:828][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.19.18:830][444]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265CA6360C0), frame # 43444
+[2021.11.16-05.19.18:830][444]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026585203800), frame # 43444
+[2021.11.16-05.19.18:833][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.11.16-05.19.18:972][446]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.11.16-05.19.19:818][529]LogEditorViewport: Clicking on Actor (LMB): DataPickup_C (DataPickup)
+[2021.11.16-05.19.38:365][737]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.19.38:399][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.11.16-05.19.40:402][874]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.19.40:410][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.19.40:410][874]PIE: New page: PIE session: Top (Nov 15, 2021, 1:19:40 PM)
+[2021.11.16-05.19.40:410][874]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.16-05.19.40:463][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052190s)
+[2021.11.16-05.19.40:463][874]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.19.40:463][874]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000265E093BE00), frame # 44874
+[2021.11.16-05.19.40:463][874]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265D1D48180), frame # 44874
+[2021.11.16-05.19.40:464][874]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2021.11.16-05.19.40:464][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.053290s)
+[2021.11.16-05.19.40:482][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.19.40:483][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.19.40:483][874]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.19.40:483][874]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.19.40:484][874]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.19.40:484][874]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.19.40:926][874]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.19.40:926][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.19.40:926][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.19.40:926][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.19.40:926][874]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.19.40:936][874]LogInit: FAudioDevice initialized.
+[2021.11.16-05.19.40:943][874]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.19.40:953][874]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.40:953][874]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.40:953][874]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.40:953][874]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.19.40:964][874]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.19.40
+[2021.11.16-05.19.40:965][874]LogWorld: Bringing up level for play took: 0.020412
+[2021.11.16-05.19.40:965][874]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.11.16-05.19.40:969][874]PIE: Server logged in
+[2021.11.16-05.19.40:970][874]PIE: Play in editor total start time 0.56 seconds.
+[2021.11.16-05.19.52:069][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.19.52:069][ 21]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.19.52:069][ 21]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.19.52:073][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.19.52:085][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.19.52:088][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.19.52:120][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.19.52:121][ 21]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265D1D48180), frame # 46021
+[2021.11.16-05.19.52:121][ 21]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000265E093BE00), frame # 46021
+[2021.11.16-05.19.52:125][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.11.16-05.19.52:221][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.11.16-05.21.04:577][503]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.21.04:605][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.11.16-05.21.07:021][643]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.21.07:051][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.11.16-05.21.26:293][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Hinge_Door.Hinge_Door
+[2021.11.16-05.21.33:793][593]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.21.33:793][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.22.36:292][608]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Underwater" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Get Underwater
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "In Range" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Get In Range
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "In Range" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Set In Range
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "In Range" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Set In Range
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Cube" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Get Cube
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Cube" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Get Cube
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Is Closed" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Set Is Closed
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Is Closed" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Set Is Closed
+[2021.11.16-05.22.36:295][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Is Closed" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Get Is Closed
+[2021.11.16-05.22.36:296][608]LogBlueprint: Warning: [Compiler DataPickup] Could not find a variable named "Is Closed" in 'DataPickup_C'.
+Make sure 'DataPickup_C' has been compiled for  Get Is Closed
+[2021.11.16-05.22.36:296][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Underwater  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:296][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Is Closed  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Is Closed  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Is Closed  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Is Closed  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Cube  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  Cube  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  In Range  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  In Range  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:297][608]LogBlueprint: Error: [Compiler DataPickup] The property associated with  In Range  could not be found in '/Game/Blueprints/DataPickup.DataPickup_C'
+[2021.11.16-05.22.36:340][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.11.16-05.23.30:208][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.11.16-05.23.30:210][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Autosaves/Game/Top_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.11.16-05.23.30:487][208]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top_Auto14359A95F478344ECB405558D81DA0FF4.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Autosaves/Game/Top_Auto1.umap'
+[2021.11.16-05.23.30:488][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Top' took 0.298
+[2021.11.16-05.23.30:488][208]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.298
+[2021.11.16-05.23.30:489][208]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/DataPickup] ([1] browsable assets)...
+[2021.11.16-05.23.30:500][208]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/DataPickup.DataPickup]
+[2021.11.16-05.23.30:500][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DataPickup]
+[2021.11.16-05.23.30:522][208]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/DataPickup_Auto1BF8590EE4EDA1CEFD5083A993DF5490D.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Autosaves/Game/Blueprints/DataPickup_Auto1.uasset'
+[2021.11.16-05.23.30:523][208]LogFileHelpers: Auto-saving content packages took 0.035
+[2021.11.16-05.25.46:765][399]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.25.46:795][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.11.16-05.27.38:685][754]BlueprintLog: New page: Compile DataPickup
+[2021.11.16-05.27.38:716][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.11.16-05.28.20:425][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DataPickup" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/DataPickup.uasset" SILENT=true
+[2021.11.16-05.28.20:449][500]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/DataPickupAD660C024EBE0014FDB8C99E8F598A1F.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/DataPickup.uasset'
+[2021.11.16-05.28.20:459][500]AssetCheck: New page: Asset Save: DataPickup
+[2021.11.16-05.28.20:459][500]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/DataPickup.DataPickup
+[2021.11.16-05.28.23:929][589]LogSlate: Window 'DataPickup' being destroyed
+[2021.11.16-05.28.24:006][589]LogSlate: Window 'DataPickup' being destroyed
+[2021.11.16-05.28.24:014][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.16-05.28.24:014][589]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.28.24:014][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.28.25:927][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.11.16-05.28.25:950][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-05.28.25:966][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.11.16-05.28.26:232][758]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/TopB047B01543CA82DAEB97FAA2F722F36F.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap'
+[2021.11.16-05.28.26:249][758]LogFileHelpers: Saving map 'Top' took 0.299
+[2021.11.16-05.28.26:249][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.16-05.28.26:306][758]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top_BuiltData810DFBBC419C21F5B2EF188C55348655.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.16-05.28.26:320][758]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.16-05.28.26:320][758]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.16-05.28.26:320][758]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.11.16-05.28.26:839][788]LogEditorViewport: Clicking on Actor (LMB): DataPickup_C (DataPickup)
+[2021.11.16-05.28.30:817][151]Cmd: DELETE
+[2021.11.16-05.28.30:817][151]Cmd: ACTOR DELETE
+[2021.11.16-05.28.30:844][151]LogEditorActor: Deleted Actor: DataPickup_C
+[2021.11.16-05.28.30:861][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.11.16-05.28.30:863][151]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2021.11.16-05.28.32:731][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.11.16-05.28.32:750][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-05.28.32:766][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.11.16-05.28.33:033][313]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top38D4696A411405EA0D5626A2A5187846.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap'
+[2021.11.16-05.28.33:049][313]LogFileHelpers: Saving map 'Top' took 0.299
+[2021.11.16-05.28.33:049][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.16-05.28.33:098][313]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top_BuiltDataAEA0C9E149D485C9589361B9D59A1848.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.16-05.28.33:111][313]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.16-05.28.33:111][313]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.16-05.28.33:111][313]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
