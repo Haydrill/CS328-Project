@@ -886,3 +886,457 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.16-05.07.04:464][718]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026527C49800), frame # 8718
 [2021.11.16-05.07.04:465][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
 [2021.11.16-05.07.04:500][720]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.11.16-05.08.03:176][456]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.08.03:184][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.08.03:185][456]PIE: New page: PIE session: MapMenu (Nov 15, 2021, 1:08:03 PM)
+[2021.11.16-05.08.03:185][456]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.08.03:185][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000821s)
+[2021.11.16-05.08.03:186][456]LogAIModule: Creating AISystem for world MapMenu
+[2021.11.16-05.08.03:186][456]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002652835E400), frame # 9456
+[2021.11.16-05.08.03:186][456]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265157E0540), frame # 9456
+[2021.11.16-05.08.03:186][456]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2021.11.16-05.08.03:186][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapMenu.MapMenu to /Game/UEDPIE_0_MapMenu.MapMenu (0.001662s)
+[2021.11.16-05.08.03:195][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.08.03:197][456]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.08.03:197][456]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.08.03:197][456]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.08.03:199][456]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.08.03:199][456]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.08.03:290][456]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.08.03:290][456]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.08.03:290][456]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.08.03:290][456]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.08.03:291][456]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.08.03:306][456]LogInit: FAudioDevice initialized.
+[2021.11.16-05.08.03:315][456]LogLoad: Game class is 'MainMenuBP_C'
+[2021.11.16-05.08.03:317][456]LogWorld: Bringing World /Game/UEDPIE_0_MapMenu.MapMenu up for play (max tick rate 0) at 2021.11.15-21.08.03
+[2021.11.16-05.08.03:317][456]LogWorld: Bringing up level for play took: 0.000346
+[2021.11.16-05.08.03:317][456]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.11.16-05.08.03:320][456]PIE: Server logged in
+[2021.11.16-05.08.03:321][456]PIE: Play in editor total start time 0.137 seconds.
+[2021.11.16-05.08.04:156][543]LogNet: Browse: /Game/Top
+[2021.11.16-05.08.04:156][543]LogLoad: LoadMap: /Game/Top
+[2021.11.16-05.08.04:156][543]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.08.04:156][543]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.08.04:156][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.08.04:167][543]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265157E0540), frame # 9543
+[2021.11.16-05.08.04:167][543]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002652835E400), frame # 9543
+[2021.11.16-05.08.04:168][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.11.16-05.08.04:252][543]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.08.04:252][543]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002652835F000), frame # 9543
+[2021.11.16-05.08.04:252][543]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002652952B380), frame # 9543
+[2021.11.16-05.08.04:252][543]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.08.04:257][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:257][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:257][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:257][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:267][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:268][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:268][543]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.04:277][543]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.08.04
+[2021.11.16-05.08.04:277][543]LogWorld: Bringing up level for play took: 0.024123
+[2021.11.16-05.08.04:280][543]LogLoad: Took 0.123959 seconds to LoadMap(/Game/Top)
+[2021.11.16-05.08.16:499][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.08.16:499][822]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.08.16:500][822]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.08.16:503][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.08.16:521][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.08.16:522][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.08.16:546][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.08.16:548][822]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002652952B380), frame # 10822
+[2021.11.16-05.08.16:548][822]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002652835F000), frame # 10822
+[2021.11.16-05.08.16:550][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.11.16-05.08.16:594][825]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.11.16-05.08.36:864][170]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.08.36:872][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.08.36:872][170]PIE: New page: PIE session: MapMenu (Nov 15, 2021, 1:08:36 PM)
+[2021.11.16-05.08.36:878][170]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.08.36:879][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000879s)
+[2021.11.16-05.08.36:880][170]LogAIModule: Creating AISystem for world MapMenu
+[2021.11.16-05.08.36:880][170]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026576219200), frame # 11170
+[2021.11.16-05.08.36:880][170]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026528411440), frame # 11170
+[2021.11.16-05.08.36:880][170]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2021.11.16-05.08.36:880][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapMenu.MapMenu to /Game/UEDPIE_0_MapMenu.MapMenu (0.001783s)
+[2021.11.16-05.08.36:889][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.08.36:890][170]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.08.36:890][170]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.08.36:890][170]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.08.36:892][170]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.08.36:892][170]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.08.36:970][170]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.08.36:970][170]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.08.36:971][170]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.08.36:971][170]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.08.36:971][170]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.08.36:980][170]LogInit: FAudioDevice initialized.
+[2021.11.16-05.08.36:984][170]LogLoad: Game class is 'MainMenuBP_C'
+[2021.11.16-05.08.36:985][170]LogWorld: Bringing World /Game/UEDPIE_0_MapMenu.MapMenu up for play (max tick rate 0) at 2021.11.15-21.08.36
+[2021.11.16-05.08.36:985][170]LogWorld: Bringing up level for play took: 0.000216
+[2021.11.16-05.08.36:985][170]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.11.16-05.08.36:987][170]PIE: Server logged in
+[2021.11.16-05.08.36:988][170]PIE: Play in editor total start time 0.116 seconds.
+[2021.11.16-05.08.37:745][261]LogNet: Browse: /Game/Top
+[2021.11.16-05.08.37:746][261]LogLoad: LoadMap: /Game/Top
+[2021.11.16-05.08.37:746][261]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.08.37:746][261]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.08.37:746][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.08.37:756][261]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026528411440), frame # 11261
+[2021.11.16-05.08.37:756][261]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026576219200), frame # 11261
+[2021.11.16-05.08.37:757][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.16-05.08.37:840][261]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.08.37:840][261]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026527C49600), frame # 11261
+[2021.11.16-05.08.37:840][261]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265159D3C40), frame # 11261
+[2021.11.16-05.08.37:841][261]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.08.37:845][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:845][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:845][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:845][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:855][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:855][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:855][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:855][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:855][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:855][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:856][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:856][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:856][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:856][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:856][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:856][261]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.08.37:865][261]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.08.37
+[2021.11.16-05.08.37:865][261]LogWorld: Bringing up level for play took: 0.023846
+[2021.11.16-05.08.37:868][261]LogLoad: Took 0.123043 seconds to LoadMap(/Game/Top)
+[2021.11.16-05.09.16:519][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.09.16:519][254]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.09.16:519][254]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.09.16:522][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.09.16:542][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.09.16:544][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.09.16:568][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.09.16:570][254]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265159D3C40), frame # 15254
+[2021.11.16-05.09.16:570][254]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026527C49600), frame # 15254
+[2021.11.16-05.09.16:572][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.11.16-05.09.16:618][257]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.11.16-05.09.20:348][452]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.09.20:357][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.09.20:357][452]PIE: New page: PIE session: MapMenu (Nov 15, 2021, 1:09:20 PM)
+[2021.11.16-05.09.20:357][452]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.09.20:358][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000790s)
+[2021.11.16-05.09.20:358][452]LogAIModule: Creating AISystem for world MapMenu
+[2021.11.16-05.09.20:358][452]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026568372200), frame # 15452
+[2021.11.16-05.09.20:358][452]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265158925C0), frame # 15452
+[2021.11.16-05.09.20:358][452]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2021.11.16-05.09.20:358][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapMenu.MapMenu to /Game/UEDPIE_0_MapMenu.MapMenu (0.001685s)
+[2021.11.16-05.09.20:367][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.09.20:368][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.09.20:368][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.09.20:369][452]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.09.20:369][452]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.09.20:370][452]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.09.20:370][452]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.09.20:448][452]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.09.20:448][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.09.20:448][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.09.20:448][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.09.20:449][452]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.09.20:460][452]LogInit: FAudioDevice initialized.
+[2021.11.16-05.09.20:467][452]LogLoad: Game class is 'MainMenuBP_C'
+[2021.11.16-05.09.20:468][452]LogWorld: Bringing World /Game/UEDPIE_0_MapMenu.MapMenu up for play (max tick rate 0) at 2021.11.15-21.09.20
+[2021.11.16-05.09.20:468][452]LogWorld: Bringing up level for play took: 0.000263
+[2021.11.16-05.09.20:468][452]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.11.16-05.09.20:471][452]PIE: Server logged in
+[2021.11.16-05.09.20:472][452]PIE: Play in editor total start time 0.116 seconds.
+[2021.11.16-05.09.21:014][517]LogNet: Browse: /Game/Top
+[2021.11.16-05.09.21:014][517]LogLoad: LoadMap: /Game/Top
+[2021.11.16-05.09.21:014][517]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.09.21:014][517]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.09.21:014][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.09.21:023][517]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265158925C0), frame # 15517
+[2021.11.16-05.09.21:023][517]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026568372200), frame # 15517
+[2021.11.16-05.09.21:024][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.16-05.09.21:107][517]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.09.21:107][517]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002651B6F8800), frame # 15517
+[2021.11.16-05.09.21:107][517]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026528341080), frame # 15517
+[2021.11.16-05.09.21:108][517]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.09.21:112][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:113][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:113][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:113][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:122][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:122][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:122][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:122][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:123][517]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.21:132][517]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.09.21
+[2021.11.16-05.09.21:132][517]LogWorld: Bringing up level for play took: 0.024033
+[2021.11.16-05.09.21:135][517]LogLoad: Took 0.121622 seconds to LoadMap(/Game/Top)
+[2021.11.16-05.09.40:519][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.09.40:519][516]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.09.40:519][516]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.09.40:522][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.09.40:539][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.09.40:540][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.09.40:564][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.09.40:566][516]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026528341080), frame # 17516
+[2021.11.16-05.09.40:566][516]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002651B6F8800), frame # 17516
+[2021.11.16-05.09.40:568][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.11.16-05.09.40:615][521]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.11.16-05.09.47:948][784]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.09.47:956][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.09.47:956][784]PIE: New page: PIE session: MapMenu (Nov 15, 2021, 1:09:47 PM)
+[2021.11.16-05.09.47:956][784]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.09.47:957][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000758s)
+[2021.11.16-05.09.47:958][784]LogAIModule: Creating AISystem for world MapMenu
+[2021.11.16-05.09.47:958][784]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026527CF9800), frame # 17784
+[2021.11.16-05.09.47:958][784]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265300125C0), frame # 17784
+[2021.11.16-05.09.47:958][784]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2021.11.16-05.09.47:958][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapMenu.MapMenu to /Game/UEDPIE_0_MapMenu.MapMenu (0.001704s)
+[2021.11.16-05.09.47:967][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.09.47:968][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.09.47:968][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.09.47:969][784]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.09.47:969][784]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.09.47:970][784]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.09.47:970][784]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.09.48:053][784]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.09.48:053][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.09.48:053][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.09.48:054][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.09.48:054][784]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.09.48:063][784]LogInit: FAudioDevice initialized.
+[2021.11.16-05.09.48:069][784]LogLoad: Game class is 'MainMenuBP_C'
+[2021.11.16-05.09.48:070][784]LogWorld: Bringing World /Game/UEDPIE_0_MapMenu.MapMenu up for play (max tick rate 0) at 2021.11.15-21.09.48
+[2021.11.16-05.09.48:070][784]LogWorld: Bringing up level for play took: 0.000212
+[2021.11.16-05.09.48:071][784]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.11.16-05.09.48:072][784]PIE: Server logged in
+[2021.11.16-05.09.48:073][784]PIE: Play in editor total start time 0.118 seconds.
+[2021.11.16-05.09.48:998][894]LogNet: Browse: /Game/Top
+[2021.11.16-05.09.48:998][894]LogLoad: LoadMap: /Game/Top
+[2021.11.16-05.09.48:998][894]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapMenu
+[2021.11.16-05.09.48:998][894]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.09.48:999][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.09.49:007][894]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265300125C0), frame # 17894
+[2021.11.16-05.09.49:007][894]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026527CF9800), frame # 17894
+[2021.11.16-05.09.49:008][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.16-05.09.49:092][894]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.09.49:092][894]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026507815E00), frame # 17894
+[2021.11.16-05.09.49:092][894]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026530012AC0), frame # 17894
+[2021.11.16-05.09.49:093][894]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.09.49:097][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:098][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:098][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:098][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:107][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:107][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:107][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:107][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:108][894]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.09.49:117][894]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.09.49
+[2021.11.16-05.09.49:117][894]LogWorld: Bringing up level for play took: 0.023647
+[2021.11.16-05.09.49:121][894]LogLoad: Took 0.121998 seconds to LoadMap(/Game/Top)
+[2021.11.16-05.10.04:979][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.10.04:979][505]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.10.04:979][505]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.10.04:982][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.10.05:001][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.10.05:003][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.10.05:027][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.10.05:029][505]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026530012AC0), frame # 19505
+[2021.11.16-05.10.05:029][505]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026507815E00), frame # 19505
+[2021.11.16-05.10.05:031][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.11.16-05.10.05:081][509]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.11.16-05.10.21:788][202]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapMenu.MapMenu
+[2021.11.16-05.10.21:797][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.16-05.10.21:799][202]Cmd: MAP LOAD FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/MapMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.16-05.10.21:799][202]LightingResults: New page: Lighting Build
+[2021.11.16-05.10.21:799][202]LoadErrors: New page: Loading map: MapMenu.umap
+[2021.11.16-05.10.21:818][202]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.10.21:819][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.10.21:819][202]MapCheck: New page: Map Check
+[2021.11.16-05.10.21:819][202]LightingResults: New page: Lighting Build
+[2021.11.16-05.10.21:827][202]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265077251C0), frame # 20202
+[2021.11.16-05.10.21:827][202]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000265681A2600), frame # 20202
+[2021.11.16-05.10.21:828][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.11.16-05.10.21:829][202]LogLinker: Warning: Asset '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/MapMenu.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.11.16-05.10.21:833][202]LogAIModule: Creating AISystem for world MapMenu
+[2021.11.16-05.10.21:833][202]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002652900B800), frame # 20202
+[2021.11.16-05.10.21:833][202]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026515893600), frame # 20202
+[2021.11.16-05.10.21:834][202]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.16-05.10.21:844][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.11.16-05.10.21:858][202]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.16-05.10.21:858][202]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2021.11.16-05.10.21:858][202]LogFileHelpers: Loading map 'MapMenu' took 0.059
+[2021.11.16-05.10.22:605][276]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Top.Top
+[2021.11.16-05.10.22:619][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.11.16-05.10.22:620][276]Cmd: MAP LOAD FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.16-05.10.22:620][276]LightingResults: New page: Lighting Build
+[2021.11.16-05.10.22:620][276]LoadErrors: New page: Loading map: Top.umap
+[2021.11.16-05.10.22:621][276]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.10.22:621][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.10.22:621][276]MapCheck: New page: Map Check
+[2021.11.16-05.10.22:621][276]LightingResults: New page: Lighting Build
+[2021.11.16-05.10.22:630][276]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026515893600), frame # 20276
+[2021.11.16-05.10.22:630][276]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002652900B800), frame # 20276
+[2021.11.16-05.10.22:631][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.11.16-05.10.22:640][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:640][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:640][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:641][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:654][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:654][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:654][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:654][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:655][276]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.10.22:669][276]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.16-05.10.22:670][276]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.10.22:670][276]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000265835CAC00), frame # 20276
+[2021.11.16-05.10.22:670][276]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265878D5440), frame # 20276
+[2021.11.16-05.10.22:686][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.11.16-05.10.22:700][276]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.16-05.10.22:700][276]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.196ms to complete.
+[2021.11.16-05.10.22:700][276]LogFileHelpers: Loading map 'Top' took 0.080
+[2021.11.16-05.10.44:522][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A104)
+[2021.11.16-05.10.45:499][256]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door3)
+[2021.11.16-05.10.46:167][308]LogSlate: Took 0.004328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.16-05.10.47:584][419]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Hinge_Door.Hinge_Door
+[2021.11.16-05.10.47:958][419]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2021.11.16-05.10.48:636][419]LogSlate: Took 0.003683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.16-05.11.08:025][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.16-05.11.08:035][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.16-05.11.08:035][ 17]PIE: New page: PIE session: Top (Nov 15, 2021, 1:11:08 PM)
+[2021.11.16-05.11.08:035][ 17]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.16-05.11.08:090][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054499s)
+[2021.11.16-05.11.08:091][ 17]LogAIModule: Creating AISystem for world Top
+[2021.11.16-05.11.08:091][ 17]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000265CE272600), frame # 24017
+[2021.11.16-05.11.08:091][ 17]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000265CE267D80), frame # 24017
+[2021.11.16-05.11.08:091][ 17]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2021.11.16-05.11.08:091][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.055702s)
+[2021.11.16-05.11.08:110][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.16-05.11.08:111][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.16-05.11.08:111][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.16-05.11.08:112][ 17]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.16-05.11.08:112][ 17]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.16-05.11.08:113][ 17]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.16-05.11.08:113][ 17]LogAudioMixer: Display: 1: FrontRight
+[2021.11.16-05.11.08:193][ 17]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.11.16-05.11.08:193][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.16-05.11.08:193][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.16-05.11.08:193][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.16-05.11.08:193][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.16-05.11.08:207][ 17]LogInit: FAudioDevice initialized.
+[2021.11.16-05.11.08:216][ 17]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.16-05.11.08:227][ 17]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.11.08:227][ 17]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.11.08:228][ 17]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.11.08:228][ 17]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=2.500 Y=0.000 Z=4.000
+[2021.11.16-05.11.08:240][ 17]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.11.15-21.11.08
+[2021.11.16-05.11.08:240][ 17]LogWorld: Bringing up level for play took: 0.023423
+[2021.11.16-05.11.08:240][ 17]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.11.16-05.11.08:245][ 17]PIE: Server logged in
+[2021.11.16-05.11.08:245][ 17]PIE: Play in editor total start time 0.211 seconds.
+[2021.11.16-05.11.15:429][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.11.15:429][770]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.16-05.11.15:430][770]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.11.15:433][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.11.15:451][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.16-05.11.15:454][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.11.15:486][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.16-05.11.15:491][770]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000265CE272600), frame # 24770
+[2021.11.16-05.11.15:491][770]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000265CE267D80), frame # 24770
+[2021.11.16-05.11.15:493][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.11.16-05.11.15:567][772]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.11.16-05.11.51:707][825]LogSlate: Window 'Project Settings' being destroyed
+[2021.11.16-05.11.51:723][825]LogSlate: Window 'Project Settings' being destroyed
+[2021.11.16-05.12.05:860][950]BlueprintLog: New page: Compile Hinge_Door
+[2021.11.16-05.12.05:901][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.11.16-05.12.08:435][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hinge_Door" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/Hinge_Door.uasset" SILENT=true
+[2021.11.16-05.12.08:459][160]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Hinge_Door2C4F210743673FC79EE4BD8907BC7B04.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/Hinge_Door.uasset'
+[2021.11.16-05.12.08:472][160]AssetCheck: New page: Asset Save: Hinge_Door
+[2021.11.16-05.12.08:472][160]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Hinge_Door.Hinge_Door
+[2021.11.16-05.12.10:094][304]LogSlate: Window 'Hinge_Door' being destroyed
+[2021.11.16-05.12.10:110][304]LogSlate: Window 'Hinge_Door' being destroyed
+[2021.11.16-05.12.10:118][304]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.12.10:118][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.12.15:481][819]LogEditorViewport: Clicking on Actor (LMB): Armory_Door_C (Armory_Door)
+[2021.11.16-05.12.17:119][971]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Armory_Door.Armory_Door
+[2021.11.16-05.12.28:230][899]BlueprintLog: New page: Compile Armory_Door
+[2021.11.16-05.12.28:272][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.11.16-05.12.29:218][981]LogSlate: Window 'Armory_Door' being destroyed
+[2021.11.16-05.12.29:232][981]LogSlate: Window 'Armory_Door' being destroyed
+[2021.11.16-05.12.29:232][981]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-05.12.29:232][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-05.12.31:167][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.11.16-05.12.31:187][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-05.12.31:203][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.11.16-05.12.31:483][166]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top44F1DD9D4A17A227EABC36846105D20E.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap'
+[2021.11.16-05.12.31:498][166]LogFileHelpers: Saving map 'Top' took 0.311
+[2021.11.16-05.12.31:499][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.16-05.12.31:593][166]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top_BuiltData93A343DF4EFF06092362E98CCDDB723D.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.16-05.12.31:703][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Armory_Door" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/Armory_Door.uasset" SILENT=true
+[2021.11.16-05.12.31:754][166]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Armory_Door789F4B524BA8B073F4191FBD1BEFE17E.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Blueprints/Armory_Door.uasset'
+[2021.11.16-05.12.31:776][166]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.16-05.12.31:776][166]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.16-05.12.31:776][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.11.16-05.12.31:776][166]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Armory_Door.Armory_Door
