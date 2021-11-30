@@ -4059,3 +4059,179 @@ Water
 [2021.11.30-04.48.03:319][930]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.30-04.48.03:319][930]LogContentValidation: Display: Validating World /Game/Top.Top
 [2021.11.30-04.48.03:319][930]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.11.30-04.53.35:906][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_99)
+[2021.11.30-04.53.47:153][  3]Cmd: EDIT COPY
+[2021.11.30-04.53.47:337][ 14]Cmd: EDIT PASTE
+[2021.11.30-04.54.30:122][515]Cmd: TRANSACTION UNDO
+[2021.11.30-04.54.30:122][515]LogEditorTransaction: Undo Create Actors
+[2021.11.30-04.55.50:530][554]LogEditorViewport: Clicking on Actor (context menu): Water_C (Water)
+[2021.11.30-04.55.50:710][562]LogEditorViewport: Clicking on Actor (context menu): Water_C (Water)
+[2021.11.30-04.56.48:838][465]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.30-04.56.48:847][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.30-04.56.48:847][465]PIE: New page: PIE session: Top (Nov 29, 2021, 12:56:48 PM)
+[2021.11.30-04.56.48:847][465]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.30-04.56.48:911][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063142s)
+[2021.11.30-04.56.48:911][465]LogAIModule: Creating AISystem for world Top
+[2021.11.30-04.56.48:912][465]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002498FF84800), frame # 155465
+[2021.11.30-04.56.48:912][465]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024939F951C0), frame # 155465
+[2021.11.30-04.56.48:912][465]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2021.11.30-04.56.48:912][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.064632s)
+[2021.11.30-04.56.48:922][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.30-04.56.48:931][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.30-04.56.48:931][465]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.30-04.56.48:931][465]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.30-04.56.48:976][465]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.30-04.56.48:976][465]LogAudioMixer: Display: 1: FrontRight
+[2021.11.30-04.56.48:998][465]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.30-04.56.48:998][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.30-04.56.48:998][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.30-04.56.48:998][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.30-04.56.48:999][465]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.30-04.56.48:999][465]LogInit: FAudioDevice initialized.
+[2021.11.30-04.56.49:015][465]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-04.56.49:027][465]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.56.49:027][465]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.56.49:027][465]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.56.49:027][465]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.56.49:043][465]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 60) at 2021.11.29-20.56.49
+[2021.11.30-04.56.49:044][465]LogWorld: Bringing up level for play took: 0.028122
+[2021.11.30-04.56.49:044][465]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.11.30-04.56.49:049][465]PIE: Server logged in
+[2021.11.30-04.56.49:050][465]PIE: Play in editor total start time 0.204 seconds.
+[2021.11.30-04.58.01:252][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.30-04.58.01:253][785]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.30-04.58.01:253][785]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.30-04.58.01:258][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.30-04.58.01:264][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.30-04.58.01:266][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.30-04.58.01:294][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.30-04.58.01:302][785]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024939F951C0), frame # 159785
+[2021.11.30-04.58.01:302][785]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002498FF84800), frame # 159785
+[2021.11.30-04.58.01:303][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.11.30-04.58.01:369][787]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.11.30-04.58.04:540][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A143)
+[2021.11.30-04.58.45:076][320]Cmd: TRANSACTION UNDO
+[2021.11.30-04.58.45:076][320]LogEditorTransaction: Undo Set Location
+[2021.11.30-04.59.17:910][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.11.30-04.59.17:914][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Autosaves/Game/Top_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.11.30-04.59.18:288][816]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_Auto590058551471AF9EE4A611688A06A435E.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Autosaves/Game/Top_Auto5.umap'
+[2021.11.30-04.59.18:290][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Top' took 0.388
+[2021.11.30-04.59.18:290][816]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.388
+[2021.11.30-04.59.59:565][494]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.30-04.59.59:575][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.30-04.59.59:575][494]PIE: New page: PIE session: Top (Nov 29, 2021, 12:59:59 PM)
+[2021.11.30-04.59.59:575][494]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.11.30-04.59.59:641][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064935s)
+[2021.11.30-04.59.59:642][494]LogAIModule: Creating AISystem for world Top
+[2021.11.30-04.59.59:642][494]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002493D7F2C00), frame # 163494
+[2021.11.30-04.59.59:642][494]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000249C4DDDA80), frame # 163494
+[2021.11.30-04.59.59:642][494]LogPlayLevel: PIE: World Init took: (0.001686s)
+[2021.11.30-04.59.59:642][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.066899s)
+[2021.11.30-04.59.59:652][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.30-04.59.59:654][494]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.30-04.59.59:654][494]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.30-04.59.59:654][494]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.30-04.59.59:659][494]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.30-04.59.59:659][494]LogAudioMixer: Display: 1: FrontRight
+[2021.11.30-04.59.59:679][494]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.30-04.59.59:680][494]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.30-04.59.59:680][494]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.30-04.59.59:680][494]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.30-04.59.59:680][494]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.30-04.59.59:692][494]LogInit: FAudioDevice initialized.
+[2021.11.30-04.59.59:700][494]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-04.59.59:710][494]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.59.59:710][494]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.59.59:710][494]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.59.59:711][494]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.11.30-04.59.59:728][494]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 60) at 2021.11.29-20.59.59
+[2021.11.30-04.59.59:728][494]LogWorld: Bringing up level for play took: 0.027710
+[2021.11.30-04.59.59:728][494]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.11.30-04.59.59:733][494]PIE: Server logged in
+[2021.11.30-04.59.59:734][494]PIE: Play in editor total start time 0.159 seconds.
+[2021.11.30-05.00.24:496][973]LogNet: Browse: /Game/MapMenu
+[2021.11.30-05.00.24:498][973]LogLoad: LoadMap: /Game/MapMenu
+[2021.11.30-05.00.24:498][973]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.11.30-05.00.24:498][973]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.11.30-05.00.24:503][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.30-05.00.24:517][973]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000249C4DDDA80), frame # 164973
+[2021.11.30-05.00.24:517][973]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002493D7F2C00), frame # 164973
+[2021.11.30-05.00.24:520][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.11.30-05.00.24:529][973]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/MapMenu.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.11.30-05.00.24:535][973]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Blueprints/MainMenuBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.11.30-05.00.24:547][973]LogAIModule: Creating AISystem for world MapMenu
+[2021.11.30-05.00.24:547][973]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002495390EE00), frame # 164973
+[2021.11.30-05.00.24:547][973]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002493D401300), frame # 164973
+[2021.11.30-05.00.24:547][973]LogLoad: Game class is 'MainMenuBP_C'
+[2021.11.30-05.00.24:549][973]LogWorld: Bringing World /Game/UEDPIE_0_MapMenu.MapMenu up for play (max tick rate 60) at 2021.11.29-21.00.24
+[2021.11.30-05.00.24:549][973]LogWorld: Bringing up level for play took: 0.000763
+[2021.11.30-05.00.24:549][973]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.11.30-05.00.24:551][973]LogLoad: Took 0.054101 seconds to LoadMap(/Game/MapMenu)
+[2021.11.30-05.00.26:218][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.30-05.00.26:219][ 73]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapMenu
+[2021.11.30-05.00.26:219][ 73]LogWorld: UWorld::CleanupWorld for MapMenu, bSessionEnded=true, bCleanupResources=true
+[2021.11.30-05.00.26:219][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.30-05.00.26:223][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.30-05.00.26:225][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.30-05.00.26:234][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.30-05.00.26:249][ 73]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002493D401300), frame # 165073
+[2021.11.30-05.00.26:249][ 73]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002495390EE00), frame # 165073
+[2021.11.30-05.00.26:250][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.11.30-05.00.26:349][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.11.30-05.02.37:426][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_Corner4)
+[2021.11.30-05.02.46:708][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A181)
+[2021.11.30-05.02.58:056][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A178)
+[2021.11.30-05.06.17:547][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_Corner4)
+[2021.11.30-05.06.17:842][742]Cmd: EDIT COPY
+[2021.11.30-05.06.18:042][754]Cmd: EDIT PASTE
+[2021.11.30-05.06.56:211][979]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2021.11.30-05.07.04:188][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A571)
+[2021.11.30-05.08.14:714][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_89)
+[2021.11.30-05.08.42:810][237]Cmd: EDIT COPY
+[2021.11.30-05.08.43:005][248]Cmd: EDIT PASTE
+[2021.11.30-05.09.55:241][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.11.30-05.09.55:245][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Autosaves/Game/Top_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.11.30-05.09.55:613][522]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_Auto6FFE7E5A842A52E193B89C5ABB41FF900.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Autosaves/Game/Top_Auto6.umap'
+[2021.11.30-05.09.55:615][522]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Top' took 0.383
+[2021.11.30-05.09.55:615][522]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2021.11.30-05.17.31:712][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_440)
+[2021.11.30-05.17.35:643][654]Cmd: EDIT COPY
+[2021.11.30-05.17.35:877][668]Cmd: EDIT PASTE
+[2021.11.30-05.17.47:768][351]Cmd: DELETE
+[2021.11.30-05.17.47:768][351]Cmd: ACTOR DELETE
+[2021.11.30-05.17.47:785][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-05.17.47:785][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-05.17.47:795][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.11.30-05.17.47:799][351]LogEditorActor: Deleted 2 Actors (0.031 secs)
+[2021.11.30-05.17.51:730][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_103)
+[2021.11.30-05.17.54:858][752]Cmd: EDIT COPY
+[2021.11.30-05.17.55:056][760]Cmd: EDIT PASTE
+[2021.11.30-05.18.26:413][590]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_B_452)
+[2021.11.30-05.18.26:495][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_452)
+[2021.11.30-05.18.51:024][980]Cmd: EDIT COPY
+[2021.11.30-05.18.51:315][997]Cmd: EDIT PASTE
+[2021.11.30-05.19.34:761][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_279)
+[2021.11.30-05.19.36:363][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_313)
+[2021.11.30-05.19.38:436][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_391)
+[2021.11.30-05.20.07:763][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-05.20.07:774][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.11.30-05.20.08:150][438]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/TopB67CD1CD4346DF626B1E2BBBE905556E.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
+[2021.11.30-05.20.08:171][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.11.30-05.20.08:694][438]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltData5ECF9F5A4FD92B46522BE4B1E9BCD9B1.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.11.30-05.20.08:707][438]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.30-05.20.08:707][438]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.11.30-05.20.08:707][438]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
