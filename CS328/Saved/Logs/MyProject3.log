@@ -1528,3 +1528,407 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.07-04.57.38:951][235]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
 [2021.12.07-04.57.38:951][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2021.12.07-04.57.40:882][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.12.07-04.59.29:099][359]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI/BB_Enemy.BB_Enemy
+[2021.12.07-04.59.31:131][482]LogSlate: Window 'BB_Enemy' being destroyed
+[2021.12.07-04.59.31:150][482]LogSlate: Window 'BB_Enemy' being destroyed
+[2021.12.07-04.59.33:873][613]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.01.12:943][833]LogSlate: Window 'BT_Enemy' being destroyed
+[2021.12.07-05.01.38:400][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.01.38:406][758]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_EnemyB3B6CF5246EFB42772E178ADA524DD77.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.01.38:421][758]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.01.38:421][758]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.01.48:767][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/EnemyController.EnemyController
+[2021.12.07-05.02.01:872][393]LogSlate: Window 'EnemyController' being destroyed
+[2021.12.07-05.02.05:417][641]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.02.18:518][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/EnemyCharacter.EnemyCharacter
+[2021.12.07-05.04.34:903][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.04.34:908][ 68]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_Enemy6AFC57C148FF85B77197A6A704EDA7FF.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.04.34:928][ 68]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.04.34:928][ 68]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.04.42:219][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.04.42:224][889]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_EnemyB795D2644CFAE0329C0598B4117D4CCF.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.04.42:234][889]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.04.42:234][889]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.04.50:201][825]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.04.50:201][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.04.50:481][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-05.04.50:481][852]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.04.50:481][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.05.04:113][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.12.07-05.05.04:124][584]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTT_SwingKnife.
+[2021.12.07-05.05.05:506][627]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BTT_SwingKnife.BTT_SwingKnife
+[2021.12.07-05.05.06:953][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BTT_SwingKnife" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BTT_SwingKnife.uasset" SILENT=true
+[2021.12.07-05.05.06:957][707]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BTT_SwingKnife4E4B9C00472AC7ECD09278B27B58C454.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BTT_SwingKnife.uasset'
+[2021.12.07-05.05.06:965][707]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BTT_SwingKnife.
+[2021.12.07-05.05.06:973][707]AssetCheck: New page: Asset Save: BTT_SwingKnife
+[2021.12.07-05.05.06:973][707]LogContentValidation: Display: Validating Blueprint /Game/AI/BTT_SwingKnife.BTT_SwingKnife
+[2021.12.07-05.05.26:357][ 84]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BTT_FindDRandomPatrol.BTT_FindDRandomPatrol
+[2021.12.07-05.05.28:587][228]LogSlate: Window 'BTT_FindDRandomPatrol' being destroyed
+[2021.12.07-05.05.28:603][228]LogSlate: Window 'BTT_FindDRandomPatrol' being destroyed
+[2021.12.07-05.05.28:612][228]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.05.28:612][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.05.28:655][228]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.05.28:655][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.05.29:470][256]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BTT_ChasePlayer.BTT_ChasePlayer
+[2021.12.07-05.05.32:225][405]LogSlate: Window 'BTT_ChasePlayer' being destroyed
+[2021.12.07-05.05.32:247][405]LogSlate: Window 'BTT_ChasePlayer' being destroyed
+[2021.12.07-05.05.32:247][405]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.05.32:247][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.05.33:495][460]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BTT_SwingKnife.BTT_SwingKnife
+[2021.12.07-05.05.53:036][464]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/EnemyCharacter.EnemyCharacter
+[2021.12.07-05.06.26:003][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.06.26:009][ 24]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_Enemy9BD613AC453428D61615459EB565DB53.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.06.26:019][ 24]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.06.26:019][ 24]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.06.47:190][467]LogSlate: Took 0.004019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.07-05.06.55:241][203]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.12.07-05.06.58:056][510]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.12.07-05.06.58:060][510]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.12.07-05.07.14:284][ 68]BlueprintLog: New page: Compile BTT_SwingKnife
+[2021.12.07-05.07.14:286][ 68]LogClass: Warning: Type mismatch in EnemyCharacter of BTT_SwingKnife_C - Previous (FloatProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.12.07-05.07.14:300][ 68]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.12.07-05.07.14:661][ 68]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.361 s
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: === Handled ensure: ===
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: 
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: Ensure condition failed: !FPackageName::IsShortPackageName(Path) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/SoftObjectPath.cpp] [Line: 67]
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: Cannot create SoftObjectPath with short package name '1500.000000'! You must pass in fully qualified package names
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: Stack: 
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8cb14800f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8cb05bf35 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8caf662b9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8caf76c14 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:661][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8caf6fee6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8cafd76af UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8caca2198 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c63e118c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8bf918065 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8bf952d58 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c487092e UE4Editor-Kismet.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c481d5af UE4Editor-Kismet.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c47c6b5f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c47c68a1 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c642b1de UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c48c6b20 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c48e255e UE4Editor-Kismet.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c776f238 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c785b0a9 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c783ae07 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c78d207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c78eb27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c7732dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c77b69cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c779f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff8c7792392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff922307f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff9222f5c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff92230a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff9222f17d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff94b0ee7e8 USER32.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff94b0ee229 USER32.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff92230bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff65c2c68c4 UE4Editor.exe!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff65c2dba7c UE4Editor.exe!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff65c2dbb5a UE4Editor.exe!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff65c2ee31d UE4Editor.exe!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff65c2f145a UE4Editor.exe!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff94baa7034 KERNEL32.DLL!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: [Callstack] 0x00007ff94bbe2651 ntdll.dll!UnknownFunction []
+[2021.12.07-05.07.14:662][ 68]LogOutputDevice: Error: 
+[2021.12.07-05.07.14:674][ 68]LogStats:                SubmitErrorReport -  0.000 s
+[2021.12.07-05.07.16:311][ 68]LogStats:                    SendNewReport -  1.637 s
+[2021.12.07-05.07.16:311][ 68]LogStats:             FDebug::EnsureFailed -  2.011 s
+[2021.12.07-05.07.16:344][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.12.07-05.08.12:830][638]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.07-05.08.49:076][851]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.12.07-05.08.50:640][999]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.12.07-05.08.50:648][999]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.12.07-05.08.51:472][ 80]BlueprintLog: New page: Compile BTT_SwingKnife
+[2021.12.07-05.08.51:505][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.12.07-05.08.51:970][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BTT_SwingKnife" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BTT_SwingKnife.uasset" SILENT=true
+[2021.12.07-05.08.51:976][119]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BTT_SwingKnife7E083A524BAD005D0DBBE4A2E4D52FAB.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BTT_SwingKnife.uasset'
+[2021.12.07-05.08.51:986][119]AssetCheck: New page: Asset Save: BTT_SwingKnife
+[2021.12.07-05.08.51:987][119]LogContentValidation: Display: Validating Blueprint /Game/AI/BTT_SwingKnife.BTT_SwingKnife
+[2021.12.07-05.11.07:959][714]BlueprintLog: New page: Compile BTT_SwingKnife
+[2021.12.07-05.11.07:990][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.12.07-05.11.08:940][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BTT_SwingKnife" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BTT_SwingKnife.uasset" SILENT=true
+[2021.12.07-05.11.08:946][825]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BTT_SwingKnifeDF7E8C38451ED73F630C90B6BFD5FF84.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BTT_SwingKnife.uasset'
+[2021.12.07-05.11.08:956][825]AssetCheck: New page: Asset Save: BTT_SwingKnife
+[2021.12.07-05.11.08:956][825]LogContentValidation: Display: Validating Blueprint /Game/AI/BTT_SwingKnife.BTT_SwingKnife
+[2021.12.07-05.11.34:505][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.11.34:512][799]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_EnemyEC6B73134356FAE9E4BFCB815335A079.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.11.34:521][799]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.11.34:521][799]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.11.40:153][154]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.07-05.11.40:165][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.07-05.11.40:165][154]PIE: New page: PIE session: Top (Dec 6, 2021, 1:11:40 PM)
+[2021.12.07-05.11.40:165][154]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.07-05.11.40:234][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068284s)
+[2021.12.07-05.11.40:235][154]LogAIModule: Creating AISystem for world Top
+[2021.12.07-05.11.40:235][154]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F8A261DE00), frame # 165154
+[2021.12.07-05.11.40:235][154]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F8D32A4540), frame # 165154
+[2021.12.07-05.11.40:235][154]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2021.12.07-05.11.40:235][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.069657s)
+[2021.12.07-05.11.40:256][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.07-05.11.40:258][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.07-05.11.40:258][154]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.07-05.11.40:258][154]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.07-05.11.40:260][154]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.07-05.11.40:260][154]LogAudioMixer: Display: 1: FrontRight
+[2021.12.07-05.11.40:354][154]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.12.07-05.11.40:354][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.07-05.11.40:354][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.07-05.11.40:354][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.07-05.11.40:354][154]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.07-05.11.40:364][154]LogInit: FAudioDevice initialized.
+[2021.12.07-05.11.40:373][154]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.07-05.11.40:382][154]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.11.40:382][154]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.11.40:382][154]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.11.40:382][154]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.11.40:401][154]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.12.06-21.11.40
+[2021.12.07-05.11.40:403][154]LogWorld: Bringing up level for play took: 0.029390
+[2021.12.07-05.11.40:404][154]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.12.07-05.11.40:409][154]PIE: Server logged in
+[2021.12.07-05.11.40:410][154]PIE: Play in editor total start time 0.246 seconds.
+[2021.12.07-05.12.29:678][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.12.29:678][654]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.07-05.12.29:679][654]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.12.29:683][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.12.29:713][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.07-05.12.29:717][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.12.29:755][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.12.29:759][654]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F8D32A4540), frame # 168654
+[2021.12.07-05.12.29:759][654]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F8A261DE00), frame # 168654
+[2021.12.07-05.12.29:761][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.12.07-05.12.29:781][655]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.12.07-05.12.47:034][383]LogSlate: Window 'BTT_SwingKnife' being destroyed
+[2021.12.07-05.12.47:062][383]LogSlate: Window 'BTT_SwingKnife' being destroyed
+[2021.12.07-05.12.47:062][383]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.12.47:062][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.13.03:889][525]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.12.07-05.13.08:704][745]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.12.07-05.15.18:935][482]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/FirstPersonCharacter5F2BFA874FE1ECF30CB95196744A6799.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.12.07-05.15.18:947][482]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.12.07-05.15.18:947][482]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.12.07-05.15.56:292][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyCharacter" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset" SILENT=true
+[2021.12.07-05.15.56:316][579]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/EnemyCharacterC64D64A04EFCB34B9F5FA1A9EBCF6013.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset'
+[2021.12.07-05.15.56:326][579]AssetCheck: New page: Asset Save: EnemyCharacter
+[2021.12.07-05.15.56:326][579]LogContentValidation: Display: Validating Blueprint /Game/AI/EnemyCharacter.EnemyCharacter
+[2021.12.07-05.16.17:507][811]BlueprintLog: New page: Compile EnemyCharacter
+[2021.12.07-05.16.17:600][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.12.07-05.16.19:043][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyCharacter" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset" SILENT=true
+[2021.12.07-05.16.19:066][958]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/EnemyCharacterA41B910F40B9CBC5E17E3F92598F6C27.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset'
+[2021.12.07-05.16.19:077][958]AssetCheck: New page: Asset Save: EnemyCharacter
+[2021.12.07-05.16.19:077][958]LogContentValidation: Display: Validating Blueprint /Game/AI/EnemyCharacter.EnemyCharacter
+[2021.12.07-05.16.26:415][364]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.07-05.16.26:428][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.07-05.16.26:428][364]PIE: New page: PIE session: Top (Dec 6, 2021, 1:16:26 PM)
+[2021.12.07-05.16.26:428][364]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.07-05.16.26:497][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068507s)
+[2021.12.07-05.16.26:497][364]LogAIModule: Creating AISystem for world Top
+[2021.12.07-05.16.26:497][364]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F8C0EB3400), frame # 189364
+[2021.12.07-05.16.26:497][364]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7C85E9BC0), frame # 189364
+[2021.12.07-05.16.26:498][364]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2021.12.07-05.16.26:498][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.069730s)
+[2021.12.07-05.16.26:521][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.07-05.16.26:522][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.07-05.16.26:522][364]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.07-05.16.26:522][364]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.07-05.16.26:524][364]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.07-05.16.26:524][364]LogAudioMixer: Display: 1: FrontRight
+[2021.12.07-05.16.26:619][364]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.12.07-05.16.26:619][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.07-05.16.26:619][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.07-05.16.26:619][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.07-05.16.26:620][364]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.07-05.16.26:629][364]LogInit: FAudioDevice initialized.
+[2021.12.07-05.16.26:635][364]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.07-05.16.26:644][364]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.16.26:644][364]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.16.26:644][364]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.16.26:644][364]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.16.26:662][364]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.12.06-21.16.26
+[2021.12.07-05.16.26:664][364]LogWorld: Bringing up level for play took: 0.028420
+[2021.12.07-05.16.26:664][364]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2021.12.07-05.16.26:670][364]PIE: Server logged in
+[2021.12.07-05.16.26:670][364]PIE: Play in editor total start time 0.244 seconds.
+[2021.12.07-05.16.49:108][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.16.49:108][888]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.07-05.16.49:109][888]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.16.49:113][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.16.49:133][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.07-05.16.49:137][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.16.49:174][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.16.49:176][888]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7C85E9BC0), frame # 190888
+[2021.12.07-05.16.49:176][888]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F8C0EB3400), frame # 190888
+[2021.12.07-05.16.49:180][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.12.07-05.16.49:206][889]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2021.12.07-05.17.05:632][742]BlueprintLog: New page: Compile EnemyCharacter
+[2021.12.07-05.17.05:686][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.12.07-05.17.09:325][983]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.07-05.17.09:337][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.07-05.17.09:337][983]PIE: New page: PIE session: Top (Dec 6, 2021, 1:17:09 PM)
+[2021.12.07-05.17.09:337][983]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.07-05.17.09:399][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062258s)
+[2021.12.07-05.17.09:400][983]LogAIModule: Creating AISystem for world Top
+[2021.12.07-05.17.09:400][983]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F8FBB0BE00), frame # 191983
+[2021.12.07-05.17.09:400][983]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F85B2F07C0), frame # 191983
+[2021.12.07-05.17.09:400][983]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2021.12.07-05.17.09:400][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.063338s)
+[2021.12.07-05.17.09:421][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.07-05.17.09:422][983]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.07-05.17.09:422][983]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.07-05.17.09:422][983]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.07-05.17.09:424][983]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.07-05.17.09:424][983]LogAudioMixer: Display: 1: FrontRight
+[2021.12.07-05.17.09:495][983]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.12.07-05.17.09:495][983]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.07-05.17.09:495][983]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.07-05.17.09:495][983]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.07-05.17.09:496][983]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.07-05.17.09:506][983]LogInit: FAudioDevice initialized.
+[2021.12.07-05.17.09:573][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.17.09:574][983]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.07-05.17.09:583][983]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.17.09:583][983]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.17.09:583][983]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.17.09:584][983]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.17.09:601][983]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.12.06-21.17.09
+[2021.12.07-05.17.09:604][983]LogWorld: Bringing up level for play took: 0.029132
+[2021.12.07-05.17.09:604][983]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2021.12.07-05.17.09:611][983]PIE: Server logged in
+[2021.12.07-05.17.09:612][983]PIE: Play in editor total start time 0.277 seconds.
+[2021.12.07-05.17.09:647][985]LogRenderer: Reallocating scene render targets to support 1280x884 Format 10 NumSamples 1 (Frame:1).
+[2021.12.07-05.17.24:169][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.17.24:169][714]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.07-05.17.24:169][714]LogSlate: Window 'MyProject3 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.07-05.17.24:209][714]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.17.24:214][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.17.24:225][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.07-05.17.24:229][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.17.24:269][714]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F85B2F07C0), frame # 192714
+[2021.12.07-05.17.24:269][714]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F8FBB0BE00), frame # 192714
+[2021.12.07-05.17.24:273][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.12.07-05.17.24:291][715]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2021.12.07-05.17.26:467][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyCharacter" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset" SILENT=true
+[2021.12.07-05.17.26:490][954]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/EnemyCharacterBCBA8F0C47B9B080E64FCABEB1CB9BCD.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset'
+[2021.12.07-05.17.26:499][954]AssetCheck: New page: Asset Save: EnemyCharacter
+[2021.12.07-05.17.26:499][954]LogContentValidation: Display: Validating Blueprint /Game/AI/EnemyCharacter.EnemyCharacter
+[2021.12.07-05.17.29:189][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.12.07-05.17.29:212][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.07-05.17.29:232][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.12.07-05.17.29:539][104]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/TopB873D3BA4550C89F2C33BEB330581329.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap'
+[2021.12.07-05.17.29:560][104]LogFileHelpers: Saving map 'Top' took 0.349
+[2021.12.07-05.17.29:561][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.12.07-05.17.30:001][104]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top_BuiltDataEDED76764B18E8E6E150BE9B2785D4F7.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.12.07-05.17.30:015][104]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.07-05.17.30:015][104]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.12.07-05.17.30:015][104]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.12.07-05.18.19:078][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.18.19:088][329]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_Enemy9746573D4C3CCB55DE9F96A3C694507E.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.18.19:097][329]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.18.19:097][329]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.18.23:190][562]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.07-05.18.23:202][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.07-05.18.23:202][562]PIE: New page: PIE session: Top (Dec 6, 2021, 1:18:23 PM)
+[2021.12.07-05.18.23:202][562]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.07-05.18.23:267][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064599s)
+[2021.12.07-05.18.23:268][562]LogAIModule: Creating AISystem for world Top
+[2021.12.07-05.18.23:268][562]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F8491C8600), frame # 197562
+[2021.12.07-05.18.23:268][562]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F85B2F2200), frame # 197562
+[2021.12.07-05.18.23:268][562]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2021.12.07-05.18.23:268][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.065739s)
+[2021.12.07-05.18.23:295][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.07-05.18.23:298][562]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.07-05.18.23:298][562]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.07-05.18.23:299][562]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.07-05.18.23:299][562]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.07-05.18.23:300][562]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.07-05.18.23:300][562]LogAudioMixer: Display: 1: FrontRight
+[2021.12.07-05.18.23:391][562]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.12.07-05.18.23:391][562]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.07-05.18.23:391][562]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.07-05.18.23:391][562]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.07-05.18.23:392][562]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.07-05.18.23:401][562]LogInit: FAudioDevice initialized.
+[2021.12.07-05.18.23:407][562]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.07-05.18.23:416][562]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.18.23:416][562]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.18.23:417][562]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.18.23:417][562]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.07-05.18.23:434][562]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 0) at 2021.12.06-21.18.23
+[2021.12.07-05.18.23:437][562]LogWorld: Bringing up level for play took: 0.029180
+[2021.12.07-05.18.23:437][562]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.12.07-05.18.23:442][562]PIE: Server logged in
+[2021.12.07-05.18.23:443][562]PIE: Play in editor total start time 0.243 seconds.
+[2021.12.07-05.18.35:608][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.18.35:608][408]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.07-05.18.35:609][408]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.18.35:613][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.18.35:642][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.07-05.18.35:646][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.18.35:683][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.07-05.18.35:685][408]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F85B2F2200), frame # 198408
+[2021.12.07-05.18.35:685][408]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F8491C8600), frame # 198408
+[2021.12.07-05.18.35:689][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.12.07-05.18.35:717][409]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.12.07-05.19.39:813][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_Enemy" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset" SILENT=true
+[2021.12.07-05.19.39:819][228]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/BT_Enemy3D136C80447B911AC77FB99C47B06497.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/BT_Enemy.uasset'
+[2021.12.07-05.19.39:829][228]AssetCheck: New page: Asset Save: BT_Enemy
+[2021.12.07-05.19.39:829][228]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_Enemy.BT_Enemy
+[2021.12.07-05.20.12:038][ 55]BlueprintLog: New page: Compile EnemyCharacter
+[2021.12.07-05.20.12:110][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.12.07-05.20.12:595][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyCharacter" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset" SILENT=true
+[2021.12.07-05.20.12:618][ 98]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/EnemyCharacter9784317341CE7E4F696182A196A8A03A.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/AI/EnemyCharacter.uasset'
+[2021.12.07-05.20.12:627][ 98]AssetCheck: New page: Asset Save: EnemyCharacter
+[2021.12.07-05.20.12:627][ 98]LogContentValidation: Display: Validating Blueprint /Game/AI/EnemyCharacter.EnemyCharacter
+[2021.12.07-05.20.15:347][381]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.20.15:347][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.20.15:749][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.07-05.20.15:749][421]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.20.15:749][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.07-05.20.19:861][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.12.07-05.20.19:880][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.07-05.20.19:897][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.12.07-05.20.20:200][781]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/TopDEE2BA814AE130530A563A9C68A77028.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top.umap'
+[2021.12.07-05.20.20:220][781]LogFileHelpers: Saving map 'Top' took 0.340
+[2021.12.07-05.20.20:220][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.12.07-05.20.20:433][781]LogSavePackage: Moving '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Saved/Top_BuiltDataFFA5DD0945B40D7E8860FB8419094F74.tmp' to '../../../../../Users/carverg/Documents/Unreal Projects/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.12.07-05.20.20:446][781]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.07-05.20.20:446][781]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.12.07-05.20.20:446][781]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.12.07-05.20.23:630][941]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BTT_SwingKnife.BTT_SwingKnife
+[2021.12.07-05.20.28:177][182]LogSlate: Window 'BTT_SwingKnife' being destroyed
+[2021.12.07-05.20.28:198][182]LogSlate: Window 'BTT_SwingKnife' being destroyed
+[2021.12.07-05.20.28:198][182]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2021.12.07-05.20.28:198][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
