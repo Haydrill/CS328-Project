@@ -1,8 +1,8 @@
-﻿Log file open, 12/09/21 14:10:50
+﻿Log file open, 12/09/21 14:25:46
 LogInit: Display: Running engine for game: MyProject3
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.188976
+LogStats: Stats thread started at 0.212022
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,712 +194,1001 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.12.09-22.10.50:840][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.12.09-22.10.50:840][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.12.09-22.10.50:840][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:840][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.12.09-22.10.50:840][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2021.12.09-22.10.50:840][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:840][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.12.09-22.10.50:841][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:841][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:843][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.09-22.10.50:843][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.12.09-22.10.50:844][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.12.09-22.10.50:844][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.09-22.10.50:844][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.12.09-22.10.50:845][  0]LogHAL: Display: Platform has ~ 16 GB [17014509568 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.12.09-22.10.50:845][  0]LogInit: Going up to parent DeviceProfile []
-[2021.12.09-22.10.50:845][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.09-22.10.50:845][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.12.09-22.10.50:846][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
-[2021.12.09-22.10.50:846][  0]LogInit: Computer: LAPTOP-5UK4AM9E
-[2021.12.09-22.10.50:846][  0]LogInit: User: Hadriel
-[2021.12.09-22.10.50:846][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.12.09-22.10.50:846][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.12.09-22.10.50:846][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2021.12.09-22.10.50:846][  0]LogMemory: Platform Memory Stats for Windows
-[2021.12.09-22.10.50:846][  0]LogMemory: Process Physical Memory: 114.66 MB used, 114.66 MB peak
-[2021.12.09-22.10.50:846][  0]LogMemory: Process Virtual Memory: 96.12 MB used, 96.12 MB peak
-[2021.12.09-22.10.50:846][  0]LogMemory: Physical Memory: 10166.09 MB used,  6060.21 MB free, 16226.30 MB total
-[2021.12.09-22.10.50:846][  0]LogMemory: Virtual Memory: 5145.12 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2021.12.09-22.10.50:851][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.12.09-22.10.50:898][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.12.09-22.10.50:899][  0]LogInit: Using OS detected language (en-US).
-[2021.12.09-22.10.50:899][  0]LogInit: Using OS detected locale (en-US).
-[2021.12.09-22.10.50:901][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.12.09-22.10.51:087][  0]LogInit: Setting process to per monitor DPI aware
-[2021.12.09-22.10.51:113][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.12.09-22.10.51:113][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.12.09-22.10.51:356][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.09-22.10.51:356][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.12.09-22.10.51:356][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.12.09-22.10.51:356][  0]LogD3D11RHI: D3D11 adapters:
-[2021.12.09-22.10.51:463][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2021.12.09-22.10.51:463][  0]LogD3D11RHI:       4018/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.12.09-22.10.51:478][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2021.12.09-22.10.51:478][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.12.09-22.10.51:480][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.12.09-22.10.51:481][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.12.09-22.10.51:481][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.12.09-22.10.51:487][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.12.09-22.10.51:487][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2021.12.09-22.10.51:487][  0]LogWindows: EnumDisplayDevices:
-[2021.12.09-22.10.51:487][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2021.12.09-22.10.51:487][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.12.09-22.10.51:487][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.12.09-22.10.51:488][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
-[2021.12.09-22.10.51:488][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2021.12.09-22.10.51:488][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2021.12.09-22.10.51:488][  0]LogD3D11RHI:   Driver Version: 471.68 (internal:30.0.14.7168, unified:471.68)
-[2021.12.09-22.10.51:488][  0]LogD3D11RHI:      Driver Date: 8-5-2021
-[2021.12.09-22.10.51:488][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2021.12.09-22.10.51:571][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.12.09-22.10.51:571][  0]LogD3D11RHI: Async texture creation enabled
-[2021.12.09-22.10.51:571][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.12.09-22.10.51:591][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.12.09-22.10.51:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.12.09-22.10.51:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.12.09-22.10.51:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.12.09-22.10.51:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.12.09-22.10.51:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.12.09-22.10.51:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.12.09-22.10.51:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.12.09-22.10.51:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.12.09-22.10.51:989][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.12.09-22.10.52:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.12.09-22.10.52:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.12.09-22.10.52:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.12.09-22.10.52:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.12.09-22.10.52:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.12.09-22.10.52:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.12.09-22.10.52:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.12.09-22.10.52:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.12.09-22.10.52:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.12.09-22.10.52:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.12.09-22.10.52:087][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.12.09-22.10.52:093][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.12.09-22.10.52:145][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Intermediate/Shaders/WorkingDirectory/12988/).
-[2021.12.09-22.10.52:145][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hadriel/AppData/Local/Temp/UnrealShaderWorkingDir/DE1F9F0043172252CC0AA2BBE6C11EC3/'.
-[2021.12.09-22.10.52:146][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.12.09-22.10.52:146][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.12.09-22.10.52:146][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.12.09-22.10.52:856][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.12.09-22.10.52:905][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Hadriel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.12.09-22.10.52:905][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hadriel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.12.09-22.10.52:905][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.12.09-22.10.52:905][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.12.09-22.10.52:905][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.09-22.10.52:905][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.12.09-22.10.52:915][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.12.09-22.10.52:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.09-22.10.52:915][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.12.09-22.10.52:916][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hadriel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.12.09-22.10.52:916][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.12.09-22.10.52:916][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.12.09-22.10.52:963][  0]LogSlate: Using FreeType 2.10.0
-[2021.12.09-22.10.52:963][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.12.09-22.10.52:996][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
-[2021.12.09-22.10.53:229][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.09-22.10.53:336][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.12.09-22.10.53:336][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.12.09-22.10.53:336][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.12.09-22.10.53:336][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.12.09-22.10.53:336][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.12.09-22.10.53:351][  0]LogNetVersion: MyProject3 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 528589559)
-[2021.12.09-22.10.53:782][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001A024388380), frame # 0
-[2021.12.09-22.10.53:782][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A0242AEAC0), frame # 0
-[2021.12.09-22.10.53:783][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A02432C800), frame # 0
-[2021.12.09-22.10.53:828][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.037619 seconds
-[2021.12.09-22.10.53:833][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.12.09-22.10.53:833][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.12.09-22.10.53:833][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.12.09-22.10.54:128][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.12.09-22.10.54:131][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.12.09-22.10.54:198][  0]SourceControl: Source control is disabled
-[2021.12.09-22.10.54:198][  0]SourceControl: Source control is disabled
-[2021.12.09-22.10.54:201][  0]SourceControl: Source control is disabled
-[2021.12.09-22.10.54:204][  0]SourceControl: Source control is disabled
-[2021.12.09-22.10.54:210][  0]SourceControl: Source control is disabled
-[2021.12.09-22.10.54:414][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.12.09-22.10.54:433][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.09-22.10.54:433][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.09-22.10.54:476][  0]LogOcInput: OculusInput pre-init called
-[2021.12.09-22.10.54:485][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.12.09-22.10.54:485][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.12.09-22.10.54:541][  0]LogEngine: Initializing Engine...
-[2021.12.09-22.10.54:542][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.09-22.10.54:543][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.12.09-22.10.54:543][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.12.09-22.10.54:658][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.12.09-22.10.54:665][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.12.09-22.10.54:665][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A0298FFC00), frame # 0
-[2021.12.09-22.10.54:665][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A0298ABB00), frame # 0
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.12.09-22.10.54:685][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.12.09-22.10.54:685][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.12.09-22.10.54:686][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.12.09-22.10.54:686][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.12.09-22.10.54:699][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.12.09-22.10.54:699][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.12.09-22.10.54:732][  0]LogAudioMixer: Display: Using Audio Device E260MV (2- NVIDIA High Definition Audio)
-[2021.12.09-22.10.54:737][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.12.09-22.10.54:739][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.12.09-22.10.54:739][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.12.09-22.10.54:740][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.12.09-22.10.54:741][  0]LogInit: FAudioDevice initialized.
-[2021.12.09-22.10.54:742][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.12.09-22.10.54:796][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Hadriel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.12.09-22.10.54:796][  0]LogInit: Texture streaming: Enabled
-[2021.12.09-22.10.54:812][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.12.09-22.10.54:812][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.12.09-22.10.54:814][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.12.09-22.10.54:851][  0]LogInit: Transaction tracking system initialized
-[2021.12.09-22.10.54:870][  0]BlueprintLog: New page: Editor Load
-[2021.12.09-22.10.54:927][  0]LocalizationService: Localization service is disabled
-[2021.12.09-22.10.55:065][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.12.09-22.10.55:065][  0]LogCook: Display: Mobile HDR setting 1
-[2021.12.09-22.10.55:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/' took 0.03s
-[2021.12.09-22.10.55:412][  0]SourceControl: Source control is disabled
-[2021.12.09-22.10.55:412][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.574
-[2021.12.09-22.10.55:412][  0]Cmd: MAP LOAD FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.12.09-22.10.55:412][  0]LightingResults: New page: Lighting Build
-[2021.12.09-22.10.55:413][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.12.09-22.10.55:413][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.12.09-22.10.55:413][  0]MapCheck: New page: Map Check
-[2021.12.09-22.10.55:413][  0]LightingResults: New page: Lighting Build
-[2021.12.09-22.10.55:429][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A0298FFC00), frame # 0
-[2021.12.09-22.10.55:429][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A0298ABB00), frame # 0
-[2021.12.09-22.10.55:430][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2021.12.09-22.10.55:573][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2021.12.09-22.10.55:573][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A029B69800), frame # 0
-[2021.12.09-22.10.55:573][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A01B919F80), frame # 0
-[2021.12.09-22.10.55:579][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.12.09-22.10.55:592][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2021.12.09-22.10.55:593][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.12.09-22.10.55:593][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.155ms to complete.
-[2021.12.09-22.10.55:593][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.181
-[2021.12.09-22.10.55:595][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.757
-[2021.12.09-22.10.55:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.09-22.10.55:724][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.09-22.10.55:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.09-22.10.55:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.09-22.10.55:744][  0]LogCollectionManager: Loaded 0 collections in 0.000828 seconds
-[2021.12.09-22.10.55:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Collections/' took 0.00s
-[2021.12.09-22.10.55:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Developers/Hadriel/Collections/' took 0.00s
-[2021.12.09-22.10.55:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Collections/' took 0.00s
-[2021.12.09-22.10.55:756][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3427 classes and 821 folders.
-[2021.12.09-22.10.55:758][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.12.09-22.10.55:851][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.12.09-22.10.55:852][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.12.09-22.10.55:950][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.12.09-22.10.55:953][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.12.09-22.10.55:959][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.12.09-22.10.56:027][  0]LogRenderer: Reallocating scene render targets to support 1208x624 Format 10 NumSamples 1 (Frame:1).
-[2021.12.09-22.10.56:122][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.12.09-22.10.56:122][  0]LogLoad: (Engine Initialization) Total time: 7.28 seconds
-[2021.12.09-22.10.56:122][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.12.09-22.10.56:180][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.12.09-22.10.56:193][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.09-22.11.10:948][884]LogAssetRegistry: Asset discovery search completed in 17.9530 seconds
-[2021.12.09-22.11.10:951][884]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.12.09-22.11.39:104][281]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.09-22.11.39:226][281]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.12.09-22.11.39:227][281]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Blueprints/Controller.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.12.09-22.11.39:257][281]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Widgets/EndScreen.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.12.09-22.11.39:261][281]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Widgets/MainMenu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.12.09-22.11.39:263][281]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Widgets/PlayerHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.12.09-22.11.41:396][281]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Top.Top
-[2021.12.09-22.11.41:419][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
-[2021.12.09-22.11.41:421][281]Cmd: MAP LOAD FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.12.09-22.11.41:421][281]LightingResults: New page: Lighting Build
-[2021.12.09-22.11.41:421][281]LoadErrors: New page: Loading map: Top.umap
-[2021.12.09-22.11.41:427][281]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
-[2021.12.09-22.11.41:427][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.12.09-22.11.41:427][281]MapCheck: New page: Map Check
-[2021.12.09-22.11.41:427][281]LightingResults: New page: Lighting Build
-[2021.12.09-22.11.41:439][281]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A029B69800), frame # 1281
-[2021.12.09-22.11.41:439][281]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A01B919F80), frame # 1281
-[2021.12.09-22.11.41:440][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
-[2021.12.09-22.11.41:456][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:458][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:458][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:458][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:487][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:488][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:489][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:489][281]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
-[2021.12.09-22.11.41:671][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.12.09-22.11.41:672][281]LogAIModule: Creating AISystem for world Top
-[2021.12.09-22.11.41:672][281]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A054323400), frame # 1281
-[2021.12.09-22.11.41:672][281]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A05F2A7600), frame # 1281
-[2021.12.09-22.11.41:714][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2021.12.09-22.11.41:733][281]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.12.09-22.11.41:733][281]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
-[2021.12.09-22.11.41:733][281]LogFileHelpers: Loading map 'Top' took 0.311
-[2021.12.09-22.11.52:961][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v9)
-[2021.12.09-22.11.53:449][961]Cmd: EDIT COPY
-[2021.12.09-22.11.53:668][973]Cmd: EDIT PASTE
-[2021.12.09-22.12.33:979][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_Window_B)
-[2021.12.09-22.12.34:677][312]Cmd: DELETE
-[2021.12.09-22.12.34:677][312]Cmd: ACTOR DELETE
-[2021.12.09-22.12.34:704][312]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.12.34:717][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
-[2021.12.09-22.12.34:721][312]LogEditorActor: Deleted 1 Actors (0.043 secs)
-[2021.12.09-22.12.36:640][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_281)
-[2021.12.09-22.12.42:662][777]Cmd: EDIT COPY
-[2021.12.09-22.12.42:862][789]Cmd: EDIT PASTE
-[2021.12.09-22.12.50:103][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_485)
-[2021.12.09-22.12.58:178][668]Cmd: TRANSACTION UNDO
-[2021.12.09-22.12.58:178][668]LogEditorTransaction: Undo Move Actors
-[2021.12.09-22.12.58:597][681]Cmd: TRANSACTION UNDO
-[2021.12.09-22.12.58:597][681]LogEditorTransaction: Undo Scale Actors
-[2021.12.09-22.12.59:087][705]Cmd: TRANSACTION UNDO
-[2021.12.09-22.12.59:087][705]LogEditorTransaction: Undo Clicking on Actors
-[2021.12.09-22.12.59:537][729]Cmd: TRANSACTION UNDO
-[2021.12.09-22.12.59:537][729]LogEditorTransaction: Undo Move Actors
-[2021.12.09-22.13.03:997][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_146)
-[2021.12.09-22.13.08:381][245]Cmd: EDIT COPY
-[2021.12.09-22.13.08:564][254]Cmd: EDIT PASTE
-[2021.12.09-22.13.14:786][606]Cmd: DELETE
-[2021.12.09-22.13.14:786][606]Cmd: ACTOR DELETE
-[2021.12.09-22.13.14:804][606]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.13.14:805][606]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.13.14:814][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2021.12.09-22.13.14:816][606]LogEditorActor: Deleted 2 Actors (0.030 secs)
-[2021.12.09-22.13.17:178][748]Cmd: TRANSACTION UNDO
-[2021.12.09-22.13.17:178][748]LogEditorTransaction: Undo Delete Actors
-[2021.12.09-22.13.34:643][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_284)
-[2021.12.09-22.13.36:826][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_485)
-[2021.12.09-22.13.42:323][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_486)
-[2021.12.09-22.13.50:086][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_145)
-[2021.12.09-22.13.53:630][879]Cmd: EDIT COPY
-[2021.12.09-22.13.53:816][890]Cmd: EDIT PASTE
-[2021.12.09-22.13.58:805][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_486)
-[2021.12.09-22.14.01:199][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_144)
-[2021.12.09-22.14.04:669][513]Cmd: EDIT COPY
-[2021.12.09-22.14.04:835][523]Cmd: EDIT PASTE
-[2021.12.09-22.14.08:361][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_490)
-[2021.12.09-22.14.09:680][794]Cmd: TRANSACTION UNDO
-[2021.12.09-22.14.09:680][794]LogEditorTransaction: Undo Clicking on Actors
-[2021.12.09-22.14.26:515][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame18)
-[2021.12.09-22.15.23:810][136]LogActorFactory: Actor Factory created SM_WallDiv_A
-[2021.12.09-22.15.24:616][182]LogActorFactory: Actor Factory created SM_WallDiv_A
-[2021.12.09-22.15.46:366][447]LogStaticMesh: Building static mesh SM_Shelf_A_v3...
-[2021.12.09-22.15.46:422][447]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Shelf_A_v3.SM_Shelf_A_v3
-[2021.12.09-22.15.46:456][447]LogActorFactory: Actor Factory created SM_Shelf_A_v3
-[2021.12.09-22.15.47:199][487]LogActorFactory: Actor Factory created SM_Shelf_A_v3
-[2021.12.09-22.15.52:048][774]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A258)
-[2021.12.09-22.15.52:969][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A258)
-[2021.12.09-22.15.53:327][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shelf_A_v5)
-[2021.12.09-22.16.03:312][436]Cmd: EDIT COPY
-[2021.12.09-22.16.03:479][446]Cmd: EDIT PASTE
-[2021.12.09-22.16.11:210][891]Cmd: EDIT COPY
-[2021.12.09-22.16.11:429][903]Cmd: EDIT PASTE
-[2021.12.09-22.16.14:074][ 38]Cmd: EDIT COPY
-[2021.12.09-22.16.14:293][ 51]Cmd: EDIT PASTE
-[2021.12.09-22.16.35:963][290]LogActorFactory: Actor Factory created SM_WallCab_1D
-[2021.12.09-22.16.36:577][326]LogActorFactory: Actor Factory created SM_WallCab_1D
-[2021.12.09-22.16.37:869][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_292)
-[2021.12.09-22.16.39:467][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallCab_1D2)
-[2021.12.09-22.17.02:699][852]LogActorFactory: Actor Factory created SM_WallCab_2D_Op
-[2021.12.09-22.17.03:448][896]LogActorFactory: Actor Factory created SM_WallCab_2D_Op
-[2021.12.09-22.17.27:537][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v15)
-[2021.12.09-22.17.28:000][327]Cmd: EDIT COPY
-[2021.12.09-22.17.28:201][339]Cmd: EDIT PASTE
-[2021.12.09-22.17.54:594][879]LogActorFactory: Actor Factory created SM_Cabinet_A
-[2021.12.09-22.17.55:084][908]LogActorFactory: Actor Factory created SM_Cabinet_A
-[2021.12.09-22.18.10:751][804]Cmd: EDIT COPY
-[2021.12.09-22.18.10:954][815]Cmd: EDIT PASTE
-[2021.12.09-22.18.13:575][967]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cabinet_A2)
-[2021.12.09-22.18.14:401][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A262)
-[2021.12.09-22.18.14:783][ 34]Cmd: TRANSACTION UNDO
-[2021.12.09-22.18.14:783][ 34]LogEditorTransaction: Undo Clicking on Actors
-[2021.12.09-22.18.15:133][ 41]Cmd: TRANSACTION UNDO
-[2021.12.09-22.18.15:133][ 41]LogEditorTransaction: Undo Paste
-[2021.12.09-22.18.21:814][432]Cmd: EDIT COPY
-[2021.12.09-22.18.21:996][442]Cmd: EDIT PASTE
-[2021.12.09-22.18.30:640][941]Cmd: EDIT COPY
-[2021.12.09-22.18.30:939][959]Cmd: EDIT PASTE
-[2021.12.09-22.18.38:582][398]Cmd: EDIT COPY
-[2021.12.09-22.18.38:781][410]Cmd: EDIT PASTE
-[2021.12.09-22.18.45:315][770]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cabinet_A2)
-[2021.12.09-22.18.52:495][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v16)
-[2021.12.09-22.18.52:743][209]Cmd: EDIT COPY
-[2021.12.09-22.18.52:944][221]Cmd: EDIT PASTE
-[2021.12.09-22.20.19:994][310]LogActorFactory: Actor Factory created SM_MobileStorage
-[2021.12.09-22.20.20:654][349]LogActorFactory: Actor Factory created SM_MobileStorage
-[2021.12.09-22.20.22:909][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v16)
-[2021.12.09-22.20.23:526][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MobileStorage)
-[2021.12.09-22.20.27:656][758]LogActorFactory: Actor Factory created SM_MedBottle
-[2021.12.09-22.20.28:169][788]LogActorFactory: Actor Factory created SM_MedBottle
-[2021.12.09-22.20.28:857][821]LogActorFactory: Actor Factory created SM_MedBottle_b
-[2021.12.09-22.20.29:496][859]LogActorFactory: Actor Factory created SM_MedBottle_b
-[2021.12.09-22.20.30:155][894]LogActorFactory: Actor Factory created SM_MedBottle
-[2021.12.09-22.20.30:668][924]LogActorFactory: Actor Factory created SM_MedBottle
-[2021.12.09-22.20.30:969][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v16)
-[2021.12.09-22.20.33:123][ 51]LogActorFactory: Actor Factory created SM_GlassCup
-[2021.12.09-22.20.34:952][150]LogActorFactory: Actor Factory created SM_GlassCup
-[2021.12.09-22.20.36:739][249]LogActorFactory: Actor Factory created SM_CommDevice
-[2021.12.09-22.20.37:064][267]LogActorFactory: Actor Factory created SM_CommDevice
-[2021.12.09-22.20.42:989][596]LogActorFactory: Actor Factory created SM_WirelessB_On
-[2021.12.09-22.20.43:665][636]LogActorFactory: Actor Factory created SM_WirelessB_On
-[2021.12.09-22.20.51:568][ 82]LogActorFactory: Actor Factory created SM_SmkDetector
-[2021.12.09-22.20.52:192][119]LogActorFactory: Actor Factory created SM_SmkDetector
-[2021.12.09-22.20.54:698][253]LogActorFactory: Actor Factory created SM_TempControl
-[2021.12.09-22.20.55:684][309]LogActorFactory: Actor Factory created SM_TempControl
-[2021.12.09-22.20.57:263][401]Cmd: DELETE
-[2021.12.09-22.20.57:263][401]Cmd: ACTOR DELETE
-[2021.12.09-22.20.57:282][401]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.20.57:298][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
-[2021.12.09-22.20.57:301][401]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2021.12.09-22.21.02:376][694]LogActorFactory: Actor Factory created SM_TempControl
-[2021.12.09-22.21.03:064][735]LogActorFactory: Actor Factory created SM_TempControl
-[2021.12.09-22.21.19:103][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v17)
-[2021.12.09-22.21.19:509][678]Cmd: EDIT COPY
-[2021.12.09-22.21.20:392][731]Cmd: EDIT PASTE
-[2021.12.09-22.21.27:855][138]LogStaticMesh: Building static mesh SM_CoasterStack...
-[2021.12.09-22.21.27:961][138]LogStaticMesh: Built static mesh [0.11s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_CoasterStack.SM_CoasterStack
-[2021.12.09-22.21.27:995][138]LogActorFactory: Actor Factory created SM_CoasterStack
-[2021.12.09-22.21.29:086][203]LogActorFactory: Actor Factory created SM_CoasterStack
-[2021.12.09-22.21.31:037][315]LogActorFactory: Actor Factory created SM_CommDevice
-[2021.12.09-22.21.31:344][333]LogActorFactory: Actor Factory created SM_CommDevice
-[2021.12.09-22.21.38:197][730]LogActorFactory: Actor Factory created SM_SingleDrawer
-[2021.12.09-22.21.39:783][825]LogActorFactory: Actor Factory created SM_SingleDrawer
-[2021.12.09-22.22.01:224][ 80]LogActorFactory: Actor Factory created SM_Vent_A2
-[2021.12.09-22.22.02:544][156]LogActorFactory: Actor Factory created SM_Vent_A2
-[2021.12.09-22.22.02:915][177]Cmd: DELETE
-[2021.12.09-22.22.02:915][177]Cmd: ACTOR DELETE
-[2021.12.09-22.22.02:934][177]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.22.02:945][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
-[2021.12.09-22.22.02:948][177]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2021.12.09-22.22.04:254][249]LogActorFactory: Actor Factory created SM_Vent_B
-[2021.12.09-22.22.05:246][305]LogActorFactory: Actor Factory created SM_Vent_B
-[2021.12.09-22.22.11:682][688]Cmd: MODE GRID=0
-[2021.12.09-22.22.17:273][990]Cmd: EDIT COPY
-[2021.12.09-22.22.17:477][  2]Cmd: EDIT PASTE
-[2021.12.09-22.22.33:203][920]LogActorFactory: Actor Factory created SM_Vent_A2
-[2021.12.09-22.22.33:577][942]LogActorFactory: Actor Factory created SM_Vent_A2
-[2021.12.09-22.22.35:773][ 72]Cmd: DELETE
-[2021.12.09-22.22.35:773][ 72]Cmd: ACTOR DELETE
-[2021.12.09-22.22.35:796][ 72]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.22.35:807][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
-[2021.12.09-22.22.35:809][ 72]LogEditorActor: Deleted 1 Actors (0.036 secs)
-[2021.12.09-22.22.36:866][131]LogStaticMesh: Building static mesh SM_Vent_A...
-[2021.12.09-22.22.36:908][131]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Vent_A.SM_Vent_A
-[2021.12.09-22.22.36:959][132]LogActorFactory: Actor Factory created SM_Vent_A
-[2021.12.09-22.22.37:490][164]LogActorFactory: Actor Factory created SM_Vent_A
-[2021.12.09-22.22.41:308][391]Cmd: DELETE
-[2021.12.09-22.22.41:308][391]Cmd: ACTOR DELETE
-[2021.12.09-22.22.41:327][391]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.22.41:338][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2021.12.09-22.22.41:340][391]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2021.12.09-22.22.43:157][491]LogActorFactory: Actor Factory created SM_TableLamp
-[2021.12.09-22.22.43:765][525]LogActorFactory: Actor Factory created SM_TableLamp
-[2021.12.09-22.22.46:355][673]LogActorFactory: Actor Factory created SM_WasteBin
-[2021.12.09-22.22.47:461][739]LogActorFactory: Actor Factory created SM_WasteBin
-[2021.12.09-22.22.52:439][ 21]LogActorFactory: Actor Factory created SM_HScanner_Closed
-[2021.12.09-22.22.53:139][ 60]LogActorFactory: Actor Factory created SM_HScanner_Closed
-[2021.12.09-22.23.02:518][613]LogActorFactory: Actor Factory created SM_Laptop_Closed
-[2021.12.09-22.23.03:711][684]LogActorFactory: Actor Factory created SM_Laptop_Closed
-[2021.12.09-22.23.10:248][ 54]LogActorFactory: Actor Factory created SM_MedBottle_b
-[2021.12.09-22.23.10:731][ 81]LogActorFactory: Actor Factory created SM_MedBottle_b
-[2021.12.09-22.23.11:433][117]LogActorFactory: Actor Factory created SM_MedBottle
-[2021.12.09-22.23.11:940][146]LogActorFactory: Actor Factory created SM_MedBottle
-[2021.12.09-22.23.17:131][440]LogActorFactory: Actor Factory created SM_AltFloor_B
-[2021.12.09-22.23.19:206][564]LogActorFactory: Actor Factory created SM_AltFloor_B
-[2021.12.09-22.23.19:754][595]Cmd: DELETE
-[2021.12.09-22.23.19:754][595]Cmd: ACTOR DELETE
-[2021.12.09-22.23.19:772][595]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.12.09-22.23.19:784][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2021.12.09-22.23.19:785][595]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2021.12.09-22.23.25:242][901]LogActorFactory: Actor Factory created SM_MobileStorage
-[2021.12.09-22.23.25:812][935]LogActorFactory: Actor Factory created SM_MobileStorage
-[2021.12.09-22.23.31:058][238]LogActorFactory: Actor Factory created SM_HScanner_Open
-[2021.12.09-22.23.31:681][275]LogActorFactory: Actor Factory created SM_HScanner_Open
-[2021.12.09-22.23.39:905][717]LogActorFactory: Actor Factory created SM_GlassCup
-[2021.12.09-22.23.40:552][755]LogActorFactory: Actor Factory created SM_GlassCup
-[2021.12.09-22.23.42:621][864]LogActorFactory: Actor Factory created SM_SingleDrawer
-[2021.12.09-22.23.43:383][909]LogActorFactory: Actor Factory created SM_SingleDrawer
-[2021.12.09-22.23.50:838][317]LogActorFactory: Actor Factory created SM_WirelessB_Off
-[2021.12.09-22.23.51:431][352]LogActorFactory: Actor Factory created SM_WirelessB_Off
-[2021.12.09-22.23.55:133][561]LogActorFactory: Actor Factory created SM_MedBottle_b
-[2021.12.09-22.23.55:721][596]LogActorFactory: Actor Factory created SM_MedBottle_b
-[2021.12.09-22.23.57:649][702]LogActorFactory: Actor Factory created SM_CoasterStack
-[2021.12.09-22.23.58:267][737]LogActorFactory: Actor Factory created SM_CoasterStack
-[2021.12.09-22.23.59:164][787]LogActorFactory: Actor Factory created SM_CoasterStack
-[2021.12.09-22.23.59:729][819]LogActorFactory: Actor Factory created SM_CoasterStack
-[2021.12.09-22.24.01:180][900]LogActorFactory: Actor Factory created SM_CommDevice
-[2021.12.09-22.24.01:859][940]LogActorFactory: Actor Factory created SM_CommDevice
-[2021.12.09-22.24.04:228][ 77]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cabinet_A)
-[2021.12.09-22.24.08:095][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.12.09-22.24.08:111][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2021.12.09-22.24.08:578][302]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/TopF5D4B578460A74C98EE9CEBEB51BF83A.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
-[2021.12.09-22.24.08:607][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
-[2021.12.09-22.24.09:376][302]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltData5021A0464A0BCEEE05A83A9CA247D986.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
-[2021.12.09-22.24.09:413][302]AssetCheck: New page: Asset Save: multiple assets
-[2021.12.09-22.24.09:413][302]LogContentValidation: Display: Validating World /Game/Top.Top
-[2021.12.09-22.24.09:413][302]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
-[2021.12.09-22.24.10:489][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.12.09-22.24.10:500][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2021.12.09-22.24.10:918][360]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top325C402A4E2CA3867F7F34B6D1A76EA2.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
-[2021.12.09-22.24.10:939][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
-[2021.12.09-22.24.11:470][360]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltData5ADD69A74CBF38CD0C6EC8A1CE8FFD8B.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
-[2021.12.09-22.24.11:481][360]AssetCheck: New page: Asset Save: multiple assets
-[2021.12.09-22.24.11:481][360]LogContentValidation: Display: Validating World /Game/Top.Top
-[2021.12.09-22.24.11:482][360]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.09-22.25.47:117][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2021.12.09-22.25.47:117][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:117][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.09-22.25.47:117][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.09-22.25.47:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:118][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:121][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.09-22.25.47:121][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.09-22.25.47:122][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.09-22.25.47:122][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.09-22.25.47:122][  0]LogHAL: Display: Platform has ~ 16 GB [17014509568 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.09-22.25.47:122][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.09-22.25.47:122][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:122][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Scalability.ini]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.09-22.25.47:123][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.09-22.25.47:124][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.09-22.25.47:124][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.09-22.25.47:124][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.09-22.25.47:124][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Config/Windows/Engine.ini]
+[2021.12.09-22.25.47:124][  0]LogInit: Computer: LAPTOP-5UK4AM9E
+[2021.12.09-22.25.47:124][  0]LogInit: User: Hadriel
+[2021.12.09-22.25.47:124][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.12.09-22.25.47:124][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.09-22.25.47:124][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.12.09-22.25.47:124][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.09-22.25.47:124][  0]LogMemory: Process Physical Memory: 114.79 MB used, 114.79 MB peak
+[2021.12.09-22.25.47:124][  0]LogMemory: Process Virtual Memory: 96.12 MB used, 96.12 MB peak
+[2021.12.09-22.25.47:124][  0]LogMemory: Physical Memory: 9730.75 MB used,  6495.55 MB free, 16226.30 MB total
+[2021.12.09-22.25.47:124][  0]LogMemory: Virtual Memory: 5145.12 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.12.09-22.25.47:131][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.09-22.25.47:190][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.09-22.25.47:190][  0]LogInit: Using OS detected language (en-US).
+[2021.12.09-22.25.47:190][  0]LogInit: Using OS detected locale (en-US).
+[2021.12.09-22.25.47:192][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.12.09-22.25.47:386][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.09-22.25.47:431][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.09-22.25.47:431][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.09-22.25.47:688][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.09-22.25.47:688][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.09-22.25.47:688][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.09-22.25.47:688][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.09-22.25.47:782][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2021.12.09-22.25.47:783][  0]LogD3D11RHI:       4018/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.12.09-22.25.47:798][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.12.09-22.25.47:798][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.12.09-22.25.47:799][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.09-22.25.47:799][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.09-22.25.47:799][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.09-22.25.47:804][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.09-22.25.47:804][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2021.12.09-22.25.47:804][  0]LogWindows: EnumDisplayDevices:
+[2021.12.09-22.25.47:804][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.12.09-22.25.47:805][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.12.09-22.25.47:805][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.12.09-22.25.47:805][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2021.12.09-22.25.47:806][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.12.09-22.25.47:806][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2021.12.09-22.25.47:806][  0]LogD3D11RHI:   Driver Version: 471.68 (internal:30.0.14.7168, unified:471.68)
+[2021.12.09-22.25.47:806][  0]LogD3D11RHI:      Driver Date: 8-5-2021
+[2021.12.09-22.25.47:806][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2021.12.09-22.25.47:893][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.09-22.25.47:893][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.09-22.25.47:893][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.09-22.25.47:920][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.09-22.25.48:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.09-22.25.48:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.09-22.25.48:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.09-22.25.48:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.09-22.25.48:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.09-22.25.48:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.09-22.25.48:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.09-22.25.48:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.09-22.25.48:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.09-22.25.48:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.09-22.25.48:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.09-22.25.48:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.09-22.25.48:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.09-22.25.48:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.09-22.25.48:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.09-22.25.48:421][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.09-22.25.48:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.09-22.25.48:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.09-22.25.48:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.09-22.25.48:450][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.09-22.25.48:458][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.09-22.25.48:515][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Intermediate/Shaders/WorkingDirectory/14360/).
+[2021.12.09-22.25.48:515][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hadriel/AppData/Local/Temp/UnrealShaderWorkingDir/BCED027041DCF07FBFCEFCA5EC3B4641/'.
+[2021.12.09-22.25.48:515][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.09-22.25.48:515][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.09-22.25.48:515][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.09-22.25.49:260][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.09-22.25.49:310][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Hadriel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.09-22.25.49:310][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hadriel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.09-22.25.49:310][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.09-22.25.49:310][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.09-22.25.49:310][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.09-22.25.49:310][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.09-22.25.49:321][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.09-22.25.49:321][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.09-22.25.49:321][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.09-22.25.49:322][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hadriel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.09-22.25.49:322][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.09-22.25.49:322][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.09-22.25.49:368][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.09-22.25.49:369][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.09-22.25.49:394][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.12.09-22.25.49:614][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.09-22.25.49:720][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.09-22.25.49:720][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.09-22.25.49:720][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.09-22.25.49:720][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.09-22.25.49:720][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.09-22.25.49:734][  0]LogNetVersion: MyProject3 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 528589559)
+[2021.12.09-22.25.50:194][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000013D75451BC0), frame # 0
+[2021.12.09-22.25.50:194][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D753A2AC0), frame # 0
+[2021.12.09-22.25.50:196][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D75418800), frame # 0
+[2021.12.09-22.25.50:242][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.038761 seconds
+[2021.12.09-22.25.50:248][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.09-22.25.50:248][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.09-22.25.50:248][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.09-22.25.50:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.09-22.25.50:550][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.09-22.25.50:619][  0]SourceControl: Source control is disabled
+[2021.12.09-22.25.50:619][  0]SourceControl: Source control is disabled
+[2021.12.09-22.25.50:621][  0]SourceControl: Source control is disabled
+[2021.12.09-22.25.50:624][  0]SourceControl: Source control is disabled
+[2021.12.09-22.25.50:630][  0]SourceControl: Source control is disabled
+[2021.12.09-22.25.50:840][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.09-22.25.50:858][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.09-22.25.50:858][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.09-22.25.50:900][  0]LogOcInput: OculusInput pre-init called
+[2021.12.09-22.25.50:908][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.09-22.25.50:908][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.09-22.25.50:960][  0]LogEngine: Initializing Engine...
+[2021.12.09-22.25.50:961][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.09-22.25.50:961][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.09-22.25.50:962][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.09-22.25.51:073][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.09-22.25.51:081][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.09-22.25.51:081][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D7CC0BC00), frame # 0
+[2021.12.09-22.25.51:081][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D7CBAFB00), frame # 0
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-22.25.51:099][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-22.25.51:099][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-22.25.51:099][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-22.25.51:111][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-22.25.51:111][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-22.25.51:144][  0]LogAudioMixer: Display: Using Audio Device E260MV (2- NVIDIA High Definition Audio)
+[2021.12.09-22.25.51:147][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-22.25.51:149][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-22.25.51:149][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-22.25.51:150][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-22.25.51:151][  0]LogInit: FAudioDevice initialized.
+[2021.12.09-22.25.51:151][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.09-22.25.51:210][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/Hadriel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.09-22.25.51:210][  0]LogInit: Texture streaming: Enabled
+[2021.12.09-22.25.51:225][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.09-22.25.51:225][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.09-22.25.51:227][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.09-22.25.51:266][  0]LogInit: Transaction tracking system initialized
+[2021.12.09-22.25.51:285][  0]BlueprintLog: New page: Editor Load
+[2021.12.09-22.25.51:347][  0]LocalizationService: Localization service is disabled
+[2021.12.09-22.25.51:479][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.09-22.25.51:479][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.09-22.25.51:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/' took 0.03s
+[2021.12.09-22.25.51:893][  0]SourceControl: Source control is disabled
+[2021.12.09-22.25.51:894][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.998
+[2021.12.09-22.25.51:894][  0]Cmd: MAP LOAD FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.09-22.25.51:894][  0]LightingResults: New page: Lighting Build
+[2021.12.09-22.25.51:895][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-22.25.51:895][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.25.51:895][  0]MapCheck: New page: Map Check
+[2021.12.09-22.25.51:895][  0]LightingResults: New page: Lighting Build
+[2021.12.09-22.25.51:904][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013D7CC0BC00), frame # 0
+[2021.12.09-22.25.51:904][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013D7CBAFB00), frame # 0
+[2021.12.09-22.25.51:905][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.12.09-22.25.52:080][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.12.09-22.25.52:081][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D0EF28C00), frame # 0
+[2021.12.09-22.25.52:081][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D0EE0D440), frame # 0
+[2021.12.09-22.25.52:087][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.09-22.25.52:099][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.12.09-22.25.52:099][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.09-22.25.52:099][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.126ms to complete.
+[2021.12.09-22.25.52:099][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.205
+[2021.12.09-22.25.52:101][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.204
+[2021.12.09-22.25.52:246][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.25.52:255][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.25.52:265][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.25.52:276][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.25.52:282][  0]LogCollectionManager: Loaded 0 collections in 0.001191 seconds
+[2021.12.09-22.25.52:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Collections/' took 0.00s
+[2021.12.09-22.25.52:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Developers/Hadriel/Collections/' took 0.00s
+[2021.12.09-22.25.52:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Collections/' took 0.00s
+[2021.12.09-22.25.52:301][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 3427 classes and 821 folders.
+[2021.12.09-22.25.52:304][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.12.09-22.25.52:394][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.09-22.25.52:396][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.12.09-22.25.52:513][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.09-22.25.52:516][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.09-22.25.52:525][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.09-22.25.52:615][  0]LogRenderer: Reallocating scene render targets to support 1208x624 Format 10 NumSamples 1 (Frame:1).
+[2021.12.09-22.25.52:716][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.09-22.25.52:716][  0]LogLoad: (Engine Initialization) Total time: 7.82 seconds
+[2021.12.09-22.25.52:716][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.09-22.25.52:782][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.09-22.25.52:793][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.09-22.25.52:813][  1]LogAssetRegistry: Asset discovery search completed in 3.4203 seconds
+[2021.12.09-22.25.52:819][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.12.09-22.26.03:514][560]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.09-22.26.03:606][560]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.12.09-22.26.03:606][560]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Blueprints/Controller.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.12.09-22.26.03:631][560]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Widgets/EndScreen.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.12.09-22.26.03:636][560]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Widgets/MainMenu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.12.09-22.26.03:639][560]LogLinker: Warning: Asset 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Widgets/PlayerHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.12.09-22.26.04:545][560]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Top.Top
+[2021.12.09-22.26.04:565][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.12.09-22.26.04:567][560]Cmd: MAP LOAD FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.09-22.26.04:567][560]LightingResults: New page: Lighting Build
+[2021.12.09-22.26.04:567][560]LoadErrors: New page: Loading map: Top.umap
+[2021.12.09-22.26.04:572][560]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-22.26.04:572][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.26.04:572][560]MapCheck: New page: Map Check
+[2021.12.09-22.26.04:572][560]LightingResults: New page: Lighting Build
+[2021.12.09-22.26.04:583][560]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013D0EF28C00), frame # 560
+[2021.12.09-22.26.04:583][560]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013D0EE0D440), frame # 560
+[2021.12.09-22.26.04:584][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.12.09-22.26.04:597][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:597][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:597][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:597][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:621][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:621][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:621][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:622][560]LogPhysics: Warning: Scale for /Game/Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.04:797][560]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.09-22.26.04:797][560]LogAIModule: Creating AISystem for world Top
+[2021.12.09-22.26.04:798][560]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D81EAE600), frame # 560
+[2021.12.09-22.26.04:798][560]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D69012340), frame # 560
+[2021.12.09-22.26.04:836][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.12.09-22.26.04:853][560]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.09-22.26.04:853][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
+[2021.12.09-22.26.04:853][560]LogFileHelpers: Loading map 'Top' took 0.287
+[2021.12.09-22.26.11:085][926]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-22.26.11:100][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-22.26.11:101][926]PIE: New page: PIE session: Top (Dec 9, 2021, 6:26:11 AM)
+[2021.12.09-22.26.11:103][926]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.09-22.26.11:105][926]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.09-22.26.11:107][926]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.09-22.26.11:189][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082251s)
+[2021.12.09-22.26.11:190][926]LogAIModule: Creating AISystem for world Top
+[2021.12.09-22.26.11:190][926]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D81735400), frame # 926
+[2021.12.09-22.26.11:190][926]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D2E4E4F40), frame # 926
+[2021.12.09-22.26.11:191][926]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2021.12.09-22.26.11:191][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.084680s)
+[2021.12.09-22.26.11:202][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-22.26.11:207][926]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-22.26.11:207][926]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-22.26.11:208][926]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-22.26.11:208][926]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-22.26.11:211][926]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-22.26.11:211][926]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-22.26.11:226][926]LogAudioMixer: Display: Using Audio Device E260MV (2- NVIDIA High Definition Audio)
+[2021.12.09-22.26.11:226][926]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-22.26.11:226][926]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-22.26.11:226][926]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-22.26.11:226][926]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-22.26.11:239][926]LogInit: FAudioDevice initialized.
+[2021.12.09-22.26.11:252][926]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.09-22.26.11:272][926]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.11:272][926]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.11:272][926]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.11:272][926]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.26.11:301][926]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 60) at 2021.12.09-14.26.11
+[2021.12.09-22.26.11:321][926]LogWorld: Bringing up level for play took: 0.059592
+[2021.12.09-22.26.11:322][926]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.12.09-22.26.11:332][926]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.12.09-22.26.11:354][926]PIE: Server logged in
+[2021.12.09-22.26.11:356][926]PIE: Play in editor total start time 0.261 seconds.
+[2021.12.09-22.26.43:421][845]LogBlueprintUserMessages: [DataPickup2_2] Came
+[2021.12.09-22.26.43:426][845]LogBlueprintUserMessages: [DataPickup2_2] Came
+[2021.12.09-22.26.43:570][854]LogBlueprintUserMessages: [DataPickup2_2] Left
+[2021.12.09-22.26.43:570][854]LogBlueprintUserMessages: [DataPickup2_2] Left
+[2021.12.09-22.26.44:781][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.26.44:782][926]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.09-22.26.44:783][926]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-22.26.44:789][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.26.44:798][926]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-22.26.44:801][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.26.44:828][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.26.44:838][926]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013D81735400), frame # 2926
+[2021.12.09-22.26.44:838][926]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013D2E4E4F40), frame # 2926
+[2021.12.09-22.26.44:840][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.12.09-22.26.44:881][928]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.12.09-22.26.59:499][791]LogActorFactory: Actor Factory created SM_TableRound
+[2021.12.09-22.27.00:185][832]LogActorFactory: Actor Factory created SM_TableRound
+[2021.12.09-22.27.01:834][928]Cmd: DELETE
+[2021.12.09-22.27.01:834][928]Cmd: ACTOR DELETE
+[2021.12.09-22.27.01:859][928]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.09-22.27.01:870][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.12.09-22.27.01:874][928]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2021.12.09-22.27.08:229][304]LogActorFactory: Actor Factory created SM_TableRound
+[2021.12.09-22.27.08:701][332]LogActorFactory: Actor Factory created SM_TableRound
+[2021.12.09-22.27.09:770][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2021.12.09-22.27.14:276][662]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-22.27.14:286][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-22.27.14:286][662]PIE: New page: PIE session: Top (Dec 9, 2021, 6:27:14 AM)
+[2021.12.09-22.27.14:287][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.09-22.27.14:359][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072103s)
+[2021.12.09-22.27.14:360][662]LogAIModule: Creating AISystem for world Top
+[2021.12.09-22.27.14:360][662]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D15032E00), frame # 4662
+[2021.12.09-22.27.14:360][662]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D2732E0C0), frame # 4662
+[2021.12.09-22.27.14:360][662]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2021.12.09-22.27.14:360][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.073620s)
+[2021.12.09-22.27.14:369][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-22.27.14:372][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-22.27.14:372][662]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-22.27.14:372][662]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-22.27.14:375][662]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-22.27.14:375][662]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-22.27.14:389][662]LogAudioMixer: Display: Using Audio Device E260MV (2- NVIDIA High Definition Audio)
+[2021.12.09-22.27.14:389][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-22.27.14:389][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-22.27.14:389][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-22.27.14:390][662]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-22.27.14:403][662]LogInit: FAudioDevice initialized.
+[2021.12.09-22.27.14:413][662]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.09-22.27.14:425][662]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.14:425][662]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.14:425][662]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.14:425][662]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.14:452][662]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 60) at 2021.12.09-14.27.14
+[2021.12.09-22.27.14:455][662]LogWorld: Bringing up level for play took: 0.041288
+[2021.12.09-22.27.14:455][662]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.12.09-22.27.14:467][662]PIE: Server logged in
+[2021.12.09-22.27.14:467][662]PIE: Play in editor total start time 0.182 seconds.
+[2021.12.09-22.27.16:545][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.27.16:545][785]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.09-22.27.16:551][785]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-22.27.16:557][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.27.16:566][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-22.27.16:568][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.27.16:595][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.27.16:597][785]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013D2732E0C0), frame # 4785
+[2021.12.09-22.27.16:597][785]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013D15032E00), frame # 4785
+[2021.12.09-22.27.16:600][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.12.09-22.27.16:656][787]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.12.09-22.27.17:811][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2021.12.09-22.27.22:483][133]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-22.27.22:493][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-22.27.22:493][133]PIE: New page: PIE session: Top (Dec 9, 2021, 6:27:22 AM)
+[2021.12.09-22.27.22:493][133]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Top
+[2021.12.09-22.27.22:570][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076427s)
+[2021.12.09-22.27.22:571][133]LogAIModule: Creating AISystem for world Top
+[2021.12.09-22.27.22:571][133]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013D9015A400), frame # 5133
+[2021.12.09-22.27.22:571][133]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013D07ECD1C0), frame # 5133
+[2021.12.09-22.27.22:572][133]LogPlayLevel: PIE: World Init took: (0.001637s)
+[2021.12.09-22.27.22:572][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Top.Top to /Game/UEDPIE_0_Top.Top (0.078467s)
+[2021.12.09-22.27.22:582][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-22.27.22:584][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-22.27.22:584][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-22.27.22:585][133]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.09-22.27.22:585][133]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-22.27.22:589][133]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-22.27.22:589][133]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-22.27.22:602][133]LogAudioMixer: Display: Using Audio Device E260MV (2- NVIDIA High Definition Audio)
+[2021.12.09-22.27.22:602][133]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-22.27.22:602][133]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-22.27.22:602][133]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-22.27.22:602][133]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-22.27.22:614][133]LogInit: FAudioDevice initialized.
+[2021.12.09-22.27.22:622][133]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.09-22.27.22:632][133]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube3 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.22:632][133]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube2 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.22:632][133]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube1 has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.22:632][133]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Top.Top:PersistentLevel.Sliding_Door_2.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.994 Y=0.000 Z=4.000
+[2021.12.09-22.27.22:657][133]LogWorld: Bringing World /Game/UEDPIE_0_Top.Top up for play (max tick rate 60) at 2021.12.09-14.27.22
+[2021.12.09-22.27.22:659][133]LogWorld: Bringing up level for play took: 0.036570
+[2021.12.09-22.27.22:660][133]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.12.09-22.27.22:666][133]PIE: Server logged in
+[2021.12.09-22.27.22:667][133]PIE: Play in editor total start time 0.174 seconds.
+[2021.12.09-22.27.24:505][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.27.24:505][242]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Top
+[2021.12.09-22.27.24:506][242]LogWorld: UWorld::CleanupWorld for Top, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-22.27.24:511][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.27.24:516][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-22.27.24:519][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-22.27.24:531][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-22.27.24:548][242]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013D07ECD1C0), frame # 5242
+[2021.12.09-22.27.24:548][242]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013D9015A400), frame # 5242
+[2021.12.09-22.27.24:551][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.12.09-22.27.24:607][244]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.12.09-22.27.26:332][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2021.12.09-22.27.36:112][878]Cmd: MODE GRID=1
+[2021.12.09-22.27.42:315][249]Cmd: EDIT COPY
+[2021.12.09-22.27.42:536][262]Cmd: EDIT PASTE
+[2021.12.09-22.27.47:257][527]Cmd: EDIT COPY
+[2021.12.09-22.27.47:476][540]Cmd: EDIT PASTE
+[2021.12.09-22.27.50:273][689]Cmd: EDIT COPY
+[2021.12.09-22.27.50:491][702]Cmd: EDIT PASTE
+[2021.12.09-22.27.56:140][ 19]Cmd: EDIT COPY
+[2021.12.09-22.27.56:332][ 29]Cmd: EDIT PASTE
+[2021.12.09-22.28.01:515][302]Cmd: EDIT COPY
+[2021.12.09-22.28.01:732][315]Cmd: EDIT PASTE
+[2021.12.09-22.28.05:428][518]Cmd: EDIT COPY
+[2021.12.09-22.28.05:645][531]Cmd: EDIT PASTE
+[2021.12.09-22.28.09:207][727]Cmd: DELETE
+[2021.12.09-22.28.09:207][727]Cmd: ACTOR DELETE
+[2021.12.09-22.28.09:227][727]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.09-22.28.09:237][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.12.09-22.28.09:240][727]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2021.12.09-22.28.10:914][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A385)
+[2021.12.09-22.28.11:710][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound6)
+[2021.12.09-22.28.24:036][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound2)
+[2021.12.09-22.28.29:581][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2021.12.09-22.28.39:160][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound3)
+[2021.12.09-22.28.41:600][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound4)
+[2021.12.09-22.28.43:565][733]Cmd: TRANSACTION UNDO
+[2021.12.09-22.28.43:565][733]LogEditorTransaction: Undo Scale Actors
+[2021.12.09-22.28.46:478][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A356)
+[2021.12.09-22.28.47:251][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound4)
+[2021.12.09-22.28.51:359][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound5)
+[2021.12.09-22.29.05:696][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound6)
+[2021.12.09-22.29.13:119][440]LogEditorViewport: Clicking on Actor (LMB): Water_C (Water)
+[2021.12.09-22.29.13:701][473]LogEditorViewport: Clicking on Actor (LMB): Water_C (Water)
+[2021.12.09-22.29.15:543][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound3)
+[2021.12.09-22.29.22:634][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound4)
+[2021.12.09-22.29.30:411][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound2)
+[2021.12.09-22.29.36:018][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound3)
+[2021.12.09-22.29.42:182][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound4)
+[2021.12.09-22.29.49:055][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2021.12.09-22.29.51:484][611]Cmd: EDIT COPY
+[2021.12.09-22.29.51:703][624]Cmd: EDIT PASTE
+[2021.12.09-22.30.05:626][431]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.12.09-22.30.05:693][432]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2021.12.09-22.30.05:693][432]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2021.12.09-22.30.05:693][432]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2021.12.09-22.30.05:693][432]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.12.09-22.30.05:742][432]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.12.09-22.30.05:855][433]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2021.12.09-22.30.05:913][434]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2021.12.09-22.30.09:845][630]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 102
+[2021.12.09-22.30.10:761][665]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 92
+[2021.12.09-22.30.10:929][672]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 82
+[2021.12.09-22.30.11:575][706]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 72
+[2021.12.09-22.30.14:703][892]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2021.12.09-22.30.15:858][950]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2021.12.09-22.30.16:367][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 42
+[2021.12.09-22.30.16:405][978]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2021.12.09-22.30.19:812][166]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2021.12.09-22.30.19:994][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.12.09-22.30.20:878][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.12.09-22.30.21:548][270]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.12.09-22.30.22:321][315]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.12.09-22.30.22:721][339]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.12.09-22.30.22:868][345]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.12.09-22.30.23:334][363]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.12.09-22.30.34:743][ 23]LogActorFactory: Actor Factory created SM_WallCab_1D
+[2021.12.09-22.30.35:400][ 62]LogActorFactory: Actor Factory created SM_WallCab_1D
+[2021.12.09-22.30.45:038][637]Cmd: EDIT COPY
+[2021.12.09-22.30.45:272][651]Cmd: EDIT PASTE
+[2021.12.09-22.30.47:695][794]Cmd: EDIT COPY
+[2021.12.09-22.30.47:929][808]Cmd: EDIT PASTE
+[2021.12.09-22.30.49:570][888]Cmd: EDIT PASTE
+[2021.12.09-22.30.50:422][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_280)
+[2021.12.09-22.30.51:018][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallCab_1D6)
+[2021.12.09-22.30.53:182][100]Cmd: EDIT PASTE
+[2021.12.09-22.30.58:262][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallCab_1D5)
+[2021.12.09-22.31.02:531][636]LogActorFactory: Actor Factory created SM_WallCab_2D
+[2021.12.09-22.31.03:038][666]LogActorFactory: Actor Factory created SM_WallCab_2D
+[2021.12.09-22.31.14:640][359]Cmd: EDIT COPY
+[2021.12.09-22.31.14:840][371]Cmd: EDIT PASTE
+[2021.12.09-22.31.17:556][515]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_B_442)
+[2021.12.09-22.31.25:692][988]LogActorFactory: Actor Factory created SM_WallCab_1D_Op
+[2021.12.09-22.31.26:410][ 30]LogActorFactory: Actor Factory created SM_WallCab_1D_Op
+[2021.12.09-22.31.30:005][228]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A340)
+[2021.12.09-22.31.35:534][549]LogActorFactory: Actor Factory created SM_Shelf_A_v2
+[2021.12.09-22.31.36:946][633]LogActorFactory: Actor Factory created SM_Shelf_A_v2
+[2021.12.09-22.31.43:194][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A340)
+[2021.12.09-22.31.43:724][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shelf_A_v9)
+[2021.12.09-22.32.13:025][760]LogActorFactory: Actor Factory created SM_Cabinet_A
+[2021.12.09-22.32.13:981][817]LogActorFactory: Actor Factory created SM_Cabinet_A
+[2021.12.09-22.32.18:776][ 99]Cmd: DELETE
+[2021.12.09-22.32.18:776][ 99]Cmd: ACTOR DELETE
+[2021.12.09-22.32.18:795][ 99]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.09-22.32.18:805][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.12.09-22.32.18:811][ 99]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2021.12.09-22.32.27:824][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v7)
+[2021.12.09-22.32.28:204][661]Cmd: EDIT COPY
+[2021.12.09-22.32.28:404][673]Cmd: EDIT PASTE
+[2021.12.09-22.32.59:969][495]Cmd: EDIT COPY
+[2021.12.09-22.33.00:186][508]Cmd: EDIT PASTE
+[2021.12.09-22.33.03:862][710]Cmd: EDIT COPY
+[2021.12.09-22.33.04:082][723]Cmd: EDIT PASTE
+[2021.12.09-22.33.09:187][  8]Cmd: EDIT COPY
+[2021.12.09-22.33.09:388][ 19]Cmd: EDIT PASTE
+[2021.12.09-22.33.31:013][257]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Desk_A_v21)
+[2021.12.09-22.33.34:401][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Desk_A_v22)
+[2021.12.09-22.33.34:913][485]Cmd: EDIT COPY
+[2021.12.09-22.33.35:147][499]Cmd: EDIT PASTE
+[2021.12.09-22.33.40:345][788]Cmd: EDIT COPY
+[2021.12.09-22.33.40:540][798]Cmd: EDIT PASTE
+[2021.12.09-22.33.43:044][ 15]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A500)
+[2021.12.09-22.33.48:125][564]LogActorFactory: Actor Factory created SM_Cabinet_B
+[2021.12.09-22.33.49:259][689]LogActorFactory: Actor Factory created SM_Cabinet_B
+[2021.12.09-22.34.05:667][521]Cmd: EDIT COPY
+[2021.12.09-22.34.05:883][534]Cmd: EDIT PASTE
+[2021.12.09-22.34.21:537][244]LogActorFactory: Actor Factory created SM_Shelf_A_v4
+[2021.12.09-22.34.22:425][341]LogActorFactory: Actor Factory created SM_Shelf_A_v4
+[2021.12.09-22.34.30:262][229]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2021.12.09-22.34.40:229][ 93]Cmd: EDIT COPY
+[2021.12.09-22.34.40:441][106]Cmd: EDIT PASTE
+[2021.12.09-22.34.43:143][395]Cmd: TRANSACTION UNDO
+[2021.12.09-22.34.43:143][395]LogEditorTransaction: Undo Move Components
+[2021.12.09-22.34.44:436][496]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.12.09-22.34.44:948][552]Cmd: EDIT COPY
+[2021.12.09-22.34.45:162][576]Cmd: EDIT PASTE
+[2021.12.09-22.34.49:178][ 42]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-22.34.51:164][278]Cmd: DELETE
+[2021.12.09-22.34.51:164][278]Cmd: ACTOR DELETE
+[2021.12.09-22.34.51:175][278]LogEditorActor: Deleted 1 Components (0.011 secs)
+[2021.12.09-22.34.51:609][329]Cmd: DELETE
+[2021.12.09-22.34.51:609][329]Cmd: ACTOR DELETE
+[2021.12.09-22.34.51:619][329]LogEditorActor: Deleted 1 Components (0.010 secs)
+[2021.12.09-22.34.53:135][509]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-22.34.54:129][627]Cmd: EDIT COPY
+[2021.12.09-22.34.54:326][648]Cmd: EDIT PASTE
+[2021.12.09-22.34.54:580][669]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A599)
+[2021.12.09-22.34.56:610][896]Cmd: TRANSACTION UNDO
+[2021.12.09-22.34.56:610][896]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2021.12.09-22.34.56:728][898]Cmd: TRANSACTION UNDO
+[2021.12.09-22.34.56:728][898]LogEditorTransaction: Undo Paste Components
+[2021.12.09-22.34.58:690][ 48]Cmd: EDIT COPY
+[2021.12.09-22.34.58:987][ 75]Cmd: EDIT PASTE
+[2021.12.09-22.35.00:713][269]Cmd: DELETE
+[2021.12.09-22.35.00:713][269]Cmd: ACTOR DELETE
+[2021.12.09-22.35.00:725][269]LogEditorActor: Deleted 1 Components (0.011 secs)
+[2021.12.09-22.35.05:957][893]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.12.09-22.35.06:409][944]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.12.09-22.35.10:456][343]Cmd: EDIT COPY
+[2021.12.09-22.35.10:915][381]Cmd: EDIT PASTE
+[2021.12.09-22.35.12:701][589]LogSlate: Took 0.005360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.09-22.35.14:575][802]Cmd: TRANSACTION UNDO
+[2021.12.09-22.35.14:576][802]LogEditorTransaction: Undo Paste Components
+[2021.12.09-22.35.15:985][911]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.12.09-22.35.16:564][977]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.12.09-22.35.17:674][108]Cmd: EDIT COPY
+[2021.12.09-22.35.17:968][142]Cmd: EDIT PASTE
+[2021.12.09-22.35.19:720][345]Cmd: DELETE
+[2021.12.09-22.35.19:720][345]Cmd: ACTOR DELETE
+[2021.12.09-22.35.19:732][345]LogEditorActor: Deleted 1 Components (0.012 secs)
+[2021.12.09-22.35.21:535][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_450)
+[2021.12.09-22.35.22:037][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shelf_A_v10)
+[2021.12.09-22.35.22:699][686]Cmd: DELETE
+[2021.12.09-22.35.22:699][686]Cmd: ACTOR DELETE
+[2021.12.09-22.35.22:719][686]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.09-22.35.22:731][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.12.09-22.35.22:734][686]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2021.12.09-22.35.24:172][845]LogActorFactory: Actor Factory created SM_Shelf_A_v3
+[2021.12.09-22.35.24:795][912]LogActorFactory: Actor Factory created SM_Shelf_A_v3
+[2021.12.09-22.35.40:888][649]Cmd: EDIT COPY
+[2021.12.09-22.35.41:064][658]Cmd: EDIT PASTE
+[2021.12.09-22.35.42:808][806]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A537)
+[2021.12.09-22.35.45:367][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shelf_A_v11)
+[2021.12.09-22.35.45:890][107]Cmd: EDIT COPY
+[2021.12.09-22.35.46:084][121]Cmd: EDIT PASTE
+[2021.12.09-22.35.49:022][406]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.12.09-22.35.49:579][454]Cmd: EDIT COPY
+[2021.12.09-22.35.49:771][468]Cmd: EDIT PASTE
+[2021.12.09-22.35.55:005][993]Cmd: EDIT COPY
+[2021.12.09-22.35.55:190][ 10]Cmd: EDIT PASTE
+[2021.12.09-22.35.58:163][276]Cmd: EDIT COPY
+[2021.12.09-22.35.58:372][289]Cmd: EDIT PASTE
+[2021.12.09-22.36.04:238][906]LogStaticMesh: Building static mesh SM_Shelf_A_v1...
+[2021.12.09-22.36.04:302][906]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Shelf_A_v1.SM_Shelf_A_v1
+[2021.12.09-22.36.04:334][906]LogActorFactory: Actor Factory created SM_Shelf_A_v1
+[2021.12.09-22.36.04:878][958]LogActorFactory: Actor Factory created SM_Shelf_A_v1
+[2021.12.09-22.36.36:757][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table)
+[2021.12.09-22.36.37:162][336]Cmd: EDIT COPY
+[2021.12.09-22.36.37:376][360]Cmd: EDIT PASTE
+[2021.12.09-22.36.41:823][662]LogEditorViewport: Clicking on Actor (LMB): Hinge_Door_C (Hinge_Door14)
+[2021.12.09-22.36.42:919][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table3)
+[2021.12.09-22.36.56:432][965]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Modern_Chair_1)
+[2021.12.09-22.36.57:336][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_1)
+[2021.12.09-22.36.57:680][ 97]Cmd: EDIT COPY
+[2021.12.09-22.36.57:884][120]Cmd: EDIT PASTE
+[2021.12.09-22.37.06:888][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table3)
+[2021.12.09-22.37.09:273][ 99]Cmd: TRANSACTION UNDO
+[2021.12.09-22.37.09:273][ 99]LogEditorTransaction: Undo Scale Actors
+[2021.12.09-22.37.14:462][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_5)
+[2021.12.09-22.37.20:360][211]Cmd: EDIT COPY
+[2021.12.09-22.37.20:576][235]Cmd: EDIT PASTE
+[2021.12.09-22.37.58:977][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table3)
+[2021.12.09-22.38.09:292][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_5)
+[2021.12.09-22.38.19:379][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_6)
+[2021.12.09-22.38.31:406][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table3)
+[2021.12.09-22.38.38:494][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_5)
+[2021.12.09-22.38.46:696][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table3)
+[2021.12.09-22.38.49:553][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_6)
+[2021.12.09-22.38.54:382][900]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A341)
+[2021.12.09-22.38.57:704][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_6)
+[2021.12.09-22.38.58:206][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table3)
+[2021.12.09-22.38.59:582][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloorPanel_A341)
+[2021.12.09-22.39.00:018][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_6)
+[2021.12.09-22.39.02:366][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Chair_5)
+[2021.12.09-22.39.12:574][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_331)
+[2021.12.09-22.39.15:657][243]Cmd: EDIT COPY
+[2021.12.09-22.39.15:873][263]Cmd: EDIT PASTE
+[2021.12.09-22.39.30:676][637]Cmd: TRANSACTION UNDO
+[2021.12.09-22.39.30:676][637]LogEditorTransaction: Undo Scale Actors
+[2021.12.09-22.39.32:706][817]Cmd: EDIT COPY
+[2021.12.09-22.39.32:919][837]Cmd: EDIT PASTE
+[2021.12.09-22.39.34:803][  1]Cmd: EDIT COPY
+[2021.12.09-22.39.35:009][ 25]Cmd: EDIT PASTE
+[2021.12.09-22.39.41:078][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_Corner11)
+[2021.12.09-22.39.41:915][780]Cmd: EDIT COPY
+[2021.12.09-22.39.42:108][802]Cmd: EDIT PASTE
+[2021.12.09-22.39.47:511][363]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A429)
+[2021.12.09-22.39.49:940][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_Corner14)
+[2021.12.09-22.40.31:344][172]LogActorFactory: Actor Factory created SM_SingleDrawer
+[2021.12.09-22.40.32:153][251]LogActorFactory: Actor Factory created SM_SingleDrawer
+[2021.12.09-22.40.42:570][471]Cmd: EDIT COPY
+[2021.12.09-22.40.42:794][487]Cmd: EDIT PASTE
+[2021.12.09-22.40.59:866][717]LogTexture: Display: Building textures: T_Trims_B_M_B (AutoDXT, 4096X4096)
+[2021.12.09-22.40.59:866][717]LogTexture: Display: Building textures: T_Trims_B_Diff_B (AutoDXT, 4096X4096)
+[2021.12.09-22.40.59:866][717]LogStaticMesh: Building static mesh SM_Pipe_FloorB_1...
+[2021.12.09-22.40.59:903][717]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Pipe_FloorB_1.SM_Pipe_FloorB_1
+[2021.12.09-22.40.59:936][717]LogActorFactory: Actor Factory created SM_Pipe_FloorB_1
+[2021.12.09-22.41.01:672][873]LogActorFactory: Actor Factory created SM_Pipe_FloorB_1
+[2021.12.09-22.41.17:966][587]Cmd: EDIT COPY
+[2021.12.09-22.41.18:157][598]Cmd: EDIT PASTE
+[2021.12.09-22.41.30:912][808]LogTexture: Display: Building textures: T_Toilet_M (AutoDXT, 1024X1024)
+[2021.12.09-22.41.30:912][808]LogStaticMesh: Building static mesh SM_Toilet...
+[2021.12.09-22.41.30:980][808]LogStaticMesh: Built static mesh [0.07s] /Game/FreeFurniturePack/Meshes/SM_Toilet.SM_Toilet
+[2021.12.09-22.41.32:128][808]LogTexture: Display: Building textures: T_Toilet_N (BC5, 4096X4096)
+[2021.12.09-22.41.32:128][808]LogMaterial: Display: Missing cached shader map for material M_Toilet, compiling. 
+[2021.12.09-22.41.32:180][808]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.12.09-22.41.32:180][808]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.12.09-22.41.32:180][808]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.12.09-22.41.32:180][808]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.12.09-22.41.32:202][808]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.09-22.41.33:086][866]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.09-22.41.51:425][626]Cmd: EDIT COPY
+[2021.12.09-22.41.51:614][648]Cmd: EDIT PASTE
+[2021.12.09-22.42.10:991][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.09-22.42.11:005][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.12.09-22.42.11:448][504]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/TopA072D9EB4684BB2980D95B9BD271A1A2.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
+[2021.12.09-22.42.11:472][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.12.09-22.42.12:276][504]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltData68908B0D4833BD1A42F55289186C6A51.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.12.09-22.42.12:312][504]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.09-22.42.12:312][504]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.12.09-22.42.12:312][504]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.12.09-22.43.26:704][271]LogActorFactory: Actor Factory created SM_WallDiv_A
+[2021.12.09-22.43.27:466][343]LogActorFactory: Actor Factory created SM_WallDiv_A
+[2021.12.09-22.43.35:866][274]Cmd: EDIT COPY
+[2021.12.09-22.43.36:079][295]Cmd: EDIT PASTE
+[2021.12.09-22.43.55:580][226]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.09-22.43.56:252][294]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.09-22.44.04:054][202]Cmd: EDIT COPY
+[2021.12.09-22.44.04:328][220]Cmd: EDIT PASTE
+[2021.12.09-22.44.06:784][425]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A47)
+[2021.12.09-22.44.07:031][447]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A47)
+[2021.12.09-22.44.07:705][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Toilet4)
+[2021.12.09-22.44.07:956][544]Cmd: EDIT COPY
+[2021.12.09-22.44.08:165][568]Cmd: EDIT PASTE
+[2021.12.09-22.44.20:839][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A3)
+[2021.12.09-22.44.21:435][  0]Cmd: EDIT COPY
+[2021.12.09-22.44.21:681][ 27]Cmd: EDIT PASTE
+[2021.12.09-22.44.41:540][ 39]LogTexture: Display: Building textures: T_Hall_Pipes_Ceiling_M (AutoDXT, 1024X1024)
+[2021.12.09-22.44.41:540][ 39]LogTexture: Display: Building textures: T_Hall_Pipes_Ceiling_N_normals (BC5, 1024X1024)
+[2021.12.09-22.44.41:540][ 39]LogTexture: Display: Building textures: T_Hall_Pipes_Ceiling_Diff (AutoDXT, 1024X1024)
+[2021.12.09-22.44.41:540][ 39]LogStaticMesh: Building static mesh SM_Hall_Pipes_Ceiling...
+[2021.12.09-22.44.41:577][ 39]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Pipes_Ceiling.SM_Hall_Pipes_Ceiling
+[2021.12.09-22.44.41:619][ 39]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.44.42:610][116]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.44.55:332][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A4)
+[2021.12.09-22.44.55:699][521]Cmd: EDIT COPY
+[2021.12.09-22.44.55:938][545]Cmd: EDIT PASTE
+[2021.12.09-22.45.07:328][683]Cmd: EDIT COPY
+[2021.12.09-22.45.07:532][692]Cmd: EDIT PASTE
+[2021.12.09-22.45.10:986][ 42]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A51)
+[2021.12.09-22.45.13:461][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A6)
+[2021.12.09-22.45.20:681][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A5)
+[2021.12.09-22.45.23:697][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A6)
+[2021.12.09-22.45.35:427][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Hall_Pipes_Ceiling)
+[2021.12.09-22.45.35:735][158]Cmd: EDIT COPY
+[2021.12.09-22.45.35:963][183]Cmd: EDIT PASTE
+[2021.12.09-22.45.58:982][317]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.45.59:733][383]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.46.01:611][568]Cmd: DELETE
+[2021.12.09-22.46.01:611][568]Cmd: ACTOR DELETE
+[2021.12.09-22.46.01:632][568]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.09-22.46.01:644][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.09-22.46.01:649][568]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2021.12.09-22.46.12:553][754]LogActorFactory: Actor Factory created SM_SingleDrawer
+[2021.12.09-22.46.13:352][830]LogActorFactory: Actor Factory created SM_SingleDrawer
+[2021.12.09-22.46.14:021][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_69)
+[2021.12.09-22.46.15:633][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SingleDrawer5)
+[2021.12.09-22.46.20:409][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_69)
+[2021.12.09-22.46.25:787][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SingleDrawer5)
+[2021.12.09-22.46.40:930][770]Cmd: EDIT COPY
+[2021.12.09-22.46.41:132][789]Cmd: EDIT PASTE
+[2021.12.09-22.46.44:072][ 96]Cmd: TRANSACTION UNDO
+[2021.12.09-22.46.44:072][ 96]LogEditorTransaction: Undo Move Actors
+[2021.12.09-22.47.00:812][571]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.47.01:690][650]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.47.18:344][182]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.18:344][182]LogEditorTransaction: Undo Rotate Actors
+[2021.12.09-22.47.20:604][389]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.20:604][389]LogEditorTransaction: Undo Rotate Actors
+[2021.12.09-22.47.20:832][412]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.20:832][412]LogEditorTransaction: Undo Set Rotation
+[2021.12.09-22.47.21:141][445]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.21:141][445]LogEditorTransaction: Undo Set Rotation
+[2021.12.09-22.47.37:726][112]Cmd: EDIT COPY
+[2021.12.09-22.47.37:928][135]Cmd: EDIT PASTE
+[2021.12.09-22.47.48:305][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.09-22.47.48:317][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.09-22.47.48:766][280]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/TopBD4DD70C419D6D4B5B816CA961B199FE.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
+[2021.12.09-22.47.48:788][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.12.09-22.47.49:349][280]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltDataA0CE621840536F0D82BCE191B1E9DB2A.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.12.09-22.47.49:391][280]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.09-22.47.49:391][280]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.12.09-22.47.49:391][280]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
