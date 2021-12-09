@@ -1120,3 +1120,75 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.09-22.42.12:312][504]AssetCheck: New page: Asset Save: multiple assets
 [2021.12.09-22.42.12:312][504]LogContentValidation: Display: Validating World /Game/Top.Top
 [2021.12.09-22.42.12:312][504]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
+[2021.12.09-22.43.26:704][271]LogActorFactory: Actor Factory created SM_WallDiv_A
+[2021.12.09-22.43.27:466][343]LogActorFactory: Actor Factory created SM_WallDiv_A
+[2021.12.09-22.43.35:866][274]Cmd: EDIT COPY
+[2021.12.09-22.43.36:079][295]Cmd: EDIT PASTE
+[2021.12.09-22.43.55:580][226]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.09-22.43.56:252][294]LogActorFactory: Actor Factory created SM_Toilet
+[2021.12.09-22.44.04:054][202]Cmd: EDIT COPY
+[2021.12.09-22.44.04:328][220]Cmd: EDIT PASTE
+[2021.12.09-22.44.06:784][425]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A47)
+[2021.12.09-22.44.07:031][447]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A47)
+[2021.12.09-22.44.07:705][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Toilet4)
+[2021.12.09-22.44.07:956][544]Cmd: EDIT COPY
+[2021.12.09-22.44.08:165][568]Cmd: EDIT PASTE
+[2021.12.09-22.44.20:839][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A3)
+[2021.12.09-22.44.21:435][  0]Cmd: EDIT COPY
+[2021.12.09-22.44.21:681][ 27]Cmd: EDIT PASTE
+[2021.12.09-22.44.41:540][ 39]LogTexture: Display: Building textures: T_Hall_Pipes_Ceiling_M (AutoDXT, 1024X1024)
+[2021.12.09-22.44.41:540][ 39]LogTexture: Display: Building textures: T_Hall_Pipes_Ceiling_N_normals (BC5, 1024X1024)
+[2021.12.09-22.44.41:540][ 39]LogTexture: Display: Building textures: T_Hall_Pipes_Ceiling_Diff (AutoDXT, 1024X1024)
+[2021.12.09-22.44.41:540][ 39]LogStaticMesh: Building static mesh SM_Hall_Pipes_Ceiling...
+[2021.12.09-22.44.41:577][ 39]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Pipes_Ceiling.SM_Hall_Pipes_Ceiling
+[2021.12.09-22.44.41:619][ 39]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.44.42:610][116]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.44.55:332][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A4)
+[2021.12.09-22.44.55:699][521]Cmd: EDIT COPY
+[2021.12.09-22.44.55:938][545]Cmd: EDIT PASTE
+[2021.12.09-22.45.07:328][683]Cmd: EDIT COPY
+[2021.12.09-22.45.07:532][692]Cmd: EDIT PASTE
+[2021.12.09-22.45.10:986][ 42]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorPanel_A51)
+[2021.12.09-22.45.13:461][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A6)
+[2021.12.09-22.45.20:681][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A5)
+[2021.12.09-22.45.23:697][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallDiv_A6)
+[2021.12.09-22.45.35:427][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Hall_Pipes_Ceiling)
+[2021.12.09-22.45.35:735][158]Cmd: EDIT COPY
+[2021.12.09-22.45.35:963][183]Cmd: EDIT PASTE
+[2021.12.09-22.45.58:982][317]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.45.59:733][383]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.46.01:611][568]Cmd: DELETE
+[2021.12.09-22.46.01:611][568]Cmd: ACTOR DELETE
+[2021.12.09-22.46.01:632][568]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.12.09-22.46.01:644][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.09-22.46.01:649][568]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2021.12.09-22.46.12:553][754]LogActorFactory: Actor Factory created SM_SingleDrawer
+[2021.12.09-22.46.13:352][830]LogActorFactory: Actor Factory created SM_SingleDrawer
+[2021.12.09-22.46.14:021][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_69)
+[2021.12.09-22.46.15:633][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SingleDrawer5)
+[2021.12.09-22.46.20:409][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_B_69)
+[2021.12.09-22.46.25:787][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SingleDrawer5)
+[2021.12.09-22.46.40:930][770]Cmd: EDIT COPY
+[2021.12.09-22.46.41:132][789]Cmd: EDIT PASTE
+[2021.12.09-22.46.44:072][ 96]Cmd: TRANSACTION UNDO
+[2021.12.09-22.46.44:072][ 96]LogEditorTransaction: Undo Move Actors
+[2021.12.09-22.47.00:812][571]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.47.01:690][650]LogActorFactory: Actor Factory created SM_Hall_Pipes_Ceiling
+[2021.12.09-22.47.18:344][182]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.18:344][182]LogEditorTransaction: Undo Rotate Actors
+[2021.12.09-22.47.20:604][389]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.20:604][389]LogEditorTransaction: Undo Rotate Actors
+[2021.12.09-22.47.20:832][412]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.20:832][412]LogEditorTransaction: Undo Set Rotation
+[2021.12.09-22.47.21:141][445]Cmd: TRANSACTION UNDO
+[2021.12.09-22.47.21:141][445]LogEditorTransaction: Undo Set Rotation
+[2021.12.09-22.47.37:726][112]Cmd: EDIT COPY
+[2021.12.09-22.47.37:928][135]Cmd: EDIT PASTE
+[2021.12.09-22.47.48:305][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.09-22.47.48:317][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.09-22.47.48:766][280]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/TopBD4DD70C419D6D4B5B816CA961B199FE.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top.umap'
+[2021.12.09-22.47.48:788][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Top_BuiltData" FILE="C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset" SILENT=true
+[2021.12.09-22.47.49:349][280]LogSavePackage: Moving 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Saved/Top_BuiltDataA0CE621840536F0D82BCE191B1E9DB2A.tmp' to 'C:/Users/Hadriel/Documents/GitHub/CS328-Project/CS328/Content/Top_BuiltData.uasset'
+[2021.12.09-22.47.49:391][280]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.09-22.47.49:391][280]LogContentValidation: Display: Validating World /Game/Top.Top
+[2021.12.09-22.47.49:391][280]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Top_BuiltData.Top_BuiltData
